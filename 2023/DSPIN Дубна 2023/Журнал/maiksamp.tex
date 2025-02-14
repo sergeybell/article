@@ -1,0 +1,213 @@
+% !TEX encoding = UTF-8 Unicode
+%
+% ****** maiksamp.tex 29.11.2001 ******
+%
+\documentclass[
+aps,%
+12pt,%
+final,%
+notitlepage,%
+oneside,%
+onecolumn,%
+nobibnotes,%
+nofootinbib,%
+superscriptaddress,%
+noshowpacs,%
+centertags]%
+{revtex4}
+
+
+
+\usepackage[cp866]{inputenc}
+\usepackage{xfrac}
+\begin{document}
+\addto\captionsenglish{\renewcommand{\figurename}{Fig.}}
+
+\selectlanguage{english}
+
+\title{Transition Energy Crossing of Polarized Proton Beam at NICA}
+\author{\firstname{\copyright \ 2024 S.}~\surname{Kolokolchikov}}
+\email{sergey.bell13@gmail.com}
+\affiliation{Institute for Nuclear Research of the Russian Academy of Sciences, Moscow, Russia}
+\affiliation{Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\author{\firstname{Yu.}~\surname{Senichev}}
+\affiliation{Institute for Nuclear Research of the Russian Academy of Sciences, Moscow, Russia}
+\affiliation{Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\author{\firstname{A.}~\surname{Aksentiev}}
+\affiliation{Institute for Nuclear Research of the Russian Academy of Sciences, Moscow, Russia}
+\affiliation{Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\affiliation{Moscow Engineering Physics Institute, Moscow, Russia}
+\author{\firstname{A.}~\surname{Melnikov}}
+\affiliation{Institute for Nuclear Research of the Russian Academy of Sciences, Moscow, Russia}
+\affiliation{Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\affiliation{Institute for Theoretical Physics L.D. Landau, Chernogolovka, Russia}
+\author{\firstname{E.}~\surname{Syresin}}
+\affiliation{Joint Institute for Nuclear Research, Dubna, Russia}
+\author{\firstname{V.}~\surname{Ladygin}}
+\affiliation{Joint Institute for Nuclear Research, Dubna, Russia}
+
+\begin{abstract}
+\par \textbf{Abstract} -- At an experiment on acceleration of a polarized proton beam up to an energy at $13~\rm{GeV}$, the possibility of crossing the transition energy at $5.7~\rm{GeV}$ by a jump is considered. The scheme of crossing by a rapid change of transition energy, assumes the longitudinal movement in Barrier Bucket RF near the zero value of the slip-factor. The jump itself is carried out in the absence of an RF field. The paper presents the influence of the above features on the dynamics of a polarized beam.
+\end{abstract}
+
+\maketitle
+
+\section{TRANSITION ENERGY}
+
+\par Considering the longitudinal motion, the concept of the momentum compaction factor is introduced \cite{lee}
+
+\begin{equation}
+\alpha_c=\frac{1}{R_0}\frac{dR}{\delta}=\alpha_0+2\alpha_1\delta+3\alpha_2\delta^2+\cdots\equiv\frac{1}{\gamma_{\text{tr}}^2}\ 
+\label{eq:mcf}
+\end{equation}
+
+and slip-factor:
+
+\begin{equation}
+\eta\left(\delta\right)=-\frac{1}{\omega_0}\frac{\Delta\omega}{\delta}=-\left(\eta_0+\eta_1\delta+\eta_2\delta^2+\cdots\right)\ ,
+\label{eq:slipfactor}
+\end{equation}
+
+\par where $\delta$ is momentum spread, $R_{0}, R$ is the averaged radius of the reference and deflected by $\delta$ particle, $\omega$, $\omega_{0}$ are corresponding frequencies, $\alpha_{n}$, $\eta_{n}$ are $n$-th expansion terms , $\gamma_{\text{tr}}$ is transition energy. The coefficients can be calculated by the relations $\eta_0=\alpha_0-\frac{1}{\gamma_0^2}$, $\eta_1=\alpha_1-\frac{\eta_0}{\gamma_0^2}+\frac{3}{2}\frac{\beta^2}{\gamma^2}$. As can be seen at a certain energy of the reference particle transition $\gamma=\gamma_{\text{tr}}$, the slip-factor takes a zero value $\eta=\eta_{0}=0$.
+
+\section{TRANSITION ENERGY JUMP SCHEME}
+
+\par To overcome the zero value of the slip-factor, the method of the transition energy jump is used. Thus, it is possible to maintain a stable beam motion in the phase space. This method has been used on many facilities and is described in \cite{jump_scheme, pip}.
+
+\par The necessity for a jump can be understood by considering the dependence on slip-factor $\eta\left(\delta\right)=\ \eta_0+\eta_1\delta+\ldots$ of the longitudinal motion equations that describe the evolution of particles in phase space \cite{Hans}:
+
+\begin{equation}
+\begin{aligned}
+&\frac{d\tau}{dt}=\eta(\delta)\cdot\frac{h\cdot\Delta E}{\beta^2\cdot E_0},\\
+&\frac{d\left(\Delta E\right)}{dt}=\frac{V\left(\tau\right)}{T_0}.
+\end{aligned}
+\label{eq:long}
+\end{equation}
+
+\par During acceleration, the value of the slip-factor $\eta$ approaches zero for all particles. Thus, for particles that have already overcome the transition energy, the sign of the slip-factor changes. However, due to the non-zero momentum spread $\delta$, the term $\eta_1\delta$ in Eq. (\ref{eq:slipfactor}) becomes comparable to $\eta_0$ and plays an important role on the dynamics near the transition energy. For this reason, different particles overcome transition energy at different time. Based on Eq. (\ref{eq:long}), it can be seen that the dynamics in the phase plane becomes unstable and leads to the beam losses. 
+
+\par The jump procedure allows, firstly, during the increasing of the transition energy, to keep the beam at a sufficient distance for all particles to have the same sign of the slip-factor.
+Secondly, to ensure a quick transition to a new state, where the slip-factor changes sign, but for all particles it again has the same sign. Stability is ensured by changing the polarity of the retaining RF barriers.
+
+\par On the other hand for the momentum compaction factor, the expression can be obtained \cite{resonant}:
+
+\begin{equation}
+\alpha=\frac{1}{C}\int_{0}^{C}{\frac{D\left(s\right)}{\rho\left(s\right)}ds},
+\label{eq:alpha}
+\end{equation}
+
+\par where $D\left(s\right)$ is dispersion function, $1/\rho\left(s\right)$ is orbit curvature. For already built lattice the orbit curvature is constant. In this case, only a variation of the dispersion function achieves a change in the value of $\alpha$, and, accordingly, $\eta$. An additional gradient in quadrupole lenses modulates the dispersion function and is considered as a modernization for NICA. Calculations show that the change in the transition energy $\gamma_{\text{tr}}$ can be carried out at a rate of $d\gamma_{\text{tr}}/\ dt\ =\ 8.5\ \text{s}^{-1}$ \cite{nica}.
+
+At jump procedure, there are five main states of longitudinal dynamics based on the change in the transition energy $\gamma_{\text{tr}}$ (Fig. \ref{fig:jump}):
+
+\begin{enumerate} 
+  \item Acceleration from injection energy $E_{\text{inj}}$ with a stationary value $\gamma_{\text{tr}}^{\text{stat}}$;
+  \item Smooth increase of $\gamma_{\text{tr}}$ parallel to the particle energy up to the peak value, the slip-factor $\eta_0$ acquires the minimum possible value, approaching the zero value;
+  \item The transition through the stationary value of the transition energy, while $\eta_0$ crosses the zero value for all particles;
+  \item Smooth recovery of $\gamma_{\text{\text{tr}}}$ up to a stationary value, also parallel to the particle energy;
+  \item Acceleration to the energy of the experiment with a stationary value of the trasition energy $\gamma_{\text{tr}}^{\text{stat}}$.
+  \end{enumerate}
+
+\par States 2-3-4 define the procedure for overcoming $\gamma_{\text{tr}}$ by a jump. A change in magneto-optics leads to a dependence of $\gamma_{\text{tr}}$ corresponding to the displacement of the working point $\nu_{x,y}$ (Fig. \ref{fig:tran}), as well as higher orders of momentum compaction factor $\alpha_1$, $\alpha_2$.
+
+\section{ORBITAL TRACKING}
+
+\par From the beam destruction point of view, the most dangerous are states 2-3-4, at which the accelerator parameters change. But, from the dynamics point of view, states 2 and 4 are symmetric.
+
+\par The beam profile in the longitudinal plane is uniform for Barrier Bucket, and the energy spread is Gaussian. States 2 and 4 are characterized by the fact that the slip-factor for an equilibrium particle remains unchanged, and the transition energy changes synchronously with the beam energy for about $2\times{10}^5$ revolutions. Thus, the retention of the beam at a stationary value of the transition energy is equivalent to the accelerated movement of the beam in a structure with changing parameters. As can be seen on Fig. \ref{fig:before}, the beam profile shifts to the left barrier, this occurs due to the fact that for particles with positive $\delta>0$, the slip-factor $\eta_{+\delta}$ is greater than for particles with negative $\delta<0\ \eta_{-\delta}: \eta_{+\delta}>\eta_{-\delta}$. This can be seen from Eq. (\ref{eq:slipfactor}) and the fact that $\eta_1<0$.
+
+\par State 3 -- rapid parameter change within $6\times{10}^3$ revolutions ($10$ ms) at Fig. \ref{fig:during}. RF barriers are turned off so as not to destroy the beam. The influence of the space charge is most important in the absence of barriers, since there is no external force. Tracking is done taking into account the space charge impedance \cite{weilee} and Barrier Bucket RF \cite{bb}, which forms the feature of this article.
+
+\par There was no significant change in the beam profile during the jump. Modelling was performed in the BLonD environment \cite{blond1, blond}.
+
+\section{SPIN TRACKING}
+
+\par During transition jump it is also needed to make sure that the polarization is maintained.
+Particles are considered with different orbitally available initial parameters. Fig. \ref{fig:polar} shows the polarization change during 2nd ($2\times10^5$ turns) and 3rd ($6\times10^3$ turns) stages of transition procedure. Polarization here is defined as the sum of the spin-vector projections on the Y-axis from all particles and didn't change significantly during procedure.
+\par But it is worth noting COSY Infinity \cite{cosy} allows to track spin-vector for only a small number of particles through the lattice, not an ensemble. What is bad for studying polarization.
+
+\section{CONCLUSION}
+
+\par The orbital dynamics of longitudinal motion and polarization near the transition energy in Barrier Bucket RF is studied. The fast jump procedure of an accelerator parameters is an affordable option to overcome the transition energy.
+
+\begin{acknowledgements}
+This research was carried out with the support of the Russian Science Foundation $\textnumero$~22-42-04419, \url{https://rscf.ru/en/project/22-42-04419/}.
+\end{acknowledgements}
+
+{
+	\begin{thebibliography}{11}
+	
+	\bibitem{lee}
+	S. Y. Lee, Accelerator Physics (2011), 3rd ed., \url{https://doi.org/10.1142/8335}
+	\bibitem{jump_scheme}
+	T. Risselada, \url{https://cds.cern.ch/record/261069}
+	\bibitem{pip}
+	R. Ainsworth, S. Chaurize, I. Kourbanis, and E. Stern, in Proceedings of the 8th International Particle Accelerator Conference (Copenhagen, Denmark, 2017).
+	\bibitem{Hans}
+	H. Stockhorsts et al., Beam Cooling at COSY and HESR (2016).
+	\bibitem{resonant}
+	Y. V. Senichev and A. N. Chechenin, J. Exp. Theor. Phys. 105, 988 (2007); \url{https://doi.org/10.1134/S1063776107110118}
+	\bibitem{nica}
+	E. M. Syresin, A. V. Butenko, P. R. Zenkevich, O. S. Kozlov, S. D. Kolokolchikov, S. A. Kostromin, I. N. Meshkov, N. V. Mityanina, Y. V. Senichev, A. O. Sidorin, and G. V. Trubnikov, Phys. Part. Nucl. 52, 997 (2021); \url{https://doi.org/10.1134/S1063779621050051}
+	\bibitem{weilee}
+	J. Wei and S. Y. Lee, \url{https://api.semanticscholar.org/CorpusID:115801271}
+	\bibitem{bb}
+	M. Vadai, Beam Loss Reduction by Barrier Buckets in the CERN Accelerator Complex (2021), presented 10 Mar 2021, \url{https://cds.cern.ch/record/2766175}
+	\bibitem{blond}
+	P. F. Derwent, Tech. Rep., Beams doc: 8690 (2020).
+	\bibitem{blond1}
+	BLonD (2017), URL \url{https://blond.web.cern.ch/}
+	\bibitem{cosy}
+	COSY Infinity (2013), URL \url{https://www.bmtdynamics.org/index_cosy.htm}
+
+\end{thebibliography}
+
+\begin{figure}[!h]
+\setcaptionmargin{5mm}
+   \includegraphics*[width=.49\columnwidth]{img/fig_01-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_01-2}
+\captionstyle{normal}
+\caption{Transition energy jump scheme. The blue line is the actual transition energy of the accelerator $\gamma_{\text{tr}}$, the red line is the energy of the reference particle.}
+\label{fig:jump}
+\end{figure}
+
+\begin{figure}[!h]
+\setcaptionmargin{5mm}
+   \includegraphics*[width=.49\columnwidth]{img/fig_02-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_02-2}
+\captionstyle{normal}
+\caption{The dependence of the transition energy and the working point on the perturbation of the quadrupole gradient lenses.}
+\label{fig:tran}
+\end{figure}
+
+\begin{figure}
+\setcaptionmargin{5mm}
+	(a) \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad (b)\\
+   \includegraphics*[width=.49\columnwidth]{img/fig_08-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_08-2}
+\captionstyle{normal}
+\caption{The phase plane, the beam is held inside the Barrier Bucket RF. (a) is the initial distribution, (b) is the distribution after $2\times{10}^5$ revolutions.}
+\label{fig:before}
+\end{figure}
+
+\begin{figure}
+\setcaptionmargin{5mm}
+	(a) \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad (b)\\
+   \includegraphics*[width=.49\columnwidth]{img/fig_09-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_09-2}
+\captionstyle{normal}
+\caption{Phase plane during the jump, Barrier Bucket RF are disabled. (a) is the initial distribution, (b) is the distribution after $6\times{10}^3$ revolutions.}
+\label{fig:during}
+\end{figure}
+
+\begin{figure}
+\setcaptionmargin{5mm}
+	(a) \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad (b)\\
+   \includegraphics*[width=.49\columnwidth]{img/fig_11-1.png}
+   \includegraphics*[width=.49\columnwidth]{img/fig_10-1.png}
+\captionstyle{normal}
+\caption{Polarization change for 2 states. (a) acceleration at stage 2, (b) crossing transition with a jump at stage 3.}
+\label{fig:polar}
+\end{figure}
+
+\end{document}

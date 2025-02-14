@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: maiksamp.aux
+The style file: apsrev.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: maikbibl.bib
+Warning--entry type for "bb" isn't style-file defined
+--line 96 of file maikbibl.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--missing publisher in lee
+Warning--missing publisher in Hans
+Warning--empty booktitle in weilee
+Warning--empty author and editor in blond
+Warning--missing publisher in blond
+Warning--empty author and editor in cosy
+Warning--missing publisher in cosy
+You've used 11 entries,
+            3411 wiz_defined-function locations,
+            1214 strings with 11548 characters,
+and the built_in function-call counts, 6654 in all, are:
+= -- 372
+> -- 201
+< -- 34
++ -- 168
+- -- 50
+* -- 832
+:= -- 734
+add.period$ -- 11
+call.type$ -- 11
+change.case$ -- 49
+chr.to.int$ -- 17
+cite$ -- 22
+duplicate$ -- 622
+empty$ -- 598
+format.name$ -- 124
+if$ -- 1258
+int.to.chr$ -- 1
+int.to.str$ -- 12
+missing$ -- 100
+newline$ -- 48
+num.names$ -- 27
+pop$ -- 202
+preamble$ -- 1
+purify$ -- 44
+quote$ -- 0
+skip$ -- 268
+stack$ -- 0
+substring$ -- 183
+swap$ -- 428
+text.length$ -- 25
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 58
+warning$ -- 7
+while$ -- 24
+width$ -- 0
+write$ -- 123
+(There were 8 warnings)

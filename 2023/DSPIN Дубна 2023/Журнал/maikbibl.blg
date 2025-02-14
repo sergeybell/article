@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: maikbibl.aux
+The style file: maik.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: maikbibl.bib
+Warning--entry type for "Vadai:2766175" isn't style-file defined
+--line 142 of file maikbibl.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--missing publisher in Lee
+Warning--missing publisher in Hans
+Warning--empty booktitle in Wei1988SpaceCE
+Warning--empty author and editor in Blond
+Warning--missing publisher in Blond
+You've used 13 entries,
+            3451 wiz_defined-function locations,
+            1256 strings with 12678 characters,
+and the built_in function-call counts, 9521 in all, are:
+= -- 540
+> -- 320
+< -- 52
++ -- 274
+- -- 80
+* -- 1229
+:= -- 988
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 59
+chr.to.int$ -- 19
+cite$ -- 20
+duplicate$ -- 863
+empty$ -- 807
+format.name$ -- 191
+if$ -- 1793
+int.to.chr$ -- 1
+int.to.str$ -- 14
+missing$ -- 137
+newline$ -- 80
+num.names$ -- 36
+pop$ -- 247
+preamble$ -- 1
+purify$ -- 52
+quote$ -- 0
+skip$ -- 383
+stack$ -- 0
+substring$ -- 279
+swap$ -- 657
+text.length$ -- 42
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 98
+warning$ -- 5
+while$ -- 36
+width$ -- 0
+write$ -- 192
+(There were 6 warnings)

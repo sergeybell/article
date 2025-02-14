@@ -1,0 +1,5 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\beamer@sectionintoc {1}{Capitolo 1}{2}{0}{1}
+\beamer@sectionintoc {2}{Capitolo 2}{3}{0}{2}
+\beamer@sectionintoc {3}{Capitolo 3}{4}{0}{3}

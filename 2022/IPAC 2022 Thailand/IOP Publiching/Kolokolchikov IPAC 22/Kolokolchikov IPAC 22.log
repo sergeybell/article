@@ -1,0 +1,284 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.15)  27 JUN 2022 15:24
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"Kolokolchikov IPAC 22.tex"
+(./Kolokolchikov IPAC 22.tex
+LaTeX2e <2018-12-01>
+(./jpconf.cls
+Document Class: jpconf 2007/03/07 v1.1 LaTeX class for Journal of Physics: Conf
+erence Series
+(./jpconf11.clo
+File: jpconf11.clo 2005/05/04 v1.0 LaTeX2e file (size option)
+)
+\indentedwidth=\skip41
+\mathindent=\dimen102
+\c@oldftnote=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\bibindent=\dimen103
+\c@eqnval=\count88
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(./Kolokolchikov IPAC 22.aux)
+\openout1 = `"Kolokolchikov IPAC 22.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen106
+\scratchbox=\box27
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen107
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks16
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18.06749> not available
+(Font)              size <17.28> substituted on input line 4.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18.06749> not available
+(Font)              size <17.28> substituted on input line 4.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+[1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<img/WEPOPT004_f1-1.png, id=18, 497.86pt x 398.48875pt>
+File: img/WEPOPT004_f1-1.png Graphic file (type png)
+<use img/WEPOPT004_f1-1.png>
+Package pdftex.def Info: img/WEPOPT004_f1-1.png  used on input line 34.
+(pdftex.def)             Requested size: 204.85844pt x 163.97124pt.
+<img/WEPOPT004_f1-2.png, id=21, 487.8225pt x 394.47375pt>
+File: img/WEPOPT004_f1-2.png Graphic file (type png)
+<use img/WEPOPT004_f1-2.png>
+Package pdftex.def Info: img/WEPOPT004_f1-2.png  used on input line 35.
+(pdftex.def)             Requested size: 204.85844pt x 165.65977pt.
+<img/WEPOPT004_f2-1.png, id=23, 876.27374pt x 629.35126pt>
+File: img/WEPOPT004_f2-1.png Graphic file (type png)
+<use img/WEPOPT004_f2-1.png>
+Package pdftex.def Info: img/WEPOPT004_f2-1.png  used on input line 46.
+(pdftex.def)             Requested size: 180.91394pt x 129.93013pt.
+<img/WEPOPT004_f2-2.png, id=25, 876.27374pt x 623.32875pt>
+File: img/WEPOPT004_f2-2.png Graphic file (type png)
+<use img/WEPOPT004_f2-2.png>
+Package pdftex.def Info: img/WEPOPT004_f2-2.png  used on input line 47.
+(pdftex.def)             Requested size: 180.91394pt x 128.68678pt.
+<img/WEPOPT004_f2-3.png, id=27, 874.26625pt x 620.3175pt>
+File: img/WEPOPT004_f2-3.png Graphic file (type png)
+<use img/WEPOPT004_f2-3.png>
+Package pdftex.def Info: img/WEPOPT004_f2-3.png  used on input line 49.
+(pdftex.def)             Requested size: 180.91394pt x 128.35854pt.
+<img/WEPOPT004_f2-4.png, id=29, 871.255pt x 620.3175pt>
+File: img/WEPOPT004_f2-4.png Graphic file (type png)
+<use img/WEPOPT004_f2-4.png>
+Package pdftex.def Info: img/WEPOPT004_f2-4.png  used on input line 50.
+(pdftex.def)             Requested size: 180.91394pt x 128.8034pt.
+<img/WEPOPT004_f2-5.png, id=31, 877.2775pt x 618.31pt>
+File: img/WEPOPT004_f2-5.png Graphic file (type png)
+<use img/WEPOPT004_f2-5.png>
+Package pdftex.def Info: img/WEPOPT004_f2-5.png  used on input line 52.
+(pdftex.def)             Requested size: 180.91394pt x 127.50914pt.
+<img/WEPOPT004_f2-6.png, id=33, 872.25874pt x 622.325pt>
+File: img/WEPOPT004_f2-6.png Graphic file (type png)
+<use img/WEPOPT004_f2-6.png>
+Package pdftex.def Info: img/WEPOPT004_f2-6.png  used on input line 53.
+(pdftex.def)             Requested size: 180.91394pt x 129.0683pt.
+<img/WEPOPT004_f2-7.png, id=35, 884.30376pt x 622.325pt>
+File: img/WEPOPT004_f2-7.png Graphic file (type png)
+<use img/WEPOPT004_f2-7.png>
+Package pdftex.def Info: img/WEPOPT004_f2-7.png  used on input line 55.
+(pdftex.def)             Requested size: 180.91394pt x 127.31155pt.
+<img/WEPOPT004_f2-8.png, id=37, 877.2775pt x 625.33624pt>
+File: img/WEPOPT004_f2-8.png Graphic file (type png)
+<use img/WEPOPT004_f2-8.png>
+Package pdftex.def Info: img/WEPOPT004_f2-8.png  used on input line 56.
+(pdftex.def)             Requested size: 180.91394pt x 128.9581pt.
+
+[2 <./img/WEPOPT004_f1-1.png> <./img/WEPOPT004_f1-2.png>]
+
+LaTeX Warning: Text page 3 contains only floats.
+
+
+Overfull \vbox (5.94069pt too high) has occurred while \output is active []
+
+
+[3 <./img/WEPOPT004_f2-1.png> <./img/WEPOPT004_f2-2.png> <./img/WEPOPT004_f2-3.
+png> <./img/WEPOPT004_f2-4.png> <./img/WEPOPT004_f2-5.png> <./img/WEPOPT004_f2-
+6.png> <./img/WEPOPT004_f2-7.png> <./img/WEPOPT004_f2-8.png>]
+<img/WEPOPT004_f3-1.png, id=67, 371.3875pt x 292.09125pt>
+File: img/WEPOPT004_f3-1.png Graphic file (type png)
+<use img/WEPOPT004_f3-1.png>
+Package pdftex.def Info: img/WEPOPT004_f3-1.png  used on input line 76.
+(pdftex.def)             Requested size: 220.33517pt x 173.29503pt.
+<img/WEPOPT004_f3-2.png, id=69, 417.56pt x 311.1625pt>
+File: img/WEPOPT004_f3-2.png Graphic file (type png)
+<use img/WEPOPT004_f3-2.png>
+Package pdftex.def Info: img/WEPOPT004_f3-2.png  used on input line 77.
+(pdftex.def)             Requested size: 229.90048pt x 171.32033pt.
+ [4 <./img/WEPOPT004_f3-1.png> <./img/WEPOPT004_f3-2.png>]
+<img/WEPOPT004_f4-1.png, id=78, 615.29875pt x 338.26375pt>
+File: img/WEPOPT004_f4-1.png Graphic file (type png)
+<use img/WEPOPT004_f4-1.png>
+Package pdftex.def Info: img/WEPOPT004_f4-1.png  used on input line 127.
+(pdftex.def)             Requested size: 254.93556pt x 140.14972pt.
+<img/WEPOPT004_f4-2.png, id=80, 449.68pt x 337.26pt>
+File: img/WEPOPT004_f4-2.png Graphic file (type png)
+<use img/WEPOPT004_f4-2.png>
+Package pdftex.def Info: img/WEPOPT004_f4-2.png  used on input line 128.
+(pdftex.def)             Requested size: 195.75162pt x 146.81497pt.
+<img/WEPOPT004_f4-3.png, id=82, 379.4175pt x 336.25626pt>
+File: img/WEPOPT004_f4-3.png Graphic file (type png)
+<use img/WEPOPT004_f4-3.png>
+Package pdftex.def Info: img/WEPOPT004_f4-3.png  used on input line 130.
+(pdftex.def)             Requested size: 227.62204pt x 201.72964pt.
+<img/WEPOPT004_f4-4.png, id=84, 302.12875pt x 281.05pt>
+File: img/WEPOPT004_f4-4.png Graphic file (type png)
+<use img/WEPOPT004_f4-4.png>
+Package pdftex.def Info: img/WEPOPT004_f4-4.png  used on input line 131.
+(pdftex.def)             Requested size: 218.51521pt x 203.26927pt.
+ [5] [6 <./img/WEPOPT004_f4-1.png> <./img/WEPOPT004_f4-2.png> <./img/WEPOPT004_
+f4-3.png> <./img/WEPOPT004_f4-4.png>]
+[7] (./Kolokolchikov IPAC 22.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.78749pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1707 strings out of 492616
+ 23755 string characters out of 6129481
+ 93228 words of memory out of 5000000
+ 5615 multiletter control sequences out of 15000+600000
+ 9026 words of font info for 32 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,5n,25p,1203b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on "Kolokolchikov IPAC 22.pdf" (7 pages, 5979229 bytes).
+PDF statistics:
+ 149 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+

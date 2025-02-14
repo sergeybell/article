@@ -1,0 +1,86 @@
+\documentclass[a4paper]{panl}
+\usepackage{cite}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{epsfig}
+\usepackage{multirow}
+
+
+\originalTeX
+%\russianTeX
+\begin{document}
+% Journal sections (see http://pkp.jinr.ru/index.php/PEPAN_LETTERS/about/editorialPolicies#focusAndScope)
+%\issuearea{Physics of Elementary Particles and Atomic Nuclei. Theory}
+% or in Russian
+%\issuearea{ФИЗИКА ЭЛЕМЕНТАРНЫХ ЧАСТИЦ И АТОМНОГО ЯДРА. ТЕОРИЯ}
+
+\title{This is the title \\ Название статьи}
+\maketitle
+\authors{F.\,Author$^{a,b,}$\footnote{E-mail: first.author@email.ru},
+S.\,Author$^{b,}$\footnote{E-mail: second.author@email.ru}}
+\setcounter{footnote}{0}
+\authors{И.О.\,Первыйавтор$^{a,b,}$\footnote{E-mail: first.author@email.ru(русский вариант)},
+И.О.\,Второйавтор$^{b,}$\footnote{E-mail: second.author@email.ru(русский вариант)}}
+\from{$^{a}$\,Affiliation 1}
+\from{$^{a}$\,Место работы автора 1}
+\from{$^{b}$\,Affiliation 2}
+\from{$^{b}$\,Место работы автора 2}
+
+\begin{abstract}
+% Russian translation of the abstract
+Аннотация на русском языке. \
+\vspace{0.2cm}
+
+This is English translation of the abstract
+\end{abstract}
+\vspace*{6pt}
+
+\noindent
+PACS: 44.25.$+$f; 44.90.$+$c
+
+\label{sec:intro}
+\section*{Introduction}
+
+The ``PEPAN Letters'' journal accepts and publishes manuscripts submitted in Russian or English. All papers are subject to refereeing. Authors should make a careful survey of the literature to ensure that papers do not duplicate previous work and that relevant existing knowledge has been taken into account. By submitting a paper for publication in PEPAN Letters the authors imply that the material has not been published previously nor has been submitted for publication elsewhere.
+
+\label{sec:preparation}
+\section*{Paper Preparation}
+
+A manuscript should contain the text in the LaTeX or Word formats and files of figures. All pages should be numbered, and the manuscript must include all necessary elements of the paper.
+The first page of the manuscript should include the title of the paper, the initials, surnames and affiliations (including country, city, zip code, and address for correspondence) of all the authors followed by the short abstract. At least one of the authors should provide an e-mail address for correspondence. PACS indexes must be indicated (see http://www.aip.org/pacs) after the abstract.
+
+In formulas, all roman letters denoting physical quantities should be italicized E, V, m, etc.). Vectors must be in bold type without arrows over the letters. Similarity numbers (Ar, Re, etc.), functions (sin, arcsin, sinh, etc.), conventional mathematical abbreviations ($\max$, $\min$, opt, const, idem, lim, log, ln, det, exp), chemical elements (Cl, Fe), etc., should be in roman type. With the exception of abbreviations including those of surnames, which must be in roman type, letters in sub- and superscripts should be in lowercase italics.
+
+Figures (see Fig.~\ref{fig01}) must be clearly readable and of good quality. It is desirable to submit each figure in the form of an individual file in the Encapsulated PostScript format (*.eps) or in the Portable Document Format (*.pdf). Raster artwork should be at least 300 dpi at 100\% (Full print size).
+If a color figure is submitted, please, make sure to upload in addition a usable black and white version required to correctly reproduce the artwork in print.
+
+Cited references must be given in a general list at the end of a manuscript and should be numbered by the consecutive numerals as they are mentioned in the main text.
+The list of references must have the heading REFERENCES. All references should include \emph{full list of authors} with only exception being collaboration papers.
+It is not permissible to cite unpublished works. Examples of references \cite{Silenko:2014yxa,Bogolyubov:1983gp,hanson-67,wright-63,Anselmino:2008jk,Aad:2012tfa,Beda:2009kx,Franceschini:2015kwy} are as follows
+
+
+%============================= Fig. 1 ================================
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=127mm]{fig_1.eps}
+%\includegraphics[width=127mm]{fig_1.eps}
+\vspace{-3mm}
+\caption{Figure caption}
+\end{center}
+\labelf{fig01}
+\vspace{-5mm}
+\end{figure}
+%============================= Fig. 1 ================================
+
+
+%\nocite{*}
+\bibliographystyle{pepan}
+\bibliography{pepan_biblio}
+
+\end{document}

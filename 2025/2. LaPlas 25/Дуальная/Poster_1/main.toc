@@ -1,0 +1,5 @@
+\babel@toc {russian}{}\relax 
+\beamer@sectionintoc {2}{Дуальная структура}{3}{0}{1}
+\beamer@sectionintoc {3}{Легкие частицы}{4}{0}{2}
+\beamer@sectionintoc {4}{Тяжелоионная мода}{7}{0}{3}
+\beamer@sectionintoc {5}{Заключение}{11}{0}{4}

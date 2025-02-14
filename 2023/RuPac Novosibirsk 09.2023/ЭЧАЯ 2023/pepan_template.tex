@@ -1,0 +1,378 @@
+\documentclass[a4paper]{panl}
+\usepackage{cite}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{epsfig}
+\usepackage{multirow}
+
+
+\originalTeX
+%\russianTeX
+\begin{document}
+% Journal sections (see http://pkp.jinr.ru/index.php/PEPAN_LETTERS/about/editorialPolicies#focusAndScope)
+%\issuearea{Physics of Elementary Particles and Atomic Nuclei. Theory}
+% or in Russian
+%\issuearea{ФИЗИКА ЭЛЕМЕНТАРНЫХ ЧАСТИЦ И АТОМНОГО ЯДРА. ТЕОРИЯ}
+%
+\title{Longitudinal dynamic in NICA Barrier Bucket RF system at transition energy including impedances in BLonD \\ Продольная динамика NICA в ВЧ барьерного типа при критической энергии, включая импедансы в BLonD}
+\maketitle
+\authors{S.\,Kolokolchikov $^{a,b,}$\footnote{E-mail: sergey.bell13@gmail.com},
+Yu.\,Senichev $^{a,b,}$,
+A.\,Aksentev $^{a,b,c}$}
+\authors{
+A.\,Melnikov $^{a,b,d}$,
+V.\,Ladygin $^{e}$,
+E.\,Syresin $^{e}$}
+
+\authors{С.\, Колокольчиков$^{a,b,}$\footnote{E-mail: sergey.bell13@gmail.com},
+Ю.\,Сеничев$^{a,b,}$,
+А.\,Аксентьев $^{a,b,c}$}
+\authors{
+А.\,Мельников $^{a,b,d}$,
+В.\,Ладыгин $^{e}$,
+Е.\,Сыресин $^{e}$}
+\setcounter{footnote}{0}
+\from{$^{a}$\,Institute for Nuclear Research RAS, Moscow}
+\from{$^{a}$\,Институт ядерных исследований РАН, Москва}
+\from{$^{b}$\,Moscow Institute of Physics and Technology, Dolgoprudny}
+\from{$^{b}$\,Московский физико-технического института (НИУ), Долгопрудный}
+\from{$^{c}$\,Moscow Engineering Physics Institute, Moscow}
+\from{$^{c}$\,Московский инженерно-физический институт (НИУ), Москва}
+\from{$^{d}$\,Landau Institute for Theoretical Physics, Chernogolovka}
+\from{$^{d}$\,Институт теоретической физики им. Л.Д. Ландау, Черноголовка}
+\from{$^{e}$\,The Joint Institute for Nuclear Research, Dubna}
+\from{$^{e}$\,Объединенный институт ядерных исследований, Дубна}
+
+\begin{abstract}
+% Russian translation of the abstract
+В статье исследуется влияние импедансов пространственного заряда, а также ВЧ на продольную динамику во время процедуры преодоления критической энергии скачком. Отличительной особенностью является использование ВЧ барьерного типа, в результате чего достигается специфическое распределение пучка в фазовом пространстве, отличное от классического, формируемого гармоническим ВЧ.\
+\vspace{0.2cm}
+
+The paper investigates the influence of space charge impedances, as well as RF resonators, on longitudinal dynamics during the procedure of transition energy crossing with a jump. A distinctive feature is the use of Barrier Bucket RF, as a result a specific distribution of the beam in the phase space, different from the classical one formed by harmonic RF.
+\end{abstract}
+\vspace*{6pt}
+
+\noindent
+PACS: 29.20.D−; 29.27.-a
+
+\label{sec:transition}
+\section*{Критическая энергия}
+
+\par При рассмотрении продольного движения вводится понятие коэф\-фи\-ци\-ента
+расширения орбиты (momentum compaction factor) \cite{lee}:
+
+\begin{equation}
+\alpha_c=\frac{1}{R_0} \frac{d R}{d \delta}=\alpha_0+2 \alpha_1 \delta+3 \alpha_2 \delta^2+\cdots \equiv \frac{1}{\gamma_T^2}
+\label{alpha}
+\end{equation}
+
+и коэффициента скольжения (slip-factor):
+
+\begin{equation}
+\eta(\delta)=-\frac{1}{\omega_0} \frac{\Delta \omega}{\delta}=-\left(\eta_0+\eta_1 \delta+\eta_2 \delta^2+\cdots\right),
+\label{eta}
+\end{equation}
+
+где $\delta$ – разброс по импульсам, $R_{0},R$ – усреднённый радиус референсной и отклоненной на $\delta$ частиц, $\omega, \omega_{0}$ – соответствующие частоты, $\alpha_n, \eta_n$ – n-ые члены разложения, $\gamma_{tr}$ – критическая энергия. Коэффициенты могут быть связаны соотношениями $\eta=\eta_{0}=\alpha_{0}-\frac{1}{\gamma_{0}^{2}}$, $\eta_{1}=\alpha_{1}-\frac{\eta_{0}}{\gamma_{0}^{2}}+\frac{3}{2} \frac{\beta^{2}}{\gamma^{2}}$ . Как видно при определённой энергии референсной частицы -- критической $\gamma = \gamma_{tr}$, коэффициент скольжения принимает нулевое значение $\eta = \eta_{0} = 0$.
+
+\label{sec:jump}
+\section*{Скачок критической энергии}
+
+\par Процедура скачка критической энергии применяется для преодоления критической энергии. Таким образом, удается сохранить устойчивое движение пучка в фазовом пространстве. Данный метод применялся на многих установках и описан в работах \cite{jump}, \cite{pip}.
+
+\par Необходимость скачка можно понять, рассмотрев зависимость от $\eta(\delta)\\=\eta_{0}+\eta_{1} \delta+\cdots$, уравнений продольного движения, которые описывают эволюцию частиц в фазовом пространстве \cite{hans}:
+
+\begin{equation}
+\begin{aligned}
+& \frac{d \tau}{d t}=\eta(\delta) \cdot \frac{h \cdot \Delta E}{\beta^2 \cdot E_0} \\
+& \frac{d(\Delta E)}{d t}=\frac{V(\tau)}{T_0}
+\end{aligned}
+\label{long}
+\end{equation}
+
+\par При ускорении, значение коэффициента скольжения $\eta$ приближается к нулю для всех частиц, однако из-за ненулевого разброса по импульсам $\delta$, слагаемое $\eta_1\delta$ начинает быть сравнимо с $\eta_0$ и играет важную роль на динамику вблизи критической энергии. Если не предпринимать никаких мер, то для частиц, преодолевших критическую энергию, знак ко\-эф\-фи\-ци\-ента скольжения меняется. Исходя из Уравнений \ref{long}, видно, что движение в фазовой плоскости становится не устойчивым ведёт к потере пучка. Процедура скачка позволяет, во-первых, в течение поднятия критической энергии, удерживать пучок на расстоянии, достаточном, чтобы все час\-ти\-цы имели один и тот же знак коэффициента скольжения. Во-вторых, о\-бес\-пе\-чить быстрый переход к новому состоянию, где ко\-эф\-фи\-ци\-ент сколь\-же\-ния меняет знак, но для всех частиц снова имеет одинаковый знак. Стабильность обеспечивается сменой полярности у\-дер\-жи\-ва\-ющ\-их ВЧ-барьеров.
+
+ Для коэффициента расширения орбиты может быть получено вы\-ра\-же\-ние \cite{resonant}:
+ 
+\begin{equation}
+\alpha=\frac{1}{C}\int_{0}^{C}{\frac{D\left(s\right)}{\rho\left(s\right)}ds}
+\label{alpha_c}
+\end{equation}
+
+где $D\left(s\right)$– дисперсионная функция, $1/\rho\left(s\right)$ – кривизна орбиты. Для стационарной машины, возможно вариация дисперсионной функции для изменения значения $\alpha$, а соответственно и $\eta$. Например, для NICA, рассматривается возможность создания дополнительного градиента в квадрупольных линзах. Расчёты показывают, что возможно изменение критической энергии $\gamma_{tr}$ со скоростью $d\gamma_{tr}/\ dt\ =\ 8.5\ c^{-1}$ \cite{syresin}.
+
+Можно выделить пять основных состояний продольной динамики, основанных на изменении критической энергии 
+$\gamma_{tr}$ (Рисунок \ref{fig:jump}):
+
+\begin{figure}[!h]
+   \includegraphics*[width=.49\columnwidth]{img/fig_01-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_01-2}
+   \caption{Схема скачка критической энергии. Синяя линия – фактическая критическая энергия ускорителя $\gamma_{tr}$, красная линия – энергия референсной частицы.}
+   \label{fig:jump}
+\end{figure}
+
+\begin{enumerate} 
+  \item Ускорение от энергии инжекции $E_{inj}$ со стационарным значением $\gamma_{\ tr}^{stat}$;
+  \item  Плавное увеличение $\gamma_{tr}$ параллельно энергии частиц до пикового значения, коэффициент скольжения $\eta_0$ приобретает минимально возможное значение, приближаясь к нулевому значению;
+  \item Переход через стационарное значение критической энергии, при этом $\eta_0$ пересекает нулевое значение для всех частиц;
+  \item Плавное восстановление $\gamma_{tr}$ до стационарного значения, также па\-рал\-лель\-но энергии частиц;
+  \item Ускорение до энергии эксперимента со стационарным значением критической энергии $\gamma_{\ tr}^{stat}$.
+  \end{enumerate}
+ 
+Состояния 2-3-4 определяют процедуру преодоления $\gamma_{tr}$ скачком. Из\-ме\-не\-ние магнитооптики приводит к зависимости $\gamma_{tr}$, соответствующего смещения рабочей точки $\nu_{x,y}$ (Рисунок \ref{fig:tr}), а также высших порядков коэффициента расширения орбиты $\alpha_1, \alpha_2$ (Рисунок \ref{fig:alpha}).
+
+\begin{figure}[!h]
+   \includegraphics*[width=.49 \columnwidth]{img/fig_02-1}
+   \includegraphics*[width=.49 \columnwidth]{img/fig_02-2}
+   \caption{Зависимость критической энергии и рабочей точки от возмущения градиента квадрупольных линз.}
+   \label{fig:tr}
+\end{figure}
+
+\begin{figure}[!h]
+   \includegraphics*[width=.49\columnwidth]{img/fig_03-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_03-2}
+   \caption{Зависимость высших порядков разложения коэффициента расширения орбиты от критической энергии.}
+   \label{fig:alpha}
+\end{figure}
+
+\label{sec:jump}
+\section*{ВЧ барьерного типа}
+
+\par Для прохождения критической энергии, возможно использование ВЧ барьерного типа (Barrier Bucker RF) \cite{bb}, \cite{malyshev}. (Рисунок \ref{fig:rf})
+
+\begin{figure}[!h]
+  \centering
+   \includegraphics*[width=.75\columnwidth]{img/fig_04-1}
+   \caption{Нормализированная форма сигнала от ВЧ барьера.}
+   \label{fig:rf}
+\end{figure}
+
+\begin{equation}
+g(\phi)=\left\{\begin{array}{c}
+-\operatorname{sign}(\eta),\quad -\pi / h_r \leq \phi \leq 0 \\
+\operatorname{sign}(\eta),\quad 0<\phi \leq \pi / h_r \\
+0, \quad \text { other }
+\end{array}\right.
+\label{sign}
+\end{equation}
+
+где $\eta$ – коэффициент скольжения (slip-factor), $h_r=\frac{\pi}{\phi_{r}}$ – гармоническое число для отражающего барьера и $\phi_{r}$ – соответствующая фаза.  В У\-рав\-не\-нии~$\ref{sign}$ учтено, что при прохождении через критическую энергию, знак $\eta$ меняется и, соответственно, полярность ВЧ барьеров. Для ускорения может быть также приложено дополнительное напряжение в виде ме\-анд\-ра с нап\-ря\-же\-ни\-ем $V_{acc}=300~\rm{eV}$.
+
+Коэффициенты Фурье-разложения для приведенного прямоугольного сигнала даются выражением \cite{bbcern}:
+
+\begin{equation}
+b_n=\operatorname{sign}{\left(\eta\right)}\frac{2}{n\pi}\left[1-\cos{\left(\frac{n}{h_r}\pi\right)}\right],
+\label{b}
+\end{equation}
+
+где $n$ – номер гармоники. Для создания плавной формы сигнала, используется сигма-модуляция, сохраняющая симметрию сигнала:
+
+\begin{equation}
+\sigma_{m, n}={\rm sinc}^m{\frac{n\pi}{2\left(N+1\right)}},
+\label{sigma}
+\end{equation}
+
+где $N$ – количество членов гармонического разложения. Таким образом, напряжение n-ой гармоники:
+
+\begin{equation}
+V_n=V^{peak}b_n\sigma_{m, n}.
+\label{Volt_n}
+\end{equation}
+
+На Рисунках \ref{fig:wave} представлены полученные формы сигнала и со\-от\-вет\-ству\-ющ\-ие напряжения для гармоник.
+
+В зависимости от относительного смещения от референсной, частицы попадают под влияния ВЧ барьера – в области отражения и испытывают толчок энергии:
+
+\begin{equation}
+E_i^\prime=\Delta E_i+\sum_{j=1}^{N} V_j\sin{\left(\omega_{j}\mathrm{\Delta}t_i+\phi_j\right)} 
+\label{dE}
+\end{equation}
+
+\begin{figure}[!htb]
+   \includegraphics*[width=.49\columnwidth]{img/fig_05-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_05-2}
+   \caption{Разложение сигнала от ВЧ барьерного типа в ряд Фурье по синусоидальным гармоникам. Слева – форма 
+   ВЧ барьеров, справа – амплитуды гармоник в зависимости от частоты для разной ширины отражающего барьера.}
+   \label{fig:wave}
+\end{figure}
+
+\label{sec:impedance}
+\section*{Учёт влияния импедансов}
+
+\par Для учета влияния электромагнитного взаимодействия пучка с ок\-ру\-же\-ни\-ем вводится понятие импеданса. На продольную динамику основное влияние оказывает импеданс пространственного заряда \cite{laclare} (Рисунок \ref{fig:signal}) 
+
+\begin{equation}
+\frac{Z_{SC}}{n}=-\frac{Z_0}{2\beta\gamma^2}\left[1+2\ln{\left(\frac{b}{a}\right)}\right]
+\label{sc}
+\end{equation}
+
+\begin{figure}[!h]
+   \includegraphics*[width=.51\columnwidth]{img/fig_06-1}
+   \includegraphics*[width=.48\columnwidth]{img/fig_07-1}
+   \caption{Слева – импеданс пространственного заряда; справа – Напряжение, создаваемое пространственным 
+   зарядом вдоль профиля пучка в продольной плоскости. }
+   \label{fig:signal}
+\end{figure}
+
+Для наглядности, приведём напряжение, индуцированное про\-стран\-стве\-нным зарядом, $V_{\mathrm{s.c.\ }}(\phi)$. Уравнение определяется производной от функции распределения $f(\phi)$ в пространстве \cite{sc}:
+
+\begin{equation}
+V_{\rm{S.C.}}\left(\phi\right)=\frac{Z^2h^2g_0Z_0ce}{2R_0\gamma^2}\cdot\frac{\partial\left(N_0f\left(\phi\right)\right)}{\partial\phi}.
+\label{V_sc}
+\end{equation}
+
+\par Для ВЧ барьерного типа, как будет видно далее из Рисунков \ref{fig:2}, \ref{fig:3}, распределение внутри сепаратрисы равномерное непосредственно вне от\-ра\-жа\-ющего барьера. Таким образом, производная слабо отличается от нуля. Значительное напряжение может быть создано только на кра\-ях сепаратрисы, где наблюдается изменение градиента в профиле пучка.
+
+\label{sec:tracking}
+\section*{Моделирование}
+
+\par Наиболее опасными с точки зрения разрушения пучка, являются со\-сто\-я\-ния 2-3-4, при которых изменяются параметры ускорителя. С точки зрения динамики, состояния 2 и 4 являются симметричными.
+\par Профиль пучка в продольной плоскости равномерный, а э\-нер\-ге\-ти\-чес\-кий разброс гауссов. Состояние 2 и 4 характерны тем, что коэффициент скольжения для равновесной частицы остается неизменными, а кри\-ти\-чес\-кая энергия меняется синхронно с энергией пучка в течение порядка $2\times{10}^5$ оборотов. Таким образом, удержание пучка при стационарном значении критической энергии эквивалентно ускоренному движении пуч\-ка в структуре с меняющимися параметрами. Как видно на Рисунках 8 профиль пучка смещается к левому барьеру, это связано с тем, что для частиц с положительными $\delta>0$ коэффициент скольжения $\eta_{+\delta}$ больше, чем для частиц с отрицательным $\delta<0$ $\eta_{-\delta}: \eta_{+\delta}>\eta_{-\delta}$. Это видно из Уравнения \ref{eta} и того факта, что $\eta_1<0$. 
+
+\begin{figure}
+   \includegraphics*[width=.49\columnwidth]{img/fig_08-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_08-2}
+   \caption{Фазовая плоскость при удержании пучка внутри ВЧ-барьера. Слева – начальное распределение, справа – распределение после $2\times{10}^5 оборотов$.}
+   \label{fig:2}
+\end{figure}
+
+\par Состояние 3 – быстрое изменение параметров в течение $6\times{10}^3$ о\-бо\-ро\-тов ($10~\rm{ ms}$). ВЧ-барьеры выключены на время скачка, чтобы не разрушить пучок. Влияние пространственного заряда наиболее важно в отсутствие барь\-е\-ров, так как отсутствует внешняя удерживающая сила. Трекинг сделан с учетом описанного выше импеданса пространственного заряда.
+
+\begin{figure}[!h]
+   \includegraphics*[width=.49\columnwidth]{img/fig_09-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_09-2}
+   \caption{Фазовая плоскость при скачке, ВЧ-барьеры отключены. Слева – начальное распределение, справа – распределение после $6\times{10}^3$ оборотов.}
+   \label{fig:3}
+\end{figure}
+
+\par За время скачка существенного изменения профиля пучка не про\-и\-зош\-ло. Моделирование выполнено в среде BLonD \cite{blond1}, \cite{blond}.
+
+
+\label{sec:conc}
+\section*{Заключение}
+\par Изучена динамика продольного движения вблизи критической э\-нер\-гии в ВЧ барьерного типа, с учётом импеданса пространственного заряда. Процедура скачкообразного изменения параметров ускорителя является доступным вариантом преодоления критической энергии в барьерном ВЧ.
+
+\label{sec:acknowlegments}
+\section*{Благодарность}
+Это исследование выполнено при поддержке Российского научного фонда №22-42-04419. https://rscf.ru/en/project/22-42-04419/
+
+%\nocite{*}
+%\bibliographystyle{pepan}
+%\bibliography{maikbibl}
+% Bibliography automatically generated via BibTeX (see template_bibtex.tex)
+
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{\emph{#1}}
+\ProvideTextCommandDefault{\cyrdash}{\hbox to.8em{--\hss--}}
+\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em\fi
+\cyrdash\hskip.2em\ignorespaces}
+
+%1.	S Y Lee, Accelerator Physics 3rd Edition, https://doi.org/10.1142/8335
+%2.	T. Risselada, Gamma Transition Jump Schemes, CAS 1994.
+%3.	R. Ainsworth at al., Transition Crossing in the Main Injector For PIP-II, FERMILAB-CONF-17-143-AD
+%4.	Hans Stockhorst at al., Beam Cooling at COSY and HESR, ISBN 978-3-95806-127-9
+%5.	Yu. V. Senichev, A. N. Chechenin, Theory of “Resonant” Lattices for Synchrotrons with Negative Momentum Compaction Factor, Journal of Experimental and Theoretical Physics, 2007, Vol. 105, No. 5, pp. 988–997
+%6.	Syresin E.M at al., Formation of Polarized Proton Beams in the NICA Collider-Accelerator Complex DOI: 10.1134/S1063779621050051
+%7.	A. Tribendis and others, Constraction and first test results of the barrier 
+%and harmonic RF systems for the NICA collider, IPAC2021, Campinas, SP, Brazil, doi:10.18429/JACoW-IPAC2021-MOPAB365
+%8.	A.M. Malyshev and others, Barrier station RF1 of the NICA collider. 
+%Design features and influence on beam dynamics, RuPAC2021, Alushta, Russia, doi:10.18429/JACoW-RuPAC2021-WEPSC15
+%9.	Mihaly Vadai, Beam Loss Reduction by Barrier Buckets in the CERN Accelerator Complex, CERN, Geneva, 2021
+%10.	 Laclare, J L (ESRF, Grenoble), Coasting beam longitudinal coherent instabilities, CAS - CERN Accelerator School: 5th General Accelerator Physics Course, pp.349-384, DOI: 10.5170/CERN-1994-001.349
+%11.	 J. Wei, S. Y.  Lee, Space Charge Effect at Transition Energy and the Transfer of R.F. System at Top Energy, BNL-41667
+%12.	P. F. Derwent, Implementation of BLonD for Booster Simulations, Beams doc # 8690, 2020
+%13.	 BLonD: https://blond.web.cern.ch/
+
+\bibitem{lee}
+\selectlanguageifdefined{english}
+\BibEmph{S Y Lee} {Accelerator Physics 3rd Edition}~//
+  \href{https://doi.org/10.1142/8335}{https://doi.org/10.1142/8335}
+  \BibDash
+\newblock 1998.
+
+\bibitem{jump}
+\selectlanguageifdefined{english}
+\BibEmph{T. Risselada} {Gamma Transition Jump Schemes}. \BibDash
+\newblock CAS, 1994.
+
+\bibitem{pip}
+\selectlanguageifdefined{english}
+\BibEmph{R. Ainsworth at al.} Transition Crossing in the Main Injector For PIP-II. \BibDash
+\newblock FERMILAB-CONF-17-143-AD.
+
+\bibitem{hans}
+\selectlanguageifdefined{english}
+\BibEmph{Yu. V. Senichev, A. N. Chechenin} Beam Cooling at COSY and HESR \BibDash
+\newblock ISBN 978-3-95806-127-9.
+
+\bibitem{resonant}
+\selectlanguageifdefined{english}
+\BibEmph{Yu. V. Senichev, A. N. Chechenin} Theory of “Resonant” Lattices for Synchrotrons with Negative Momentum Compaction Factor \BibDash
+\newblock JETP \BibDash
+\newblock Vol. 105, No. 5, pp. 988–997 \BibDash
+\newblock 2007
+
+\bibitem{syresin}
+\selectlanguageifdefined{english}
+\BibEmph{Syresin E.M at al.} Formation of Polarized Proton Beams in the NICA Collider-Accelerator Complex \BibDash
+\newblock Physics of Particles and Nuclei \BibDash
+\newblock vol. 52, p. 997–1017 (2021) \BibDash
+\newblock DOI: 10.1134/S1063779621050051
+
+\bibitem{bb}
+\selectlanguageifdefined{english}
+\BibEmph{A. Tribendis at al.} Constraction and first test results of the barrier and harmonic RF systems for the NICA collider \BibDash
+\newblock IPAC2021, Campinas, SP, Brazil \BibDash 
+\newblock doi:10.18429/JACoW-IPAC2021-MOPAB365
+
+\bibitem{malyshev}
+\selectlanguageifdefined{english}
+\BibEmph{A.M. Malyshev at al.} Barrier station RF1 of the NICA collider. Design features and influence on beam dynamics \BibDash
+\newblock RuPAC2021, Alushta, Russia \BibDash 
+\newblock doi:10.18429/JACoW-RuPAC2021-WEPSC15
+
+\bibitem{bbcern}
+\selectlanguageifdefined{english}
+\BibEmph{Mihaly Vadai} Beam Loss Reduction by Barrier Buckets in the CERN Accelerator Complex \BibDash
+\newblock CERN, Geneva \BibDash 
+\newblock 2021
+
+\bibitem{laclare}
+\selectlanguageifdefined{english}
+\BibEmph{Laclare, J L (ESRF, Grenoble)} Coasting beam longitudinal coherent instabilities \BibDash
+\newblock CAS - CERN Accelerator School: 5th General Accelerator Physics Course \BibDash 
+\newblock pp. 349-384 \BibDash 
+\newblock DOI: 10.5170/CERN-1994-001.349
+
+\bibitem{sc}
+\selectlanguageifdefined{english}
+\BibEmph{J. Wei, S. Y.  Lee} Space Charge Effect at Transition Energy and the Transfer of R.F. System at Top Energy \BibDash
+\newblock BNL-41667
+
+\bibitem{blond1}
+\selectlanguageifdefined{english}
+\BibEmph{P. F. Derwent} Implementation of BLonD for Booster Simulations \BibDash
+\newblock  Beams doc 8690  \BibDash
+\newblock 2020
+
+\bibitem{blond}
+\selectlanguageifdefined{english}
+\BibEmph{BLonD} https://blond.web.cern.ch/
+
+\end{thebibliography}
+
+
+\end{document}

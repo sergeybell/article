@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: example.aux
+The style file: iopart-num.bst
+Database file #1: example.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty booktitle in FS
+Warning--missing publisher in FS
+Warning--missing publisher in QFS
+You've used 5 entries,
+            3071 wiz_defined-function locations,
+            661 strings with 5325 characters,
+and the built_in function-call counts, 3210 in all, are:
+= -- 321
+> -- 38
+< -- 3
++ -- 16
+- -- 11
+* -- 217
+:= -- 298
+add.period$ -- 0
+call.type$ -- 5
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 334
+empty$ -- 349
+format.name$ -- 14
+if$ -- 755
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 45
+newline$ -- 25
+num.names$ -- 4
+pop$ -- 96
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 69
+stack$ -- 0
+substring$ -- 392
+swap$ -- 108
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 24
+width$ -- 6
+write$ -- 54
+(There were 3 warnings)

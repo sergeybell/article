@@ -1,0 +1,269 @@
+% !TEX encoding = UTF-8 Unicode
+%
+% ****** maiksamp.tex 29.11.2001 ******
+%
+\documentclass[
+aps,%
+12pt,%
+final,%
+notitlepage,%
+oneside,%
+onecolumn,%
+nobibnotes,%
+nofootinbib,%
+superscriptaddress,%
+noshowpacs,%
+centertags]%
+{revtex4}
+
+
+\usepackage[cp866]{inputenc}
+\usepackage{xfrac}
+\begin{document}
+
+\selectlanguage{english}
+
+\title{Transition energy crossing of polarized proton beam at NICA}
+\author{\firstname{S.}~\surname{Kolokolchikov}}
+\email{sergey.bell13@gmail.com}
+\affiliation{Institute for Nuclear Research (RAS), Moscow, Russia}
+\affiliation{Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\author{\firstname{Yu.}~\surname{Senichev}}
+\affiliation{Institute for Nuclear Research (RAS), Moscow, Russia}
+\affiliation{Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\author{\firstname{A.}~\surname{Aksentiev}}
+\affiliation{Institute for Nuclear Research (RAS), Moscow, Russia}
+\affiliation{Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\affiliation{Moscow Engineering Physics Institute, Moscow, Russia}
+\author{\firstname{A.}~\surname{Melnikov}}
+\affiliation{Institute for Nuclear Research (RAS), Moscow, Russia}
+\affiliation{Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\affiliation{Institute for Theoretical Physics L.D. Landau, Chernogolovka, Russia}
+\author{\firstname{E.}~\surname{Syresin}}
+\affiliation{Joint Institute for Nuclear Research, Dubna, Russia}
+\author{\firstname{V.}~\surname{Ladygin}}
+\affiliation{Joint Institute for Nuclear Research, Dubna, Russia}
+
+\begin{abstract}
+\par At an experiment on acceleration of a polarized proton beam up to an energy at $13~\rm{GeV}$, the possibility of crossing the transition energy at $5.7~\rm{GeV}$ by a jump is considered. The scheme of crossing by a rapid change of transition energy, assumes the longitudinal movement of the beam near the zero value of the slip coefficient. The jump itself is carried out in the absence of an RF field. The paper presents the influence of the above features on the dynamics of a polarized beam.
+\end{abstract}
+\maketitle
+
+\section{TRANSITION ENERGY}
+
+\par Considering the longitudinal motion, the concept of the momentum compaction factor is introduced: \cite{lee}
+
+\begin{equation}
+\alpha_c=\frac{1}{R_0}\frac{dR}{\delta}=\alpha_0+2\alpha_1\delta+3\alpha_2\delta^2+\cdots\equiv\frac{1}{\gamma_{tr}^2}\ 
+\label{eq:mcf}
+\end{equation}
+
+and slip-factor:
+
+\begin{equation}
+\eta\left(\delta\right)=-\frac{1}{\omega_0}\frac{\Delta\omega}{\delta}=-\left(\eta_0+\eta_1\delta+\eta_2\delta^2+\cdots\right)\ 
+\label{eq:slipfactor}
+\end{equation}
+
+\par where $\delta$ -- momentum spread, $R_{0}, R$ -- the averaged radius of the reference and deflected by $\delta$ particle, $\omega$, $\omega_{0}$ -- corresponding frequencies, $\alpha_{n}$, $\eta_{n}$ -- $n$-th expansion terms , $\gamma_{tr}$ -- transition energy. The coefficients can be related by the relations $\eta_0=\alpha_0-\frac{1}{\gamma_0^2}$, $\eta_1=\alpha_1-\frac{\eta_0}{\gamma_0^2}+\frac{3}{2}\frac{\beta^2}{\gamma^2}$. As can be seen at a certain energy of the reference particle -- transition $\gamma=\gamma_{tr}$, the slip-factor takes a zero value $\eta=\eta_{0}=0$.
+
+\section{TRANSITION ENERGY JUMP SCHEME}
+
+\subsection{LONGITUDINAL MOTION}
+\par To overcome the zero value of the slip-factor, the method of the transition energy jump is used. Thus, it is possible to maintain a stable beam motion in the phase space. This method has been used on many facilities and is described in \cite{jump_scheme, pip}.
+
+\par The necessity for a jump can be understood by considering the dependence on slip-factor $\eta\left(\delta\right)=\ \eta_0+\eta_1\delta+\ldots$ of the longitudinal motion equations that describe the evolution of particles in phase space \cite{Hans}:
+
+\begin{equation}
+\begin{aligned}
+&\frac{d\tau}{dt}=\eta(\delta)\cdot\frac{h\cdot\Delta E}{\beta^2\cdot E_0}\\
+&\frac{d\left(\Delta E\right)}{dt}=\frac{V\left(\tau\right)}{T_0}
+\end{aligned}
+\label{eq:long}
+\end{equation}
+
+\par During acceleration, the value of the slip-factor $\eta$ approaches zero for all particles. Thus, for particles that have already overcome the transition energy, the sign of the slip-factor changes. However, due to the non-zero momentum spread $\delta$, the term $\eta_1\delta$ in Eq.\ref{eq:slipfactor} becomes comparable to $\eta_0$ and plays an important role on the dynamics near the transition energy. For this reason, different particles overcome transition energy at different time. Based on Eq.\ref{eq:long}, it can be seen that the dynamic in the phase plane becomes unstable and leads to the beam losses. 
+
+\par The jump procedure allows, firstly, during the increasing of the transition energy, to keep the beam at a sufficient distance for all particles to have the same sign of the slip-factor.
+Secondly, to ensure a quick transition to a new state, where the slip-factor changes sign, but for all particles it again has the same sign. Stability is ensured by changing the polarity of the retaining RF barriers.
+
+\par On the other hand for the momentum compaction factor, the expression can be obtained \cite{resonant}:
+
+\begin{equation}
+\alpha=\frac{1}{C}\int_{0}^{C}{\frac{D\left(s\right)}{\rho\left(s\right)}ds}
+\label{eq:alpha}
+\end{equation}
+
+\par where $D\left(s\right)$ -- dispersion function, $1/\rho\left(s\right)$ -- orbit curvature. For already build lattice the orbit curvature is constant. In this case, only a variation of the dispersion function achieves a change in the value of $\alpha$, and, accordingly, $\eta$. An additional gradient in quadrupole lenses modulates the dispersion function and is considered as a modernization for NICA. Calculations shows that the change in the transition energy $\gamma_{tr}$ can be carried out at a rate of $d\gamma_{tr}/\ dt\ =\ 8.5\ c^{-1}$ \cite{nica}.
+
+\subsection{MAIN STAGES}
+At jump procedure, there are five main states of longitudinal dynamics based on the change in the transition energy $\gamma_{tr}$ (Figure \ref{fig:jump}):
+
+\begin{enumerate} 
+  \item Acceleration from injection energy $E_{inj}$ with a stationary value $\gamma_{\ tr}^{stat}$;
+  \item Smooth increase of $\gamma_{tr}$ parallel to the particle energy up to the peak value, the slip-factor $\eta_0$ acquires the minimum possible value, approaching the zero value;
+  \item The transition through the stationary value of the transition energy, while $\eta_0$ crosses the zero value for all particles;
+  \item Smooth recovery of $\gamma_{tr}$ up to a stationary value, also parallel to the particle energy;
+  \item Acceleration to the energy of the experiment with a stationary value of the trasition energy $\gamma_{\ tr}^{stat}$.
+  \end{enumerate}
+
+\begin{figure}[!h]
+\setcaptionmargin{5mm}
+   \includegraphics*[width=.49\columnwidth]{img/fig_01-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_01-2}
+\captionstyle{normal}
+\caption{Transition energy jump scheme. The blue line is the actual transition energy of the accelerator $\gamma_{tr}$, the red line is the energy of the reference particle.}
+\label{fig:jump}
+\end{figure}
+
+\par States 2-3-4 define the procedure for overcoming $\gamma_{tr}$ by a jump. A change in magneto-optics leads to a dependence of $\gamma_{tr}$ corresponding to the displacement of the working point $\nu_{x,y}$ (Figure \ref{fig:tran}), as well as higher orders of momentum compaction factor $\alpha_1$, $\alpha_2$ (Figure \ref{fig:alpha}).
+
+\begin{figure}[!h]
+\setcaptionmargin{5mm}
+   \includegraphics*[width=.49\columnwidth]{img/fig_02-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_02-2}
+\captionstyle{normal}
+\caption{The dependence of the transition energy and the working point on the perturbation of the quadrupole gradient lenses.}
+\label{fig:tran}
+\end{figure}
+
+\begin{figure}[!h]
+\setcaptionmargin{5mm}
+   \includegraphics*[width=.49\columnwidth]{img/fig_03-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_03-2}
+\captionstyle{normal}
+\caption{The dependence of the higher orders of expansion of the momentum compaction factor on the transition energy.}
+\label{fig:alpha}
+\end{figure}
+
+\section{BARRIER BUCKET RF}
+
+\par For the transition energy crossing is possible to use a Barrier Bucket RF type \cite{rf1,rf1m}
+
+\begin{equation}
+g(\phi)=\left\{\begin{array}{c}
+-\operatorname{sign}(\eta),-\pi / h_r \leq \phi \leq 0 \\
+\operatorname{sign}(\eta), 0<\phi \leq \pi / h_r \\
+0, \quad \text { other }
+\end{array}\right.
+\label{eq:bb}
+\end{equation}
+
+\par where $\eta$ -- slip-factor, $h_r=\sfrac{\pi}{\phi_{\ r}}$ -- harmonic number for the reflecting barrier and $\phi_{\ r}$ -- the corresponding phase.  Eq. \ref{eq:bb} takes into account that during passing through the transition energy, the $\eta$ changes sign and, accordingly, the polarity of the RF barriers also changes. An additional voltage in the meander waveform can also be applied to accelerate beam with $V_{acc}=300$ eV.
+
+\begin{figure}[!h]
+\setcaptionmargin{5mm}
+   \includegraphics*[width=.6\columnwidth]{img/fig_04-1}
+\captionstyle{normal}
+\caption{Normalized waveform from the Barrier Bucket RF.}
+\label{fig:alpha}
+\end{figure}
+
+\par The Fourier expansion coefficients for the reduced rectangular signal are given by the expression \cite{bb}:
+
+\begin{equation}
+b_n={\rm sign}{\left(\eta\right)}\frac{2}{n\pi}\left[1-\cos{\left(\frac{n}{h_r}\pi\right)}\right]\ 
+\label{bn}
+\end{equation}
+
+\par  where $n$ -- harmonic number. To create a smooth waveform, sigma modulation is used, preserving the symmetry of the signal:
+
+\begin{equation}
+\sigma_{m, n}={\rm sinc}^m{\frac{n\pi}{2\left(N+1\right)}}
+\label{eq:sigma}
+\end{equation}
+
+\par where $N$ -- the number of terms of the harmonic decomposition. Thus, the voltage of the $n$-th harmonic:
+
+\begin{equation}
+V_n=V^{peak}b_n\sigma_{m, n}\ 
+\label{eq:vn}
+\end{equation}
+
+\par Depending on the relative displacement from the reference, the particles fall under the influence of the RF barrier -- in the reflection region and experience a jolt of energy:
+
+\begin{equation}
+\Delta E_i^{\prime}=\Delta E_i+\sum_{j=1}^{N} V_j\sin{\left(\omega_j\mathrm{\Delta}t_i+\phi_j\right)}
+\label{eq:dE}
+\end{equation}
+
+\begin{figure}
+\setcaptionmargin{5mm}
+   \includegraphics*[width=.49\columnwidth]{img/fig_05-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_05-2}
+\captionstyle{normal}
+\caption{Decomposition of the RF barrier type signal into a Fourier series by sinusoidal harmonics. On the left -- the shape of the RF barriers, on the right -- the amplitudes of harmonics depending on the frequency for different widths of the reflecting barrier.}
+\label{fig:exp}
+\end{figure}
+
+\section{SPACE CHARGE IMPEDANCE}
+
+To account for the influence of the electromagnetic interaction of the beam with the environment, the concept of impedance is introduced. The longitudinal dynamics is mainly influenced by the spatial charge impedance (Figure ) \cite{Laclare}
+
+\begin{equation}
+\frac{Z_{SC}}{n}=\frac{Z_0}{2\beta\gamma^2}\left[1+2\ln{\left(\frac{b}{a}\right)}\right]\ 
+\label{eq:zsc}
+\end{equation}
+
+\begin{figure}
+\setcaptionmargin{5mm}
+   \includegraphics*[width=.49\columnwidth]{img/fig_06-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_07-1}
+\captionstyle{normal}
+\caption{Decomposition of the RF barrier type signal into a Fourier series by sinusoidal harmonics. On the left -- the shape of the RF barriers, on the right -- the amplitudes of harmonics depending on the frequency for different widths of the reflecting barrier.}
+\label{fig:exp}
+\end{figure}
+
+\par For clarity, we give the voltage induced by the spatial charge, $V_{\rm{s.c.}}(\phi)$. The equation is determined by the derivative of the distribution function $f(\phi)$ in space [11]:
+
+\begin{equation}
+V_{\mathrm{s.c.\ }}\left(\phi\right)=\frac{Z^2h^2g_0Z_0ce}{2R_0\gamma^2}\cdot\frac{\partial\left(N_0f\left(\phi\right)\right)}{\partial\phi}
+\label{eq:Vsc}
+\end{equation}
+
+\par For the RF barrier type, as will be seen further from Figures 8-9, the distribution inside the separatrix is uniform directly outside the reflecting barrier. Thus, the derivative is slightly different from zero. Significant stress can be created only at the edges of the separatrix, where a change in the gradient in the beam profile is observed.
+
+\section{TRACKING}
+
+\par The most dangerous from the point of view of beam destruction are states 2-3-4, at which the accelerator parameters change. From the point of view of dynamics, states 2 and 4 are symmetric.
+
+\par The beam profile in the longitudinal plane is uniform, and the energy spread is Gaussian. States 2 and 4 are characterized by the fact that the slip coefficient for an equilibrium particle remains unchanged, and the critical energy changes synchronously with the beam energy for about $2\times{10}^5$ revolutions. Thus, the retention of the beam at a stationary value of the critical energy is equivalent to the accelerated movement of the beam in a structure with changing parameters. As can be seen in Figures 8, the beam profile shifts to the left barrier, this is due to the fact that for particles with positive $\delta>0$, the slip coefficient $\eta_{+\delta}$ is greater than for particles with negative $\delta<0\ \eta_{-\delta}: \eta_{+\delta}>\eta_{-\delta}$. This can be seen from Equation (2) and the fact that $\eta_1<0$.
+
+\begin{figure}
+\setcaptionmargin{5mm}
+   \includegraphics*[width=.49\columnwidth]{img/fig_08-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_08-2}
+\captionstyle{normal}
+\caption{The phase plane, the beam is held inside the Barrier Bucket RF. On the left is the initial distribution, on the right is the distribution after $2\times{10}^5$ revolutions.}
+\label{fig:exp}
+\end{figure}
+
+\par State 3 – rapid parameter change within $6\times{10}^3$ revolutions ($10$ ms). RF barriers are turned off so as not to destroy the beam. The influence of the spatial charge is most important in the absence of barriers, since there is no external holding force. Tracking is done taking into account the spatial charge impedance described above.
+
+\par There was no significant change in the beam profile during the jump. Modeling was performed in the BLonD environment [12-13].
+
+\begin{figure}
+\setcaptionmargin{5mm}
+   \includegraphics*[width=.49\columnwidth]{img/fig_09-1}
+   \includegraphics*[width=.49\columnwidth]{img/fig_09-2}
+\captionstyle{normal}
+\caption{Phase plane during the jump, Barrier Bucket RF are disabled. On the left is the initial distribution, on the right is the distribution after $6\times{10}^3$ revolutions.}
+\label{fig:exp}
+\end{figure}
+
+\section{Polarization}
+
+
+\section{CONCLUSION}
+
+\par The dynamics of longitudinal motion near the critical energy in barrier-type RF is studied, taking into account the spatial charge impedance. The procedure of abrupt change of accelerator parameters is an affordable option to overcome the critical energy.
+
+\begin{acknowledgments}
+This research was carried out with the support of the Russian Science Foundation №22-42-04419.
+\url{https://rscf.ru/en/project/22-42-04419/}
+\end{acknowledgments}
+
+\nocite{*}
+\bibliography{maikbibl}
+
+\end{document}

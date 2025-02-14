@@ -1,0 +1,291 @@
+% !TeX spellcheck = en_GB
+% !TeX program = lualatex
+%
+% v 2.3  Feb 2019   Volker RW Schaa
+%		# changes in the collaboration therefore updated file "jacow-collaboration.tex"
+%		# all References with DOIs have their period/full stop before the DOI (after pp. or year)
+%		# in the author/affiliation block all ZIP codes in square brackets removed as it was not %         understood as optional parameter and ZIP codes had bin put in brackets
+%       # References to the current IPAC are changed to "IPAC'19, Melbourne, Australia"
+%       # font for ‘url’ style changed to ‘newtxtt’ as it is easier to distinguish "O" and "0"
+%
+\documentclass[a4paper,
+               %boxit,        % check whether paper is inside correct margins
+               %titlepage,    % separate title page
+               %refpage       % separate references
+               %biblatex,     % biblatex is used
+               keeplastbox,   % flushend option: not to un-indent last line in References
+               %nospread,     % flushend option: do not fill with whitespace to balance columns
+               %hyphens,      % allow \url to hyphenate at "-" (hyphens)
+               %xetex,        % use XeLaTeX to process the file
+               %luatex,       % use LuaLaTeX to process the file
+               ]{jacow}
+%
+% ONLY FOR \footnote in table/tabular
+%
+\usepackage{pdfpages,multirow,ragged2e} %
+\usepackage{makecell}
+\usepackage{amsmath}
+%
+% CHANGE SEQUENCE OF GRAPHICS EXTENSION TO BE EMBEDDED
+% ----------------------------------------------------
+% test for XeTeX where the sequence is by default eps-> pdf, jpg, png, pdf, ...
+%    and the JACoW template provides JACpic2v3.eps and JACpic2v3.jpg which
+%    might generates errors, therefore PNG and JPG first
+%
+\makeatletter%
+	\ifboolexpr{bool{xetex}}
+	 {\renewcommand{\Gin@extensions}{.pdf,%
+	                    .png,.jpg,.bmp,.pict,.tif,.psd,.mac,.sga,.tga,.gif,%
+	                    .eps,.ps,%
+	                    }}{}
+\makeatother
+
+% CHECK FOR XeTeX/LuaTeX BEFORE DEFINING AN INPUT ENCODING
+% --------------------------------------------------------
+%   utf8  is default for XeTeX/LuaTeX
+%   utf8  in LaTeX only realises a small portion of codes
+%
+\ifboolexpr{bool{xetex} or bool{luatex}} % test for XeTeX/LuaTeX
+ {}                                      % input encoding is utf8 by default
+ {\usepackage[utf8]{inputenc}}           % switch to utf8
+
+\usepackage[USenglish]{babel}
+
+%
+% if BibLaTeX is used
+%
+\ifboolexpr{bool{jacowbiblatex}}%
+ {%
+  \addbibresource{jacow-test.bib}
+  \addbibresource{biblatex-examples.bib}
+ }{}
+\listfiles
+
+%%
+%%   Lengths for the spaces in the title
+%%   \setlength\titleblockstartskip{..}  %before title, default 3pt
+%%   \setlength\titleblockmiddleskip{..} %between title + author, default 1em
+%%   \setlength\titleblockendskip{..}    %afterauthor, default 1em
+
+\begin{document}
+
+\title{Spin coherence and betatron chromaticity of deuteron beam in NICA storage ring}
+
+\author{S. Kolokolchikov, International Union of Pure and Applied Physics, Geneva, Switzerland,\\
+Y. Senichev, A. Aksentyev, A. Melnikov, Institute for Nuclear Research 
+\\of the Russian Academy of Sciences, Moscow, Russia\\}
+
+\maketitle
+
+%
+\begin{abstract}
+\par The possibility of spin control for Electric Dipole Moment (EDM) experiment can be done by setting Wien Filters in straight ByPass sections, which ensure that the particles spin retains mean direction in accordance with «Quasi-Frozen Spin» mode.
+However, the spin of different particles, due to their different motion in 3D space, in any case rotates with
+slightly different frequencies around the invariant axis and violates spin coherence. To ensure spin
+coherence, nonlinear elements, sextupoles, with a special placement on arcs must be used. Since sextupoles
+simultaneously affect the betatron chromaticity, we consider this complicated case.
+
+\end{abstract}
+
+\section{Quasi-Frozen Spin}
+
+\par T-BMT equations describe the evolution of $\vec{S}$ – spin-vector over time in particle rest frame in $\vec{E}, \vec{B}$ fields in laboratory frame:
+
+\begin{equation}\label{eq:T-BMT}
+\begin{aligned}
+\frac{{d \vec{S}}}{d t} &=\vec{S} \times\left(\vec{\Omega}_{MDM}+\vec{\Omega}_{EDM}\right), \\
+\vec{\Omega}_{MDM}&=\frac{q}{m \gamma}\left\{(\gamma G+1)\vec{B}_{\perp}+(G+1)\vec{B}_{\parallel}-\right. \\
+&\left.-\left(\gamma G+\frac{\gamma}{\gamma+1}\right) \frac{\vec{\beta} \times \vec{E}}{c}\right\}, \\
+\vec{\Omega}_{EDM}&=\frac{q \eta}{2 m}\left(\vec{\beta} \times \vec{B}+\frac{\vec{E}}{c}\right), \quad G=\frac{g-2}{2},
+\end{aligned} 
+\end{equation}
+
+\par where $\vec{\Omega}_{MDM}, \vec{\Omega}_{EDM}$ – angular frequencies caused by MDM \& EDM; $q, m, G$ – charge, mass and magnetic anomaly; $\beta$ – normalised velocity; $\gamma$ – Lorentz-factor; $d =~\eta \frac{q}{2mc}s$, $d$ – EDM factor, $s$ – spin.
+
+\par As it can be seen from Eq.~\ref{eq:T-BMT} for EDM search it is necessary to lower the impaction from MDM. But NICA has purely magnetic arcs. Thus, it can not be used «Frozen Spin» Method \cite{FS}. Wien Filters implemented in the straight section compensate rotation via MDM in arc and realise a «Quasi-Frozen Spin» condition for deutrons \cite{QFS}. For this purpose, NICA needs a modernisation to operate as a storage ring with alternative straight sections by using ByPass channels \cite{ByPass}.
+
+\section{SPIN TUNE DECOHERENCE EFFECTS}
+
+\par If we follow T-BMT Eq.~(\ref{eq:T-BMT}) spin-tunes in $E, B$ fields are given by the expressions:
+
+\begin{equation}\label{eq:spintune}
+\begin{aligned}
+v_s^B & =\gamma G, \\
+v_s^E & = \frac{G+1}{\gamma}-G \gamma .
+\end{aligned}
+\end{equation}
+
+\subsection{An Equilibrium Level Energy Shift}
+
+\par Different particles have different momentum, and there is a need to use effective energy:
+
+\par \begin{equation}\label{eq:gamma_eff}
+\gamma_{eff} = \gamma_{s}+\beta_{s}^2 \gamma_{s} \Delta \delta_{e q}
+\end{equation}
+
+\par The equilibrium momentum spread due to the betatron motion and non-zero second order momentum compaction factor based on synchronous principle \cite{Decoherence} and define by:
+
+\begin{align}
+\label{eq:delta_eq}
+\Delta \delta_{e q}=\frac{\gamma_s^2}{\gamma_s^2 \alpha_0-1}&\left[\frac{\delta_0^2}{2}\left(\alpha_1+\frac{3}{2} \frac{\beta_s^2}{\gamma_s^2}-\frac{\alpha_0}{\gamma_s^2}+\frac{1}{\gamma_s^4}\right)\right.\nonumber\\
+&+\left.\left(\frac{\Delta L}{L}\right)_\beta\right],
+\end{align}
+for betatron orbit lengthening term:
+
+\begin{equation}\label{eq:delta_L/L_beta}
+\left(\frac{\Delta L}{L}\right)_\beta=-\frac{\pi}{L_0}\left[\varepsilon_x \nu_x+\varepsilon_y \nu_y\right]
+\end{equation}
+
+\par where index $s$ means synchronous particle, $\varepsilon_x, \varepsilon_y$ – emittances, $\nu_x, \nu_y$ – tunes, $\delta_0$ – relative momentum deviation, $\alpha_0, \alpha_1$ –  two first orders of momentum compaction factor.
+
+\par Equation \ref{eq:spintune} together with Eqs. (\ref{eq:gamma_eff}-\ref{eq:delta_L/L_beta}) show that spin-tune spread depends on the equilibrium energy level of the particle.
+
+\subsection {Orbit Lengthening and Betatron Chromaticity}
+
+\par More formal theory implies the interaction of external (sextupole) field. Taking into account the expression for total orbit lengthening from \cite{Lengthening}:
+
+\begin{equation}\label{eq:delta_C}
+\Delta C_{\Sigma}=- \pi\left(\varepsilon_x \xi_x+ \varepsilon_y \xi_y\right)+\delta_0\left(\alpha_0+\alpha_1 \delta_0+\ldots\right),
+\end{equation}
+
+\par where $\xi_x, \xi_y$ – chromaticities. If we compare Eq.~\ref{eq:delta_C} with Eqs.~\ref{eq:delta_eq}, \ref{eq:delta_L/L_beta}, it can be noticed that orbit length is closely connected with equilibrium energy level.
+
+\section{SEXTUPOLE CORRECTION}
+
+\par As a result Eqs.~\ref{eq:delta_eq}, \ref{eq:delta_C} show that using sextupoles can influence $\Delta\nu_{s}$ and allow to get spin coherence. Such experiments were made at COSY to get SCT at the level of 1000~s. \cite{COSY}
+
+\begin{figure*}[!ht]
+   \centering
+   \includegraphics*[width=0.314\textwidth]{img/MOPA070_f2-1}
+   \includegraphics*[width=0.310\textwidth]{img/MOPA070_f2-2}
+   \includegraphics*[width=0.314\textwidth]{img/MOPA070_f2-3}
+   \caption{Spin-tune dependance from x, y, d – coordinates for various optimization cases. NC – natural chromaticity (red line); BC – zero (betatron) chromaticity (blue dotted line); SC – spin coherence (green line); BC$\underline {\hspace{0.2cm}}$$\alpha$ –  zero chromaticity and zero $\alpha_{1}$ (violet line); BC$\underline {\hspace{0.2cm}}$$\eta$ –  zero chromaticity and zero $\eta_{1}$ (light blue line).}
+   \label{fig:spintunes}
+\end{figure*}
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=0.951\columnwidth]{img/MOPA070_f1-1}
+   \caption{Twiss-functions in OptiM of ByPass NICA arc for deuteron mode. Also shown sextupole families arrangement.}
+   \label{fig:ARC}
+\end{figure}
+
+\begin{figure}[!hb]
+   \centering
+   \includegraphics*[width=0.955\columnwidth]{img/MOPA070_f3-1}
+   \caption{Spin Tracking for particles with various initial deviation in $x, y, d$ – coordinates using 2 sextupole families to get zero betatron chromaticity.}
+   \label{fig:STincoherence}
+\end{figure}
+
+\par Sextupoles located in non-zero dispersion regions. Usually, in minimum/maximum of dispersion $D_{x, y}$ and  beta $\beta_{x, y}$ functions for the most impact. Twiss-functions of NICA arc are regular and can be seen at Fig.~\ref{fig:ARC} \cite{OptiM}. Dispersion is suppressed with missing magnets at the edges.
+
+\subsection{Betatron Chromaticity}
+
+\par For betatron chromaticity correction used only 2 families of sextupoles:
+one near focusing, other – defocusing quadrupoles. 
+
+Natural chromaticity of ByPass NICA Storage Ring is $\nu_{x,y} = -17/-17$. After optimization, can monitor spin-tune at Fig.~\ref{fig:spintunes}: red line shows natural chromaticity, blue one – corrected. For this case also made spin tracking during $3\times10^{6}$ turns for particles with different initial deviation in $x,y,d$ – coordinates and initial spin orientation $\vec{S}_{0}$ at an angle of 45 degrees in $y$-$z$ plane Fig.~\ref{fig:STincoherence} \cite{COSYINF}.
+
+\begin{table*}[!t]
+    \setlength{\tabcolsep}{4pt}
+    \renewcommand{\arraystretch}{1.2}
+    \centering
+     \caption{Main parameters for different types of optimizations.}
+    \begin{tabular}{lccccc}
+    \hline
+        \textbf{Optimization} & \textbf{No optimization} & \textbf{Chromaticity} & \textbf{Spin Coherence} & \textbf{Chromaticity + $\alpha_1$} & \textbf{Chromaticity + $\eta_{1}$} \\ 
+        \hline
+        Tunes & $-17/-17$ & $0/0$ & $-13/-18$ & $0/0$ & $0/0$ \\ 
+        $\alpha_{1}$ & $0.2$ & $-0.4$ & $-0.37\cdot10^{-2}$ & $\sim -10^{-12}$ & $-0.85$ \\ 
+        quad$K_x$ & $-0.16\cdot10^{-1}$ & $0.55\cdot10^{-1}$ &  $0.27\cdot10^{-13}$ & $0.55\cdot10^{-1}$ & $0.56\cdot10^{-1}$ \\ 
+        quad$K_y$ & $0.51\cdot10^{-2}$ & $0.76\cdot10^{-1}$ & $-0.12\cdot10^{-12}$ & $0.78\cdot10^{-1}$ & $0.78\cdot10^{-1}$ \\ 
+        quad$K_z$ & $-0.43\cdot10^{-1}$ & $0.20\cdot10^{-1}$ & $0.13\cdot10^{-12}$ & $0.13\cdot10^{-1}$ & $1.6\cdot10^{-1}$ \\ 
+        Sextupole families & No sextupoles & 2 & 3 & 3 & 3 \\ 
+        \makecell*[l]{Max. sextupole \\ coefficient, $m^{-3}$} & $-$ & $2.7$ & $19.4$ & 4.9 & 104.2 \\ \hline
+    \end{tabular}
+    \label{Params}
+\end{table*}
+
+\subsection{Spin Coherence}
+
+\par To get spin coherence, considered pure spin-tune. COSY Infinity can not operate near zero-value of spin-tune.
+
+\begin{figure}[!hb]
+   \centering
+   \includegraphics*[width=0.952\columnwidth]{img/MOPA070_f4-1}
+   \caption{Spin Tracking for particles with various initial deviation in $x, y, d$ – coordinates using 3 sextupole families to get spin coherence.}
+   \label{fig:STcoherence}
+\end{figure}
+
+It can cause an error due to resonant denominators, thus let the spin precess with $\nu_{s}\sim10^{-4}$, but require to do it synchronously — coherent.
+
+Main parameter is the spin-tune which depend on coordinates and energy. It can be seen that the dominant component is quadratic term in the expansion of the spin-tune in Fig.~\ref{fig:spintunes} for non-corrected cases, both: natural and correct chromaticity. For this reason sextupoles can be selected in other way, just to get spin coherence.
+
+\par As we can see, from Eqs.~\ref{eq:delta_eq}, \ref{eq:delta_C}, it is not enough to use 2 families, thus 3d family used to influence energy coordinate. But, in regular $\beta, D$-functions don't allow to use 3 linear independent famalies. Figure~\ref{fig:ARC} shows sextupole arrangement of families: SF1, SF2, SD. In this method we don't influence on $\beta$-chromaticity, just monitor the main value $\nu_{x,y} = -13/-18$. It is not enough for stable orbital motion. For this case, it can be seen that spin coherence achieved – there is no dependance of coordinates/energy (Fig.~\ref{fig:spintunes}: green line). Tracking results confirm this Fig.~\ref{fig:STcoherence}, the spin-tune switched up to the $\nu_{s} \sim 10^{-7}$ and considered $3\times10^{6}$ turns or $\sim3$ seconds. Particles with different initial deviation precess with the same spin-tune. But in this case maximum of sextupole coefficient is huge and can cause non-linear effects (Table.~\ref{Params}).
+
+\subsection{$\alpha_{1}/\eta_{1}$ Correction}
+
+\par As we can see, pure betatron chromaticity correction did not allow us to get zero spin-tune spread. Simultaneously, getting spin coherence by suppressing quadratic term of spin-tune expansion did not suppress chromaticity.
+\par This bring us back at Eq.~\ref{eq:delta_C}. Term $\delta_{0} \alpha_{0}$ can be averaged using RF for mixing $\langle\delta_{0}\rangle \alpha_{0} \approx 0$. Thus, to make a zero orbit lengthening, chromaticities must be correct $\xi_x, \xi_{y}$ together with $\alpha_{1}$ to zero value. It is also possible using 3 sextupole families. But still did not allow to get spin coherence. Fig.~\ref{fig:spintunes} (violet line) shows the non-zero spin-tune dependance from coordinates.
+\par Same occurs if we follow Eq.~\ref{eq:delta_eq} and suppress $\eta_{1}$ together with chromaticity correction (Fig.~\ref{fig:spintunes}). Moreover maximum of sextupole filed is too strong and can not be realised (Table.~\ref{Params}).
+
+\section{CONCLUSION}
+\par As a result, considered the phenomenon of spin decoherence simultaneously with betatron chromaticity at the ByPass NICA Storage Ring. It operates in «Quasi-Frozen Spin» Mode and can be used for dEDM experiments. 
+\par Different cases of sextupoles optimization were considered. Quadratic terms of spin-tune expansion are the most valuable and represent the dependence on coordinates. All the main parameters that were monitored are shown in Table~\ref{Params}.
+The research shows that it is not possible to use 3 sextupoles families in regular structure to achieve both betatron chromaticities and get spin coherence. Moreover, maximum value of sextupole coefficient not satisfactory and can cause non-linear instabilities.
+
+\par It is worth noted that regular dispersion function on the arc did not allow to locate 3 linear independent families, as they are placed in the same minimum/maximum of $\beta, D$ – functions.
+But it can be possible to modulate dispersion function in such way to get 3 linear independent sextupole families.
+Also one of the possible problem decisions is using cooled beam at the level of ${dp}/{p}\sim10^{-5}$. This can help to minimize $\gamma$-effective and finally get spin coherence simultaneously with corrected betatron chromaticity.
+
+\ifboolexpr{bool{jacowbiblatex}}
+	{\printbibliography}
+	{
+	\begin{thebibliography}{9}
+
+	\bibitem{FS}
+	F. J. M. Farley \emph{et al.}, \textquotedblleft{New Method of Measuring Electric Dipole Moments in Storage Rings}\textquotedblright, \emph{Phys. Rev. Lett.}, vol. 93, no. 5, Jul. 2004. 
+	\url{doi:10.1103/physrevlett.93.052001}
+		
+	\bibitem{QFS}
+   Y. Senichev \emph{et al.},
+   \textquotedblleft{Quasi-Frozen Spin Concept of Magneto-Optical Structure of NICA Adapted to Study the Electric Dipole Moment of the Deuteron and to Search for the Axion}\textquotedblright,
+   in \emph{Proc. IPAC’22}, Bangkok, Thailand, Jun. 2022, pp. 492--495.
+   \url{doi:10.18429/JACoW-IPAC2022-MOPOTK024} 
+   
+	\bibitem{ByPass}
+   S. Kolokolchikov, A. Melnikov, A. Aksentyev, E. Syresin, V. Ladygin, and Y. Senichev,
+   \textquotedblleft{ByPass optics design in NICA storage ring for experiment with polarized beams for EDM search}\textquotedblright,
+   presented at the IPAC’23, Venice, Italy, May 2023, paper MOPA072, this conference.   
+
+	\bibitem{Decoherence}
+   Y. Senichev, R. Maier, D. Zyuzin, and N. V. Kulabukhova,
+   \textquotedblleft{Spin Tune Decoherence Effects in Electro- and Magnetostatic Structures}\textquotedblright,
+   in \emph{Proc. IPAC’13}, Shanghai, China, May 2013, paper WEPEA036, pp. 2579--2581.      
+	
+	\bibitem{Lengthening}
+	Y. Senichev, A. Aksentyev, and A. Melnikov,  \textquotedblleft{Spin Chromaticity of Beam: Orbit Lengthening and Betatron Chromaticity}\textquotedblright, \emph{Phys. At. Nucl.}, vol. 84, no. 12, pp. 2014–2017, Dec. 2021. 
+	\url{doi:10.1134/S1063778821100367}
+	
+	\bibitem{COSY}
+   G. Guidoboni et al.,
+   \textquotedblleft{How to Reach a Thousand-Second in- 
+	Plane Polarization Lifetime with 0.97-GeV/c Deuterons in a 
+	Storage Ring.}\textquotedblright,
+   Phys. Rev. Lett., vol. 117, no.5, 2016, 054801.
+   	\url{doi:https://doi.org/10.1103/PhysRevLett.117.054801}
+       
+	\bibitem{OptiM}
+	V. Lebedev, OptiM code, Private communication
+	\\
+	\url{http://www-bdnew.fnal.gov/pbar/organizationalchart/lebedev/OptiM/optim.htm}
+	
+	\bibitem{COSYINF}
+	COSY INFINITY.\\
+	\url{https://www.bmtdynamics.org/cosy/}
+
+
+	\end{thebibliography}
+} 
+
+\end{document}

@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: maiksamp.aux
+The style file: apsrev.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: maikbibl.bib
+You're missing a field name---line 98 of file maikbibl.bib
+ : 
+ : % author       = {A.G. Tribendis and Y.A. Biryuchevsky and O.I. Brovko and K.N. Chernov and A.N. Dranitchnikov and E. Kenzhebulatov and others},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 121 of file maikbibl.bib
+ : 
+ : %  author       = {A.M. Malyshev and O.I. Brovko and A.A. Krasnov and Ya.G. Kruchkov and S.A. Krutikhin and G.Y. Kurkin and others},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "bb" isn't style-file defined
+--line 142 of file maikbibl.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--missing publisher in lee
+Warning--missing publisher in Hans
+Warning--empty author in rf1
+Warning--empty booktitle in rf1
+Warning--empty year in rf1; set to ????
+Warning--empty author in rf1m
+Warning--empty booktitle in rf1m
+Warning--empty year in rf1m; set to ????
+Warning--empty booktitle in weilee
+Warning--empty author and editor in blond
+Warning--missing publisher in blond
+You've used 13 entries,
+            3411 wiz_defined-function locations,
+            1217 strings with 11600 characters,
+and the built_in function-call counts, 7369 in all, are:
+= -- 414
+> -- 208
+< -- 36
++ -- 175
+- -- 52
+* -- 889
+:= -- 821
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 57
+chr.to.int$ -- 18
+cite$ -- 30
+duplicate$ -- 697
+empty$ -- 678
+format.name$ -- 129
+if$ -- 1396
+int.to.chr$ -- 2
+int.to.str$ -- 14
+missing$ -- 111
+newline$ -- 54
+num.names$ -- 30
+pop$ -- 263
+preamble$ -- 1
+purify$ -- 52
+quote$ -- 0
+skip$ -- 292
+stack$ -- 0
+substring$ -- 207
+swap$ -- 445
+text.length$ -- 26
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 72
+warning$ -- 11
+while$ -- 26
+width$ -- 0
+write$ -- 137
+(There were 2 error messages)

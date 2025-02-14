@@ -1,0 +1,160 @@
+\documentclass[a4paper]{jpconf}
+\usepackage{graphicx}
+\begin{document}
+\title{Acceleration and crossing of transition energy investigation using an RF structure of the barrier bucket type in the NICA accelerator complex}
+
+\author{S. Kolokolchikov$^1$, Y. Senichev$^1$, A. Melnikov$^1$, E. Syresin$^2$}
+
+\address{$^1$Institute for Nuclear Research of the Russian Academy of Sciences, Moscow, Russia\\
+	$^2$Joint Institute for Nuclear Research, Dubna, Russia}
+
+\ead{kolokolchikov@inr.ru}
+
+\begin{abstract}
+The dynamic of longitudinal motion in Barrier Bucket RF structure is considered. To preserve the stability of the proton beam during the acceleration to the experiment energy it is necessary to cross the transition energy and a rapid jump of transition energy is possible. The influence of the second-order slip factor is taking into account. The dynamic aperture is investigated for various gradients of focusing quadrupoles and corresponding working points which is necessary for transition crossing.
+\end{abstract}
+
+\section{Introduction}
+\par During particle acceleration  to the energy of experiment $E_{exp}=12.6$ GeV ($\gamma_{exp}=14.4$) in NICA collider there is a need for the crossing of transition energy  $E_{tr}=5.709$ GeV ($\gamma_{tr}=7.087$). The slip-factor $\eta=\frac{1}{\gamma_{tr}^2}-\frac{1}{\gamma^2}$ , which included in the equation of longitudinal motion, changes the sign, that leads to a loss of stability in the longitudinal plane when $\gamma$ approaching to $\gamma_{tr}$. In order to minimize the reduction of the beam parameters, a rapid jump of transition energy is assumed during the time $t_{jump}\approx10$ ms \cite{NICA} with a simultaneous change of the polarity of the RF system to ensure the stability of the beam after the jump. RF structure based on “Barrier Bucket” a feature of the NICA collider accelerating system. A non-zero value of the field between the barriers, ensures the acceleration of the beam. This feature makes the system original.
+
+\par In this paper, the main features of the dynamics of the longitudinal motion of the beam crossing through the transition energy are considered, taking into account its jump in the RF structure of the “Barrier Bucket” type. Due to the rapid jump of transition energy the time at which the particles are near the zero value of the first order slip-factor is significantly reduced.  Obviously, in this case, the second order of the slip-factor begins to play a decisive role in the behaviour of particles inside the barrier bucket and completely determines the stability region near transition. In this case, when energy of particles crosses transition energy, focusing of the beam in the longitudinal plane disappears and the influence of the space charge becomes essential.
+
+\section{RAPID JUMP OF THE TRANSITION ENERGY}
+\subsection{Jump Schemes}
+\par When the particle energy approaches the transition energy, it is assumed to make a rapid jump of the transition energy. This can be achieved by changing the field gradient in the focusing quadrupoles of the arcs, since for periodic structures $1/\gamma_{tr}^{2}=\alpha_{0}=1/\nu_{x}^{2}$, where $\alpha_{0}$ – first order of momentum compaction factor, $\nu_{x}$ – normalized frequency of betatron oscillations (tune) in the horizontal plane. The fast jump of transition energy is proposed to be equal to $2\cdot\Delta\gamma_{tr}=0.09$ (from $\gamma_{tr}=7.087$ to $\gamma_{tr}-2\cdot\Delta\gamma_{tr}=6.997$) \cite{NICA}. With such a jump, the working point shifts the values from $\nu_{x}=9.44$ and $\nu_{y}=9.44$ to  $\nu_{x}=9.365$ and $\nu_{y}=9.465$. The maximum change rate of transition energy is limited by the parameters of quadrupoles and their power systems $\dot\gamma_{tr}=\frac{d\gamma_{tr}}{dt}=8.5 s^{-1}$. Such a jump can be made during the time:
+
+\begin{equation}\label{eq:jump_time}
+t_{jump}=T_{0} \Delta n_{jump}=\frac{2\cdot\Delta\gamma_{tr}}{\dot{\gamma}_{tr}}=10.5 ms,
+\end{equation}
+
+\noindent where $T_{0}=1.7 \mu s$ – the time of one revolution period in the ring, $\Delta n_{jump}= 6226$ – the number of revolution periods during which a transition energy jump occurs.
+
+\begin{figure}[!htb]
+   \centering
+   \includegraphics*[width=.45\columnwidth]{img/WEPOPT004_f1-1}
+   \includegraphics*[width=.45\columnwidth]{img/WEPOPT004_f1-2}
+   \caption{On the left – a schematic diagram of the transition energy $\gamma_{tr}$ change during the jump and its recovery. On the right – another possible scheme. The blue solid line shows the transition energy $\gamma_{tr}$, the solid red line is the energy of particles $\gamma$. Blue dashed lines – $\gamma$ of particles shifted by $\pm\Delta\gamma_{tr}$.}
+   \label{fig:jump_schemes}
+\end{figure}
+
+Figure \ref{fig:jump_schemes} shows different schemes of the transition energy change $\gamma_{tr}$ together with the beam energy $\gamma$ at the moment of the jump and after it.
+
+\subsection{Dynamic Aperture}
+
+\begin{figure}[!htb]
+   \centering
+   \includegraphics*[width=.3974\columnwidth]{img/WEPOPT004_f2-1}
+   \includegraphics*[width=.3974\columnwidth]{img/WEPOPT004_f2-2}
+   \par a) $\nu_{x}=9.362$ and $\nu_{y}=9.454$\\
+    \includegraphics*[width=.3974\columnwidth]{img/WEPOPT004_f2-3}
+    \includegraphics*[width=.3974\columnwidth]{img/WEPOPT004_f2-4}
+    \par b) $\nu_{x}=9.44$ and $\nu_{y}=9.44$\\
+    \includegraphics*[width=.3974\columnwidth]{img/WEPOPT004_f2-5}
+    \includegraphics*[width=.3974\columnwidth]{img/WEPOPT004_f2-6}
+    \par c) $\nu_{x}=9.4785$ and $\nu_{y}=9.4330$\\
+    \includegraphics*[width=.3974\columnwidth]{img/WEPOPT004_f2-7}
+    \includegraphics*[width=.3974\columnwidth]{img/WEPOPT004_f2-8}
+    \par d) $\nu_{x}=9.4014$ and $\nu_{y}=9.447$\\
+   \caption{Dynamic apertures ($x$–plane on the left, $y$–plane on the right) for the various (a-d) working point with $dp/p=0$. On the abscissa axis is the coordinate in meters, on the ordinate axis is the relative momentum in radians.}
+   \label{fig:dyn_apertupes}
+\end{figure}
+
+
+\par A change of the transition energy is possible due to a change in the tune of betatron tune in the x-plane, which is achieved by changing the gradient of the focusing lenses in the collider arcs. With the changed parameters of quadrupole lenses, the dynamic aperture was evaluated, it determines the stable area for movement of particles in the transverse plane. The corresponding calculations were carried out using OptiM and MADX programs.
+\par The results shown on Figure \ref{fig:dyn_apertupes} b indicate a working point at $\nu_{x}=9.44$ and $\nu_{y}=9.44$. For this working point is necessary to use octupole correctors to compensate nonlinear effects. If we assume the fact that it is necessary to reach the low frequency in the horizontal plane, with $\nu_{x}=9.3627$ and in the vertical plane $\nu_{y}=9.4541$ (see Figure \ref{fig:dyn_apertupes} a). So thus, the transition energy is achieved $\gamma_{tr}-2\cdot\Delta\gamma_{tr}=6.997$, the dynamic aperture in the horizontal plane disappears completely at these values of betatron tunes.
+
+\par Hence, we considered another option (see Figure \ref{fig:jump_schemes} right): first, we gradually raise the transition energy to $\gamma_{tr}+\Delta\gamma_{tr}\approx7.13$, then we make a rapid jump down to $2\cdot\Delta\gamma_{tr}$ up to $\gamma_{tr}-\Delta\gamma_{tr}\approx7.04$. In this case, the working point changes from $\nu_{x}=9.44$ and $\nu_{y}=9.44$  up to the value before the jump $\nu_{x}=9.4785$ and $\nu_{y}=9.4330$ (see Figure \ref{fig:dyn_apertupes} c) and after the jump down to $\nu_{x}=9.4014$ and $\nu_{y}=9.447$ (see Figure \ref{fig:dyn_apertupes} d). In this case, the dynamic aperture achieved a sufficient value.
+
+\section{BARRIER BUCKET RF SYSTEM}
+
+\par The RF-1 system is used to retain, accumulate and accelerate particles to the experimental energy in the collider rings. Each collider ring has one RF-1 system. During retention and accumulation, 2 pairs of rectangular pulses with opposite signs are generated with the amplitude of each barrier $V_{bb}=\pm5$ kV (see Figure \ref{fig:BB_w_eta_0}). The time duration of a single pulse can vary from $T_{bb}=10$ till $80$ ns. The accumulated particles enclosed between 2 pulses will be inductively accelerated by a constant potential $V_{acc}=300$ V, which is additionally created also by the RF-1 system \cite{NICA}. 
+
+\par When the energy approaches the transition value, the RF barriers turn off and, after the proton energy becomes greater than the transition energy, the RF barriers turn on and a polarity changes. This is necessary because the slip-factor value changes it’s sign after transition energy crossing.
+
+\begin{figure}[!htb]
+   \centering
+   \includegraphics*[width=.484\columnwidth]{img/WEPOPT004_f3-1}
+   \includegraphics*[width=.505\columnwidth]{img/WEPOPT004_f3-2}
+   \caption{Left – shows the Barrier Bucket RF type; right – scheme of $\eta_{0}$ change during jump.}
+   \label{fig:BB_w_eta_0}
+\end{figure}
+
+\section{SLIP-FACTOR NEAR TRANSITION ENERGY}
+
+\par On the one hand, when the slip-factor is purely zero $\eta=0$ the system is isochronous and with any spread of momentum, the bunch does not increase the length. On the other hand, the following second order of slip-factor begins to play an essential role $\eta=\eta_{1}\delta$, which distorts the movement and can lead to an increase in momentum spread. And finally, in the absence of focusing in the longitudinal plane, the space charge can introduce large distortions into the phase portrait of the bunch.
+During acceleration and retention of particles far away from the transition energy, the value of the slip-factor is calculated as (see Figure \ref{fig:BB_w_eta_0} right)
+
+\begin{equation}\label{eq:eta_0}
+\eta=\eta_{0}=\alpha_{0}-\frac{1}{\gamma_{0}^{2}}
+\end{equation}
+
+\par \noindent however, such an expression takes into account only the first order, and in general, the slip-factor depends on $\delta=dp/p$ as \cite{Ng}:
+
+\begin{equation}\label{eq:eta}
+\eta=\eta_{0}+\eta_{1} \delta+\cdots
+\end{equation}
+
+\par \noindent where $\eta_{1}=\alpha_{1}-\frac{\eta_{0}}{\gamma_{0}^{2}}+\frac{3}{2} \frac{\beta^{2}}{\gamma^{2}}$ .
+
+\par Modeling the process of transition energy crossing, the first two orders of decomposition are taken into account. The corresponding momentum compaction factor (MCF) coefficients depend only on the collider magneto-optical structure.
+
+\par Making a rapid jump of transition energy, parameters $\alpha_{0}, \alpha_{1},\ldots$ also undergo a jump. Value $\alpha_{0}$, as we have already said, it is determined by  $\alpha_{0}=1/\gamma_{tr}^2$. Coefficient $\alpha_{1}$ for different values $\gamma_{tr}$ is calculated using the program MADX/PTC \cite{MADX}.
+
+\section{LONGITUDINAL DYNAMICS}
+
+Equations of longitudinal motion in Barrier Bucket in coordinates ($\tau,\Delta E$) \cite{Hans}:
+
+\begin{equation}\label{eq:long_eq_1}
+\frac{d \tau}{dt}=\frac{\eta h}{\beta^{2} E_{0}} \Delta E \quad \frac{d \Delta E}{dt}=\frac{Ze}{A} \frac{\omega_{0}}{2 \pi} Ug(\tau)
+\end{equation}
+
+\noindent where $E_0$ – synchronous particle energy, $Ug(\tau)$ – voltage generated by RF-barriers, $\omega_{0}=2\pi/T_{0}$, $h$ – harmonic number.
+\par For modelling, in equations (\ref{eq:long_eq_1}) it is convenient to switch from the time derivative to the derivative over turn number $t=nT_{0}$: (also note that for protons $Z/A=1$)
+
+\begin{equation}\label{eq:long_eq_2}
+\frac{d \tau}{d n}=\eta \frac{T_{0} h}{\beta^{2} E_{0}} \Delta E \quad \frac{d \Delta E}{d n}=V(\tau)
+\end{equation}
+
+\subsection{The Influence of the Second-order Slip-factor  $\eta_{1}$ on the Longitudinal Dynamics during the Jump}
+
+First, let's consider a jump taking into account only the first-order of the slip factor $\eta=\eta_{0}$. Let's evaluate the value $\eta_{0}$ before the jump itself, due to the symmetry with respect to zero, it will be equal to the value after:
+$$
+\left|-\eta_{0 t r}\right|=\left|+\eta_{0 t r}\right|=\left|\eta_{0}\left(\gamma_{t r}-\Delta \gamma_{t r}\right)\right|=2.5 \cdot 10^{-4}
+$$
+
+\begin{figure}[!htb]
+   \centering
+   \includegraphics*[width=.56\columnwidth]{img/WEPOPT004_f4-1}
+   \includegraphics*[width=.43\columnwidth]{img/WEPOPT004_f4-2}\\
+   \par \hspace{1.4cm} a)      \hspace{7.3cm} b)\\
+   \includegraphics*[width=.50\columnwidth]{img/WEPOPT004_f4-3}
+   \includegraphics*[width=.48\columnwidth]{img/WEPOPT004_f4-4}\\
+    \par \hspace{1.4cm} c)       \hspace{7.3cm} d)\\
+   \caption{Crossing of the transition energy by a jump taking into account the second order of the slip-factor: a) Blurring the phase space in barrier bucket RF; b) jump of transition energy $\gamma_{tr}$ (blue dots), $\gamma$ – gamma particles (red dots); c) Jump of the slip-factor $\eta=\eta_{0}+\eta_{1}\delta$; d) other scale of jump.}
+   \label{fig:modeling}
+\end{figure}
+
+\par As it can be seen on Figure \ref{fig:modeling} (c,d) there is a jump of slip-factor in a different time for different particles because of dependence of slip-factor on $\delta$. Obviously, after the jump, particles with a negative value of the slip-factor will not be in a stable region, since the polarity of the retaining barriers changes and will tend to leave the phase plane, as it can be seen on Figure \ref{fig:modeling} (a, c, d). Also, due to the momentum spread, there is an asymmetry of the phase portrait relate to the zero value of the momentum spread $dp/p$.
+
+\par It can be seen that after the jump itself, not all particles are retained inside the separatrix due to the change of the polarity of the RF voltage of retaining barriers. Let’s review Figure \ref{fig:modeling} (a), it represents the blurring of phase space. Before the jump ($\eta_{0}<0$) particles with negative $\delta<0$ have a slip-factor value $\eta$ closer to zero than particles with positive $\delta>0$. Because of this, the phase plane behaves asymmetrically, since the total value of the slip-factor affects the dynamics and change coordinate $\tau$. Thus, the particles accumulate in the area of the left barrier. During the jump, the RF is turned off and does not affect the dynamics. After the jump ($\eta_{0}>0$) the particle distribution is shifted to the left edge and now the opposite is true – for particles with positive $\delta>0$ the value of the slip-factor $\eta$ is closer to zero, than for particles with $\delta<0$. Those particles that turned out to be on the left in the area of the RF barrier (with reversed polarity) due to the proximity to the zero value of the slip-factor, do not have time to stay in the separatrix.
+
+\section{CONCLUSION}
+
+\par In this paper, the dynamics of the longitudinal motion of particles in an RF accelerating system of the Barrier Bucket type at a transition energy jump near the transition is considered. The influence of the second order slip-factor during the transition is considered. When the transition energy jumps, the working points changes, dynamic apertures are considered for them.
+\par During modelling and calculations, it was found that with a transition energy jump, the determining factor, which influence on the stability of the particles inside the Barrier Bucket RF system is the second order of slip-factor. It depends on momentum spread and can determine the maximum momentum spread for the transition energy crossing in a jump-scheme without loss. Also, it is necessary to take into account the space charge and impedances. These problems require further research.
+
+
+\section*{References}
+\begin{thebibliography}{9}
+\bibitem{NICA} 	Syresin, E. M., Butenko, A. V., Zenkevich, P. R., Kolokolchikov, S. D., Kostromin, S. A., Meshkov, I. N., Mityanina, N. V., Senichev, Y. V., Sidorin, A. O., Trubnikov, G. V. (2021), ``Formation of Polarized Proton Beams in the NICA Collider-Accelerator Complex'', Physics of Particles and Nuclei, 52(5), 997-1017. \verb"https://doi.org/10.1134/S1063779621050051"
+
+\bibitem{Ng} K. Y. Ng. Physics of Intensity Dependent Beam Instabilities. Fermilab-FN-0713(2002).
+
+\bibitem{MADX} F. Schmidt, P. Skowronski, V. Lebedev, A. Valishev, ``Higher Order Dispersion and Momentum Compaction in MAD-X/PTC using NormalForm'', CERN-ACC-NOTE-2018-006.
+
+\bibitem{Hans} H. Stockhorst, T. Katayama, R. Maier, ``Beam Cooling at COSY and HESR Theory and Simulation – Part 1 Theory'', Forschungszentrum Jülich GmbH Zentralbibliothek, Verlag Jülich. ISBN 978-3-95806-127-9(2016) p161-171.
+\end{thebibliography}
+
+\end{document}
+
+

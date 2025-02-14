@@ -1,0 +1,57 @@
+\providecommand{\newblock}{}
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.0
+% /biblio/bibtex/contrib/iopart-num
+
+\bibitem{FS}
+Farley F~J~M, Jungmann K, Miller J~P, Morse W~M, Orlov Y~F, Roberts B~L,
+  Semertzidis Y~K, Silenko A and Stephenson E~J 2004 New method of measuring
+  electric dipole moments in storage rings vol~93 (American Physical Society
+  ({APS})) \urlprefix\url{10.1103/physrevlett.93.052001}
+
+\bibitem{QFS}
+Senichev Y, Aksentyev A, Kolokolchikov S, Ladygin V, Melnikov A, Nikolaev N and
+  Syresin E 2022 {Quasi-Frozen Spin Concept of Magneto-Optical Structure of
+  NICA Adapted to Study the Electric Dipole Moment of the Deuteron and to
+  Search for the Axion} {\em Proc. 13th International Particle Accelerator
+  Conference (IPAC'22)\/} ({\em International Particle Accelerator
+  Conference\/} no~13) (JACoW Publishing, Geneva, Switzerland) pp 492--495 ISBN
+  978-3-95450-227-1
+  \urlprefix\url{https://jacow.org/ipac2022/papers/mopotk024.pdf}
+
+\bibitem{ByPass}
+Kolokolchikov S {\em et~al\/} 2023 Bypass optics design in nica storage ring
+  for experiment with polarized beams for edm search {\em Proc. IPAC'23\/}
+  ({\em IPAC'23 - 14th International Particle Accelerator Conference\/} no~14)
+  (JACoW Publishing, Geneva, Switzerland) pp 113--116 ISBN 978-3-95450-231-8
+  \urlprefix\url{https://indico.jacow.org/event/41/contributions/1321}
+
+\bibitem{Decoherence}
+Senichev Y, Maier R, Zyuzin D and Kulabukhova N (JEDI) 2013 Spin tune
+  decoherence effects in electro- and magnetostatic structures {\em 4th
+  International Particle Accelerator Conference\/} pp 2579--2581
+
+\bibitem{Lengthening}
+Senichev Y {\em et~al\/} 2021 Spin chromaticity of beam orbit lengthening and
+  betatron chromaticity vol~84 pp 2014--2017 ISBN 1562-692X
+  \urlprefix\url{https://doi.org/10.1134/S1063778821100367}
+
+\bibitem{COSY}
+Guidoboni G {\em et~al\/} (JEDI Collaboration) 2016 How to reach a
+  thousand-second in-plane polarization lifetime with
+  $0.97\text{\ensuremath{-}}\mathrm{GeV}/c$ deuterons in a storage ring vol 117
+  (American Physical Society) p 054801
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.117.054801}
+
+\bibitem{OptiM}
+Lebedev V Optim code
+  \urlprefix\url{$\url{www-bdnew.fnal.gov/pbar/organizationalchart/lebedev/OptiM/optim.htm}$}
+
+\bibitem{COSYINF}
+Cosy infinity \urlprefix\url{$\url{www.bmtdynamics.org/}$}
+
+\end{thebibliography}

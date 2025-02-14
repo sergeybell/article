@@ -1,0 +1,35 @@
+\providecommand{\newblock}{}
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.0
+% /biblio/bibtex/contrib/iopart-num
+
+\bibitem{NICA}
+Syresin E {\em et~al\/} 2021 {NICA Ion Coolider at JINR} {\em Proc. RuPAC'21\/}
+  ({\em Russian Particle Accelerator Conference\/} no~27) (JACoW Publishing,
+  Geneva, Switzerland) pp 12--16 ISBN 978-3-95450-240-0
+  https://doi.org/10.18429/JACoW-RuPAC2021-MOY02
+  \urlprefix\url{https://jacow.org/rupac2021/papers/moy02.pdf}
+
+\bibitem{FS}
+Anastassopoulos D {\em et~al\/} 2008 Ags proposal: Search for a permanent
+  electric dipolemoment of the deuteron nucleus at the $10^{-29}$ $e$ cm level
+  \urlprefix\url{$\url{https://www.bnl.gov/edm/files/pdf/deuteron\underline{\hspace{0.2cm}}proposal\underline{\hspace{0.2cm}}080423\underline{\hspace{0.2cm}}final.pdf}$}
+
+\bibitem{QFS}
+Senichev Y, Andrianov S, Berz M, Chekmenev S, Ivanov A and Valetov E 2016
+  {Investigation of Lattice for Deuteron EDM Ring} {\em {12th International
+  Computational Accelerator Physics Conference}\/} pp 17--19 ISBN
+  978-3-95450-136-6
+
+\bibitem{OptiM}
+Lebedev V Optim code
+  \urlprefix\url{$\url{www-bdnew.fnal.gov/pbar/organizationalchart/lebedev/OptiM/optim.htm}$}
+
+\bibitem{COSY}
+Cosy infinity \urlprefix\url{$\url{www.bmtdynamics.org/}$}
+
+\end{thebibliography}

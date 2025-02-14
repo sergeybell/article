@@ -1,0 +1,150 @@
+\begin{thebibliography}{13}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Lee}(2011)}]{Lee}
+
+\refitem{book}
+\bibinfo{author}{\bibfnamefont{S.~Y.} \bibnamefont{Lee}},
+  \emph{\bibinfo{title}{Accelerator Physics}} (\bibinfo{year}{2011}),
+  \bibinfo{edition}{3rd} ed., \urlprefix\url{https://doi.org/10.1142/8335}.
+
+\bibitem[{\citenamefont{Risselada}(1994)}]{Risselada:261069}
+
+\refitem{article}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Risselada}}, pp.
+  \bibinfo{pages}{313--326} (\bibinfo{year}{1994}),
+  \urlprefix\url{https://cds.cern.ch/record/261069}.
+
+\bibitem[{\citenamefont{Ainsworth \emph{et~al.}}(2017)\citenamefont{Ainsworth,
+  Chaurize, Kourbanis, and Stern}}]{Ainsworth:2017qvz}
+
+\refitem{inproceedings}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Ainsworth}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Chaurize}},
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Kourbanis}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Stern}}, in
+  \emph{\bibinfo{booktitle}{{8th International Particle Accelerator
+  Conference}}} (\bibinfo{year}{2017}).
+
+\bibitem[{\citenamefont{Stockhorsts \emph{et~al.}}(2016)}]{Hans}
+
+\refitem{book}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Stockhorsts}}
+  \bibnamefont{\emph{et~al.}}, \emph{\bibinfo{title}{Beam Cooling at COSY and
+  HESR}} (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Senichev and Chechenin}(2007)}]{resonant}
+
+\refitem{article}
+\bibinfo{author}{\bibfnamefont{Y.~V.} \bibnamefont{Senichev}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~N.} \bibnamefont{Chechenin}},
+  \bibinfo{journal}{Journal of Experimental and Theoretical Physics}
+  \textbf{\bibinfo{volume}{105}}, \bibinfo{pages}{988} (\bibinfo{year}{2007}),
+  \urlprefix\url{https://doi.org/10.1134/S1063776107110118}.
+
+\bibitem[{\citenamefont{Syresin \emph{et~al.}}(2021)\citenamefont{Syresin,
+  Butenko, Zenkevich, Kozlov, Kolokolchikov, Kostromin, Meshkov, Mityanina,
+  Senichev, Sidorin \emph{et~al.}}}]{cite-key}
+
+\refitem{article}
+\bibinfo{author}{\bibfnamefont{E.~M.} \bibnamefont{Syresin}},
+  \bibinfo{author}{\bibfnamefont{A.~V.} \bibnamefont{Butenko}},
+  \bibinfo{author}{\bibfnamefont{P.~R.} \bibnamefont{Zenkevich}},
+  \bibinfo{author}{\bibfnamefont{O.~S.} \bibnamefont{Kozlov}},
+  \bibinfo{author}{\bibfnamefont{S.~D.} \bibnamefont{Kolokolchikov}},
+  \bibinfo{author}{\bibfnamefont{S.~A.} \bibnamefont{Kostromin}},
+  \bibinfo{author}{\bibfnamefont{I.~N.} \bibnamefont{Meshkov}},
+  \bibinfo{author}{\bibfnamefont{N.~V.} \bibnamefont{Mityanina}},
+  \bibinfo{author}{\bibfnamefont{Y.~V.} \bibnamefont{Senichev}},
+  \bibinfo{author}{\bibfnamefont{A.~O.} \bibnamefont{Sidorin}},
+  \bibnamefont{\emph{et~al.}}, \bibinfo{journal}{Physics of Particles and
+  Nuclei} \textbf{\bibinfo{volume}{52}}, \bibinfo{pages}{997}
+  (\bibinfo{year}{2021}),
+  \urlprefix\url{https://doi.org/10.1134/S1063779621050051}.
+
+\bibitem[{\citenamefont{Tribendis \emph{et~al.}}(2021)\citenamefont{Tribendis,
+  Biryuchevsky, Brovko, Chernov, Dranitchnikov, Kenzhebulatov
+  \emph{et~al.}}}]{tribendis:ipac2021-mopab365}
+
+\refitem{inproceedings}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Tribendis}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Biryuchevsky}},
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Brovko}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Chernov}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Dranitchnikov}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Kenzhebulatov}},
+  \bibnamefont{\emph{et~al.}}, in \emph{\bibinfo{booktitle}{Proc. IPAC'21}}
+  (\bibinfo{publisher}{JACoW Publishing, Geneva, Switzerland},
+  \bibinfo{year}{2021}), no.~\bibinfo{number}{12} in
+  \bibinfo{series}{International Particle Accelerator Conference}, pp.
+  \bibinfo{pages}{1136--1138}, ISBN \bibinfo{isbn}{978-3-95450-214-1}, ISSN
+  \bibinfo{issn}{2673-5490},
+  \bibinfo{note}{https://doi.org/10.18429/JACoW-IPAC2021-MOPAB365},
+  \urlprefix\url{https://jacow.org/ipac2021/papers/mopab365.pdf}.
+
+\bibitem[{\citenamefont{Malyshev \emph{et~al.}}(2021)\citenamefont{Malyshev,
+  Brovko, Krasnov, Kruchkov, Krutikhin, Kurkin
+  \emph{et~al.}}}]{malyshev:rupac2021-wepsc15}
+
+\refitem{inproceedings}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Malyshev}},
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Brovko}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Krasnov}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Kruchkov}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Krutikhin}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Kurkin}},
+  \bibnamefont{\emph{et~al.}}, in \emph{\bibinfo{booktitle}{Proc. RuPAC'21}}
+  (\bibinfo{publisher}{JACoW Publishing, Geneva, Switzerland},
+  \bibinfo{year}{2021}), no.~\bibinfo{number}{27} in \bibinfo{series}{Russian
+  Particle Accelerator Conference}, pp. \bibinfo{pages}{373--375}, ISBN
+  \bibinfo{isbn}{978-3-95450-240-0}, ISSN \bibinfo{issn}{2673-5539},
+  \bibinfo{note}{https://doi.org/10.18429/JACoW-RuPAC2021-WEPSC15},
+  \urlprefix\url{https://jacow.org/rupac2021/papers/wepsc15.pdf}.
+
+\bibitem[{\citenamefont{Vadai}(2021)}]{Vadai:2766175}
+
+\refitem{}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Vadai}},
+  \emph{\bibinfo{title}{{Beam Loss Reduction by Barrier Buckets in the CERN
+  Accelerator Complex}}} (\bibinfo{year}{2021}), \bibinfo{note}{presented 10
+  Mar 2021}, \urlprefix\url{https://cds.cern.ch/record/2766175}.
+
+\bibitem[{\citenamefont{Laclare}(1994)}]{Laclare:398299}
+
+\refitem{article}
+\bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{Laclare}}
+  (\bibinfo{year}{1994}), \urlprefix\url{https://cds.cern.ch/record/398299}.
+
+\bibitem[{\citenamefont{Wei and Lee}(1988)}]{Wei1988SpaceCE}
+
+\refitem{inproceedings}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Wei}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.~Y.} \bibnamefont{Lee}}
+  (\bibinfo{year}{1988}),
+  \urlprefix\url{https://api.semanticscholar.org/CorpusID:115801271}.
+
+\bibitem[{\citenamefont{Derwent}(2020)}]{blond1}
+
+\refitem{techreport}
+\bibinfo{author}{\bibfnamefont{P.~F.} \bibnamefont{Derwent}},
+  \bibinfo{type}{Tech. Rep.}, \bibinfo{institution}{Beams doc: 8690}
+  (\bibinfo{year}{2020}).
+
+\bibitem[{Blo(2017)}]{Blond}
+
+\refitem{book}
+\emph{\bibinfo{title}{BLonD}} (\bibinfo{year}{2017}),
+  \urlprefix\url{http://www.test.org/doe/}.
+
+\end{thebibliography}

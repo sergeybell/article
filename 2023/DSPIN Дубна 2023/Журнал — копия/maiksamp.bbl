@@ -1,0 +1,94 @@
+\begin{thebibliography}{13}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Lee}(2011)}]{lee}
+\bibinfo{author}{\bibfnamefont{S.~Y.} \bibnamefont{Lee}},
+  \emph{\bibinfo{title}{Accelerator Physics}} (\bibinfo{year}{2011}),
+  \bibinfo{edition}{3rd} ed., \urlprefix\url{https://doi.org/10.1142/8335}.
+
+\bibitem[{\citenamefont{Risselada}(1994)}]{jump_scheme}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Risselada}}, pp.
+  \bibinfo{pages}{313--326} (\bibinfo{year}{1994}),
+  \urlprefix\url{https://cds.cern.ch/record/261069}.
+
+\bibitem[{\citenamefont{Ainsworth et~al.}(2017)\citenamefont{Ainsworth,
+  Chaurize, Kourbanis, and Stern}}]{pip}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Ainsworth}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Chaurize}},
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Kourbanis}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Stern}}, in
+  \emph{\bibinfo{booktitle}{{8th International Particle Accelerator
+  Conference}}} (\bibinfo{year}{2017}).
+
+\bibitem[{\citenamefont{Stockhorsts et~al.}(2016)}]{Hans}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Stockhorsts}}
+  \bibnamefont{et~al.}, \emph{\bibinfo{title}{Beam Cooling at COSY and HESR}}
+  (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Senichev and Chechenin}(2007)}]{resonant}
+\bibinfo{author}{\bibfnamefont{Y.~V.} \bibnamefont{Senichev}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~N.} \bibnamefont{Chechenin}},
+  \bibinfo{journal}{Journal of Experimental and Theoretical Physics}
+  \textbf{\bibinfo{volume}{105}}, \bibinfo{pages}{988} (\bibinfo{year}{2007}),
+  \urlprefix\url{https://doi.org/10.1134/S1063776107110118}.
+
+\bibitem[{\citenamefont{Syresin et~al.}(2021)\citenamefont{Syresin, Butenko,
+  Zenkevich, Kozlov, Kolokolchikov, Kostromin, Meshkov, Mityanina, Senichev,
+  Sidorin et~al.}}]{nica}
+\bibinfo{author}{\bibfnamefont{E.~M.} \bibnamefont{Syresin}},
+  \bibinfo{author}{\bibfnamefont{A.~V.} \bibnamefont{Butenko}},
+  \bibinfo{author}{\bibfnamefont{P.~R.} \bibnamefont{Zenkevich}},
+  \bibinfo{author}{\bibfnamefont{O.~S.} \bibnamefont{Kozlov}},
+  \bibinfo{author}{\bibfnamefont{S.~D.} \bibnamefont{Kolokolchikov}},
+  \bibinfo{author}{\bibfnamefont{S.~A.} \bibnamefont{Kostromin}},
+  \bibinfo{author}{\bibfnamefont{I.~N.} \bibnamefont{Meshkov}},
+  \bibinfo{author}{\bibfnamefont{N.~V.} \bibnamefont{Mityanina}},
+  \bibinfo{author}{\bibfnamefont{Y.~V.} \bibnamefont{Senichev}},
+  \bibinfo{author}{\bibfnamefont{A.~O.} \bibnamefont{Sidorin}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Physics of Particles and Nuclei}
+  \textbf{\bibinfo{volume}{52}}, \bibinfo{pages}{997} (\bibinfo{year}{2021}),
+  \urlprefix\url{https://doi.org/10.1134/S1063779621050051}.
+
+\bibitem[{rf1({\natexlab{a}})}]{rf1}
+ (????).
+
+\bibitem[{rf1({\natexlab{b}})}]{rf1m}
+ (????).
+
+\bibitem[{\citenamefont{Vadai}(2021)}]{bb}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Vadai}},
+  \emph{\bibinfo{title}{{Beam Loss Reduction by Barrier Buckets in the CERN
+  Accelerator Complex}}} (\bibinfo{year}{2021}), \bibinfo{note}{presented 10
+  Mar 2021}, \urlprefix\url{https://cds.cern.ch/record/2766175}.
+
+\bibitem[{\citenamefont{Laclare}(1994)}]{Laclare}
+\bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{Laclare}}
+  (\bibinfo{year}{1994}), \urlprefix\url{https://cds.cern.ch/record/398299}.
+
+\bibitem[{\citenamefont{Wei and Lee}(1988)}]{weilee}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Wei}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.~Y.} \bibnamefont{Lee}}
+  (\bibinfo{year}{1988}),
+  \urlprefix\url{https://api.semanticscholar.org/CorpusID:115801271}.
+
+\bibitem[{\citenamefont{Derwent}(2020)}]{blond1}
+\bibinfo{author}{\bibfnamefont{P.~F.} \bibnamefont{Derwent}},
+  \bibinfo{type}{Tech. Rep.}, \bibinfo{institution}{Beams doc: 8690}
+  (\bibinfo{year}{2020}).
+
+\bibitem[{blo(2017)}]{blond}
+\emph{\bibinfo{title}{BLonD}} (\bibinfo{year}{2017}),
+  \urlprefix\url{http://www.test.org/doe/}.
+
+\end{thebibliography}

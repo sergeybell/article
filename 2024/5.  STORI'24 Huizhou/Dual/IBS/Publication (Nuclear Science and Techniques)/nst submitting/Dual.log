@@ -1,0 +1,1942 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.27)  22 JAN 2025 18:59
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Dual.tex
+(./Dual.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(./nst.cls
+Document Class: nst 2013/09/23 v1.0 Nuclear Science and Techniques magazine cla
+ss
+(/usr/local/texlive/2024/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ Copyright (c) 2009 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 346.
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 471.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 793.
+\intertabularlinepenalty=\count188
+\@tbpen=\count189
+\@arstrutbox@hline=\box51
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1824.
+Class revtex4-1 Info: Making \typeout \long on input line 2089.
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+\c@affil=\count190
+\c@collab=\count191
+\absbox=\box52
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+\c@linecount=\count192
+\output@latex=\toks17
+\box@size@1=\box53
+\box@size@2=\box54
+\@protection@box=\box55
+\@topmark@saved=\toks18
+\footins@saved=\box56
+\footins@recovered=\box57
+\column@recovered=\box58
+\pagesofar=\box59
+\footsofar=\box60
+\pagegrid@col=\count193
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5655.
+\c@part=\count194
+\c@section=\count195
+\c@subsection=\count196
+\c@subsubsection=\count197
+\c@paragraph=\count198
+\c@subparagraph=\count199
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count266
+\fbox@1=\box61
+\c@table=\count267
+\fbox@2=\box62
+\c@video=\count268
+\fbox@4=\box63
+\@bibdataout=\write3
+\widetext@top=\box64
+\widetext@bot=\box65
+Class revtex4-1 Info: Selecting society aps on input line 7616.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx
+File: aps4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for documentation
+)
+Class revtex4-1 Info: RevTeX society APS selected on input line 31.
+)
+Class revtex4-1 Info: Selecting journal prc on input line 7618.
+Class revtex4-1 Info: APS journal PRC selected on input line 7619.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx
+File: aps10pt4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for documenta
+tion)
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2023/07/27 v1.04 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen140
+)
+LaTeX Info: Redefining \text on input line 28.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen141
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count269
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count270
+\leftroot@=\count271
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count272
+\DOTSCASE@=\count273
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box66
+\strutbox@=\box67
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count274
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count275
+\dotsspace@=\muskip16
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
+\tag@help=\toks21
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
+\andhelp@=\toks22
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks23
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip53
+\bibsep=\skip54
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count281
+)
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7623.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty
+Package: revsymb4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for docume
+ntation)
+LaTeX Info: Redefining \frak on input line 95.
+LaTeX Info: Redefining \Bbb on input line 111.
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count282
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count283
+\output=\toks26
+\linenoprevgraf=\count284
+\linenumbersep=\dimen149
+\linenumberwidth=\dimen150
+\c@linenumber=\count285
+\c@pagewiselinenumber=\count286
+\c@LN@truepage=\count287
+
+
+Package lineno Warning: Option [displaymath] is obsolete.
+
+\c@internallinenumber=\count288
+\c@internallinenumbers=\count289
+\quotelinenumbersep=\dimen151
+\bframerule=\dimen152
+\bframesep=\dimen153
+\bframebox=\box68
+\linenoamsmath@ams@eqpen=\count290
+LaTeX Info: Redefining \\ on input line 3180.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count291
+\l__siunitx_number_exponent_fixed_int=\count292
+\l__siunitx_number_min_decimal_int=\count293
+\l__siunitx_number_min_integer_int=\count294
+\l__siunitx_number_round_precision_int=\count295
+\l__siunitx_number_lower_threshold_int=\count296
+\l__siunitx_number_upper_threshold_int=\count297
+\l__siunitx_number_group_first_int=\count298
+\l__siunitx_number_group_size_int=\count299
+\l__siunitx_number_group_minimum_int=\count300
+\l__siunitx_angle_tmp_dim=\dimen154
+\l__siunitx_angle_marker_box=\box69
+\l__siunitx_angle_unit_box=\box70
+\l__siunitx_compound_count_int=\count301
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box71
+\l__siunitx_table_tmp_dim=\dimen155
+\l__siunitx_table_column_width_dim=\dimen156
+\l__siunitx_table_integer_box=\box72
+\l__siunitx_table_decimal_box=\box73
+\l__siunitx_table_uncert_box=\box74
+\l__siunitx_table_before_box=\box75
+\l__siunitx_table_after_box=\box76
+\l__siunitx_table_before_dim=\dimen157
+\l__siunitx_table_carry_dim=\dimen158
+\l__siunitx_unit_tmp_int=\count302
+\l__siunitx_unit_position_int=\count303
+\l__siunitx_unit_total_int=\count304
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen159
+\ar@mcellbox=\box77
+\extrarowheight=\dimen160
+\NC@list=\toks27
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box78
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
+\@cmidla=\count305
+\@cmidlb=\count306
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
+\@thisruleclass=\count307
+\@lastruleclass=\count308
+\@thisrulewidth=\dimen173
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks28
+\inpenc@posthook=\toks29
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+
+Package nameref Warning: The definition of \label has changed! 
+(nameref)                Check your packages! 
+(nameref)                Replacing it with the kernel definition on input line 
+149.
+
+\c@section@level=\count309
+)
+\@linkdim=\dimen176
+\Hy@linkcounter=\count310
+\Hy@pagecounter=\count311
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count312
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+LaTeX Info: Redefining \href on input line 4695.
+\c@Hy@tempcnt=\count313
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen177
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count314
+\Field@Width=\dimen178
+\Fld@charsize=\dimen179
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring ON on input line 6081.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count315
+\c@Item=\count316
+\c@Hfootnote=\count317
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count318
+\c@bookmark@seq@number=\count319
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip57
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
+Package: CJKutf8 2021/10/16 4.8.5
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2021/10/16 4.8.5
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2021/10/16 4.8.5
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2021/10/16 4.8.5
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+\CJK@indent=\box79
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+12.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count320
+\Gm@cntv=\count321
+\c@Gm@tempcnt=\count322
+\Gm@bindingoffset=\dimen180
+\Gm@wd@mp=\dimen181
+\Gm@odd@mp=\dimen182
+\Gm@even@mp=\dimen183
+\Gm@layoutwidth=\dimen184
+\Gm@layoutheight=\dimen185
+\Gm@layouthoffset=\dimen186
+\Gm@layoutvoffset=\dimen187
+\Gm@dimlist=\toks30
+)
+\authors@nums=\count323
+\title@box=\box80
+\title@line=\box81
+\linebox=\box82
+\snapbox=\box83
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip58
+\f@nch@O@elh=\skip59
+\f@nch@O@erh=\skip60
+\f@nch@O@olh=\skip61
+\f@nch@O@orh=\skip62
+\f@nch@O@elf=\skip63
+\f@nch@O@erf=\skip64
+\f@nch@O@olf=\skip65
+\f@nch@O@orf=\skip66
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip67
+\subfigcapskip=\skip68
+\subfigcaptopadj=\dimen188
+\subfigbottomskip=\skip69
+\subfigcapmargin=\dimen189
+\subfiglabelskip=\skip70
+\c@subfigure=\count324
+\c@lofdepth=\count325
+\c@subtable=\count326
+\c@lotdepth=\count327
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2024/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip71
+\subfig@bottom=\skip72
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2023/07/08 v1.06 decimal alignment package (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count328
+\l__pdf_internal_box=\box84
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count329
+\calc@Bcount=\count330
+\calc@Adimen=\dimen190
+\calc@Bdimen=\dimen191
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count331
+\calc@Cskip=\skip75
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count332
+\g__chemgreek_tmpa_int=\count333
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count334
+\__mhchem_arrow_extPgfLength_skip=\skip76
+\mhchem@minispace@tmp=\skip77
+\mhchem@minibackspace@tmp=\skip78
+\mhchem@bondwidth=\skip79
+\mhchem@bondheight=\skip80
+\mhchem@smallbondwidth@tmpA=\skip81
+\mhchem@smallbondwidth@tmpB=\skip82
+\mhchem@smallbondwidth=\skip83
+\mhchem@bondtmp@minussidebearingleft=\skip84
+\mhchem@bondtmp@minussidebearingright=\skip85
+\l__mhchem_option_version_int=\count335
+\mhchem@option@minusmathsidebearingleft=\dimen192
+\mhchem@option@minusmathsidebearingright=\dimen193
+\mhchem@option@minustextsidebearingleft=\dimen194
+\mhchem@option@minustextsidebearingright=\dimen195
+
+
+Package mhchem Warning: You did not specify a 'version' option for the mhchem
+(mhchem)                package. Please write \usepackage[version=4]{mhchem}
+(mhchem)                in your preamble (or any lower number for
+(mhchem)                compatibility mode), because you might get slightly
+(mhchem)                different output with the same input in future versions
+.
+
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count336
+\lst@gtempboxa=\box85
+\lst@token=\toks31
+\lst@length=\count337
+\lst@currlwidth=\dimen196
+\lst@column=\count338
+\lst@pos=\count339
+\lst@lostspace=\dimen197
+\lst@width=\dimen198
+\lst@newlines=\count340
+\lst@lineno=\count341
+\lst@maxwidth=\dimen199
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count342
+\lst@skipnumbers=\count343
+\lst@framebox=\box86
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/02/21 1.10 listings configuration
+))
+Package: listings 2024/02/21 1.10 (Carsten Heinz)
+Class revtex4-1 Info: Unrecognized array package. Please update this document c
+lass! (Proceeding with fingers crossed.) on input line 12.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 12.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 12.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 12.
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 12.
+
+(./Dual.aux)
+\openout1 = `Dual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+
+Package siunitx Warning: Detected the "physics" package:
+(siunitx)                omitting definition of \qty.
+(siunitx)                
+(siunitx)                If you want to use \qty with the siunitx definition,
+(siunitx)                add 
+(siunitx)                
+(siunitx)                    \AtBeginDocument{\RenewCommandCopy\qty\SI}
+(siunitx)                
+(siunitx)                to your preamble.
+
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 12.
+
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count344
+\scratchdimen=\dimen256
+\scratchbox=\box87
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen257
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks33
+)
+Package hyperref Info: Link coloring ON on input line 12.
+ (./Dual.out) (./Dual.out)
+\@outlinefile=\write4
+\openout4 = `Dual.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(45.52441pt, 506.45905pt, 45.52441pt)
+* v-part:(T,H,B)=(86.7809pt, 671.48503pt, 86.78091pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=506.45905pt
+* \textheight=671.48503pt
+* \oddsidemargin=-26.74557pt
+* \evensidemargin=-26.74557pt
+* \topmargin=-26.48909pt
+* \headheight=25.0pt
+* \headsep=16.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=107.0pt
+* \marginparsep=6.0pt
+* \columnsep=18.0pt
+* \skip\footins=39.0pt plus 4.0pt minus 12.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package chemgreek Info: Activating mapping `upgreek' on line 12.
+
+\c@lstlisting=\count350
+Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input 
+line 12.
+Class revtex4-1 Info: Line numbering not turned on yet on input line 12.
+\openout3 = `DualNotes.bib'.
+
+Class revtex4-1 Info: Overriding \@LN@LLerror on input line 12.
+
+Underfull \vbox (badness 10000) detected at line 14
+
+\vbox(11.5+0.1399)x202.58052
+.\hbox(6.81989+0.1399)x202.58052, glue set 0.31165fil
+..\OT1/ptm/m/n/10 F
+..\OT1/ptm/m/n/10 E
+..\OT1/ptm/m/n/10 A
+..\kern-1.11
+..\OT1/ptm/m/n/10 T
+..\OT1/ptm/m/n/10 U
+..\OT1/ptm/m/n/10 R
+..\OT1/ptm/m/n/10 E
+..\OT1/ptm/m/n/10 S
+..\glue 2.5 plus 1.49847 minus 0.60057
+..\OT1/ptm/m/n/10 O
+..\OT1/ptm/m/n/10 F
+..\glue 2.5 plus 1.49847 minus 0.60057
+..\OT1/ptm/m/n/10 D
+..\OT1/ptm/m/n/10 U
+..\kern-0.39992
+..\OT1/ptm/m/n/10 A
+..\OT1/ptm/m/n/10 L
+..\OT1/ptm/m/n/10 -
+..\discretionary
+..\OT1/ptm/m/n/10 P
+..\OT1/ptm/m/n/10 U
+..\OT1/ptm/m/n/10 R
+..\OT1/ptm/m/n/10 P
+..\OT1/ptm/m/n/10 O
+..\OT1/ptm/m/n/10 S
+..\OT1/ptm/m/n/10 E
+..\glue 2.5 plus 1.49847 minus 0.60057
+..\OT1/ptm/m/n/10 S
+..\OT1/ptm/m/n/10 T
+..\OT1/ptm/m/n/10 R
+..\kern-0.39992
+..\OT1/ptm/m/n/10 U
+..\OT1/ptm/m/n/10 C
+..\OT1/ptm/m/n/10 T
+..\OT1/ptm/m/n/10 U
+..\OT1/ptm/m/n/10 R
+..\OT1/ptm/m/n/10 E
+..\glue(\rightskip) 0.0 plus 1.0fil
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
+1.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+Overfull \hbox (6.51453pt too wide) detected at line 64
+[][][][][]
+
+\hbox(17.50015+12.50014)x244.22952
+.\penalty 10000
+.\hbox(0.0+0.0)x0.0
+.\hbox(0.0+0.0)x0.0
+..\mathon
+..\hbox(0.0+0.0)x0.0, shifted -11.5
+...\pdfdest name{equation.2.3} xyz
+...\penalty 10000
+..\mathoff
+.\hbox(0.0+0.0)x0.0
+.\hbox(0.0+0.0)x0.0
+.\vbox(17.50015+12.50014)x250.74405
+..\hbox(17.50014+12.50015)x250.74405
+...\glue(\tabskip) 0.0
+...\hbox(17.50014+12.50015)x20.17546
+....\glue 0.0 plus 1.0fil
+....\hbox(8.04996+3.45003)x0.0
+.....\vbox(8.04996+3.45003)x0.0
+......\kern 0.0
+......\hbox(8.04996+3.45003)x0.0
+.......\rule(8.04996+3.45003)x0.0
+....\mathon
+....\hbox(4.30554+1.58043)x20.17546
+.....\OML/cmm/m/it/10 
+.....\hbox(3.18498+0.08044)x3.22293, shifted 1.49998
+......\OT1/ptm/m/n/7 s
+.....\glue(\thickmuskip) 2.77771 plus 2.77771
+.....\OT1/cmr/m/n/10 =
+....\mathoff
+...\glue(\tabskip) 0.0
+...\hbox(17.50014+12.50015)x220.56859
+....\mathon
+....\hbox(17.50014+12.50015)x220.56859
+.....\hbox(0.0+0.0)x0.0
+.....\hbox(13.20952+6.85951)x12.46251
+......\hbox(13.20952+6.85951)x12.46251
+.......\hbox(0.0+0.0)x1.2, shifted -2.5
+.......\vbox(13.20952+6.85951)x10.06252
+........\hbox(6.44444+0.0)x10.06252, glue set 2.53125fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\OT1/cmr/m/n/10 1
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\kern4.06508
+........\rule(0.39998+0.0)x*
+........\kern1.75952
+........\hbox(7.4+0.0)x10.06252
+.........\OML/cmm/m/it/10 ^^W
+.........\kern0.63657
+.........\hbox(4.51111+0.0)x4.48613, shifted -2.88889
+..........\OT1/cmr/m/n/7 2
+.......\hbox(0.0+0.0)x1.2, shifted -2.5
+.....\glue(\thinmuskip) 1.66663
+.....\hbox(17.50014+12.50015)x201.99504
+......\hbox(0.39998+29.60031)x8.05559, shifted -17.10016
+.......\OMX/cmex/m/n/10 (
+......\OT1/cmr/m/n/10 1
+......\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+......\OT1/cmr/m/n/10 +
+......\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+......\hbox(13.20952+9.35951)x54.64996
+.......\hbox(13.20952+9.35951)x54.64996
+........\hbox(0.0+0.0)x1.2, shifted -2.5
+........\vbox(13.20952+9.35951)x52.24997
+.........\hbox(6.44444+0.0)x52.24997, glue set 23.62498fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\OT1/cmr/m/n/10 1
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\kern4.06508
+.........\rule(0.39998+0.0)x*
+.........\kern1.65952
+.........\hbox(7.5+2.5)x52.24997
+..........\OT1/cmr/m/n/10 4
+..........\OT1/cmr/m/n/10 (
+..........\OT1/cmr/m/n/10 1
+..........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+..........\OMS/cmsy/m/n/10 ^^@
+..........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+..........\OML/cmm/m/it/10 k
+..........\kern0.3148
+..........\OML/cmm/m/it/10 S
+..........\kern0.57637
+..........\kern-0.55556
+..........\OML/cmm/m/it/10 =
+..........\OML/cmm/m/it/10 ^^W
+..........\kern0.63657
+..........\OT1/cmr/m/n/10 )
+........\hbox(0.0+0.0)x1.2, shifted -2.5
+......\glue(\thinmuskip) 1.66663
+......\hbox(14.97061+9.50012)x24.79243
+.......\hbox(0.39998+23.60025)x7.36115, shifted -14.10013
+........\OMX/cmex/m/n/10 ^^R
+.......\hbox(14.97061+6.85951)x10.07014
+........\hbox(14.97061+6.85951)x10.07014
+.........\hbox(0.0+0.0)x1.2, shifted -2.5
+.........\vbox(14.97061+6.85951)x7.67015
+..........\vbox(8.20554+0.0)x7.67015
+...........\hbox(5.67776+0.0)x0.0, shifted 2.16843
+............\OT1/cmr/m/n/10 ^^V
+...........\kern-4.30554
+...........\hbox(6.83331+0.0)x7.67015
+............\OML/cmm/m/it/10 R
+..........\kern4.06508
+..........\rule(0.39998+0.0)x*
+..........\kern4.85397
+..........\hbox(4.30554+0.0)x7.67015, glue set 1.04689fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\OML/cmm/m/it/10 ^^W
+...........\kern0.63657
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(0.0+0.0)x1.2, shifted -2.5
+.......\hbox(0.39998+23.60025)x7.36115, shifted -14.10013
+........\OMX/cmex/m/n/10 ^^S
+......\hbox(4.51111+0.0)x4.48613, shifted -12.49841
+.......\OT1/cmr/m/n/7 4
+......\glue(\thinmuskip) 1.66663
+......\hbox(14.9051+10.93884)x81.39993
+.......\hbox(14.9051+10.93884)x81.39993
+........\hbox(0.0+0.0)x1.2, shifted -2.5
+........\vbox(14.9051+10.93884)x78.99994
+.........\hbox(8.14003+2.83209)x78.99994, glue set 34.65504fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\OML/cmm/m/it/10 g
+..........\vbox(10.97212+0.0)x4.92017, shifted 2.83209
+...........\hbox(4.51111+0.0)x4.48613, shifted 0.35878
+............\OT1/cmr/m/n/7 2
+...........\kern1.59991
+...........\hbox(4.8611+0.0)x4.92017
+............\OML/cmm/m/it/7 k
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\kern1.23299
+.........\rule(0.39998+0.0)x*
+.........\kern1.19994
+.........\hbox(9.53891+2.5)x78.99994
+..........\hbox(7.5+2.5)x74.51381
+...........\hbox(7.5+2.5)x2.77779
+............\OT1/cmr/m/n/10 [
+...........\OT1/cmr/m/n/10 1
+...........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+...........\OMS/cmsy/m/n/10 ^^@
+...........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+...........\OT1/cmr/m/n/10 (
+...........\OT1/cmr/m/n/10 1
+...........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+...........\OMS/cmsy/m/n/10 ^^@
+...........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+...........\OML/cmm/m/it/10 k
+...........\kern0.3148
+...........\OML/cmm/m/it/10 S
+...........\kern0.57637
+...........\kern-0.55556
+...........\OML/cmm/m/it/10 =
+...........\OML/cmm/m/it/10 ^^W
+...........\kern0.63657
+...........\OT1/cmr/m/n/10 )
+...........\hbox(4.51111+0.0)x4.48613, shifted -2.88889
+............\OT1/cmr/m/n/7 2
+...........\hbox(7.5+2.5)x2.77779
+............\OT1/cmr/m/n/10 ]
+..........\hbox(4.51111+0.0)x4.48613, shifted -5.0278
+...........\OT1/cmr/m/n/7 2
+........\hbox(0.0+0.0)x1.2, shifted -2.5
+......\hbox(0.39998+29.60031)x8.05559, shifted -17.10016
+.......\OMX/cmex/m/n/10 )
+.....\glue(\thinmuskip) 1.66663
+.....\OML/cmm/m/it/10 :
+....\mathoff
+....\glue 0.0 plus 1.0fil
+...\glue(\tabskip) 10.0
+
+<fig1_pure_resonant.png, id=57, 469.2732pt x 239.4546pt>
+File: fig1_pure_resonant.png Graphic file (type png)
+<use fig1_pure_resonant.png>
+Package pdftex.def Info: fig1_pure_resonant.png  used on input line 68.
+(pdftex.def)             Requested size: 244.22952pt x 124.62306pt.
+<fig2_resonant.png, id=59, 469.2732pt x 237.5274pt>
+File: fig2_resonant.png Graphic file (type png)
+<use fig2_resonant.png>
+Package pdftex.def Info: fig2_resonant.png  used on input line 73.
+(pdftex.def)             Requested size: 244.22952pt x 123.62006pt.
+[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2 <./fig1_pure_reso
+nant.png> <./fig2_resonant.png>]
+<fig3_regular.png, id=110, 469.2732pt x 237.5274pt>
+File: fig3_regular.png Graphic file (type png)
+<use fig3_regular.png>
+Package pdftex.def Info: fig3_regular.png  used on input line 176.
+(pdftex.def)             Requested size: 244.22952pt x 123.62006pt.
+<fig4_combined.png, id=114, 469.2732pt x 237.5274pt>
+File: fig4_combined.png Graphic file (type png)
+<use fig4_combined.png>
+Package pdftex.def Info: fig4_combined.png  used on input line 183.
+(pdftex.def)             Requested size: 244.22952pt x 123.62006pt.
+<fig5.1_SC.png, id=116, 236.5638pt x 199.4652pt>
+File: fig5.1_SC.png Graphic file (type png)
+<use fig5.1_SC.png>
+Package pdftex.def Info: fig5.1_SC.png  used on input line 190.
+(pdftex.def)             Requested size: 119.01817pt x 100.35324pt.
+<fig5.2_SC_wide.png, id=117, 236.5638pt x 200.4288pt>
+File: fig5.2_SC_wide.png Graphic file (type png)
+<use fig5.2_SC_wide.png>
+Package pdftex.def Info: fig5.2_SC_wide.png  used on input line 191.
+(pdftex.def)             Requested size: 119.01817pt x 100.83803pt.
+ [3 <./fig3_regular.png>]
+<fig6_IBS.png, id=137, 323.7696pt x 201.3924pt>
+File: fig6_IBS.png Graphic file (type png)
+<use fig6_IBS.png>
+Package pdftex.def Info: fig6_IBS.png  used on input line 206.
+(pdftex.def)             Requested size: 244.22952pt x 151.91664pt.
+
+Overfull \hbox (3.1343pt too wide) in alignment at lines 217--227
+[] [] [] []
+
+\hbox(0.0+0.0)x227.62204
+.\glue(\tabskip) 0.0
+.\unsetbox(0.0+0.0)x119.39722
+.\glue(\tabskip) 0.0 plus 1.0fill
+.\unsetbox(0.0+0.0)x32.35878
+.\glue(\tabskip) 0.0 plus 1.0fill
+.\unsetbox(0.0+0.0)x37.49763
+.\glue(\tabskip) 0.0 plus 1.0fill
+.\unsetbox(0.0+0.0)x41.5027
+.\glue(\tabskip) 0.0
+
+[4 <./fig4_combined.png> <./fig5.1_SC.png> <./fig5.2_SC_wide.png> <./fig6_IBS.p
+ng>]
+Underfull \hbox (badness 2495) in paragraph at lines 238--239
+ []\OT1/ptm/m/n/9 Senichev, Y.V., Chechenin, A.N. The-ory of \Res-o-nant"
+
+\hbox(6.1379+1.94843)x244.22952, glue set 2.92577
+.\glue(\leftskip) 18.99393
+.\hbox(6.1379+1.40395)x0.0
+..\glue 0.0
+..\glue -14.99393
+..\glue -4.0
+..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
+...\pdfcolorstack 0 push {0 g 0 G}
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\penalty 10000
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted -10.5
+.....\pdfdest name{cite.b2} xyz
+.....\penalty 10000
+...\OT1/ptm/m/n/9 [
+...\OT1/ptm/m/n/9 2
+...\OT1/ptm/m/n/9 ]
+...\pdfcolorstack 0 pop
+..\glue 4.0
+.\penalty 0
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 e
+.\kern-0.225
+.\OT1/ptm/m/n/9 v
+.\kern-0.58492
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 Y
+.\kern-1.16093
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 V
+.\kern-1.16093
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 C
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 A
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 N
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 T
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 e
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 y
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 f
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 \
+.\OT1/ptm/m/n/9 R
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 s
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 o
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 "
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 238--239
+ \OT1/ptm/m/n/9 lat-tices for syn-chrotrons with neg-a-tive mo-men-tum com-
+
+\hbox(6.1379+1.94843)x244.22952, glue set 2.93826
+.\glue(\leftskip) 18.99393
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 t
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 s
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 f
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 r
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 y
+.\OT1/ptm/m/n/9 n
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 s
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 w
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 h
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 e
+.\kern-0.13492
+.\discretionary replacing 2
+..\OT1/ptm/m/n/9 g
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 g
+.\kern-0.04495
+.\OT1/ptm/m/n/9 a
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\kern-0.225
+.\OT1/ptm/m/n/9 v
+.\kern-0.13492
+.\OT1/ptm/m/n/9 e
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 o
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 n
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 m
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 m
+.\discretionary
+.\OT1/ptm/m/n/9 -
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 239--240
+ \OT1/ptm/m/n/9 magneto-optical lat-tices with con-trolled mo-men-tum com-
+
+\hbox(6.1379+1.94843)x244.22952, glue set 2.66731
+.\glue(\leftskip) 18.99393
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 g
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 -
+.\discretionary
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 p
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 l
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 t
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 s
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 w
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 h
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 n
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 d
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 o
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 n
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 m
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 m
+.\discretionary
+.\OT1/ptm/m/n/9 -
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+ []\OT1/ptm/m/n/9 Kolokolchikov, S.D., Senichev, Y.V. Magneto-Optical
+
+\hbox(6.1379+1.94843)x244.22952, glue set 4.9675
+.\glue(\leftskip) 18.99393
+.\hbox(6.1379+1.40395)x0.0
+..\glue 0.0
+..\glue -14.99393
+..\glue -4.0
+..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
+...\pdfcolorstack 0 push {0 g 0 G}
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\penalty 10000
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted -10.5
+.....\pdfdest name{cite.b4} xyz
+.....\penalty 10000
+...\OT1/ptm/m/n/9 [
+...\OT1/ptm/m/n/9 4
+...\OT1/ptm/m/n/9 ]
+...\pdfcolorstack 0 pop
+..\glue 4.0
+.\penalty 0
+.\OT1/ptm/m/n/9 K
+.\kern-0.31499
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 k
+.\kern-0.09
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 k
+.\kern-0.09
+.\OT1/ptm/m/n/9 o
+.\kern-0.13492
+.\OT1/ptm/m/n/9 v
+.\kern-0.58492
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 D
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 e
+.\kern-0.225
+.\OT1/ptm/m/n/9 v
+.\kern-0.58492
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 Y
+.\kern-1.16093
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 V
+.\kern-1.16093
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 M
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 g
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 -
+.\discretionary
+.\OT1/ptm/m/n/9 O
+.\OT1/ptm/m/n/9 p
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 l
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 240--241
+ \OT1/ptm/m/n/9 Struc-ture of the NICA Col-lider with High Tran-si-tion
+
+\hbox(6.1379+1.94843)x244.22952, glue set 3.79048
+.\glue(\leftskip) 18.99393
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 c
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 e
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 f
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 e
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 N
+.\OT1/ptm/m/n/9 I
+.\OT1/ptm/m/n/9 C
+.\OT1/ptm/m/n/9 A
+.\glue 2.25 plus 1.34863 minus 0.54051
+.\OT1/ptm/m/n/9 C
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 l
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 d
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 r
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 w
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 h
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 H
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 g
+.\OT1/ptm/m/n/9 h
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 T
+.\kern-0.31499
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 n
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 i
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 n
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+ \OT1/ptm/m/n/9 En-ergy, \OT1/ptm/m/it/9 Phys. Atom. Nu-clei \OT1/ptm/b/n/9 84\
+OT1/ptm/m/n/9 , 1734{1742 (2021).
+
+\hbox(6.20096+1.94843)x244.22952, glue set 4.75826
+.\glue(\leftskip) 18.99393
+.\OT1/ptm/m/n/9 E
+.\OT1/ptm/m/n/9 n
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 r
+.\kern-0.16194
+.\OT1/ptm/m/n/9 g
+.\OT1/ptm/m/n/9 y
+.\kern-0.58492
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/it/9 P
+.\OT1/ptm/m/it/9 h
+.\OT1/ptm/m/it/9 y
+.\OT1/ptm/m/it/9 s
+.\OT1/ptm/m/it/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/it/9 A
+.\OT1/ptm/m/it/9 t
+.\OT1/ptm/m/it/9 o
+.\OT1/ptm/m/it/9 m
+.\OT1/ptm/m/it/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/it/9 N
+.\OT1/ptm/m/it/9 u
+.\discretionary
+..\OT1/ptm/m/it/9 -
+.\OT1/ptm/m/it/9 c
+.\OT1/ptm/m/it/9 l
+.\OT1/ptm/m/it/9 e
+.\OT1/ptm/m/it/9 i
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/b/n/9 8
+.\OT1/ptm/b/n/9 4
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 7
+.\OT1/ptm/m/n/9 3
+.\OT1/ptm/m/n/9 4
+.\OT1/ptm/m/n/9 {
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 7
+.\OT1/ptm/m/n/9 4
+.\OT1/ptm/m/n/9 2
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 (
+.\OT1/ptm/m/n/9 2
+.\OT1/ptm/m/n/9 0
+.\OT1/ptm/m/n/9 2
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 )
+.\OT1/ptm/m/n/9 .
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 242--243
+ []\OT1/ptm/m/n/9 D. M[]ohl, \OT1/ptm/m/it/9 Nu-clear In-stru-ments and Meth-od
+s in Physics
+
+\hbox(6.1604+1.85844)x244.22952, glue set 2.91165
+.\glue(\leftskip) 18.99393
+.\hbox(6.1379+1.40395)x0.0
+..\glue 0.0
+..\glue -14.99393
+..\glue -4.0
+..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
+...\pdfcolorstack 0 push {0 g 0 G}
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\penalty 10000
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted -10.5
+.....\pdfdest name{cite.b6} xyz
+.....\penalty 10000
+...\OT1/ptm/m/n/9 [
+...\OT1/ptm/m/n/9 6
+...\OT1/ptm/m/n/9 ]
+...\pdfcolorstack 0 pop
+..\glue 4.0
+.\penalty 0
+.\OT1/ptm/m/n/9 D
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 M
+.\kern 0.75153 (for accent)
+.\hbox(5.60698+0.0)x2.99696, shifted -0.045
+..\OT1/ptm/m/n/9 ^^?
+.\kern -3.74849 (for accent)
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/it/9 N
+.\OT1/ptm/m/it/9 u
+.\discretionary
+..\OT1/ptm/m/it/9 -
+.\OT1/ptm/m/it/9 c
+.\OT1/ptm/m/it/9 l
+.\OT1/ptm/m/it/9 e
+.\OT1/ptm/m/it/9 a
+.\OT1/ptm/m/it/9 r
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/it/9 I
+.\OT1/ptm/m/it/9 n
+.\discretionary
+..\OT1/ptm/m/it/9 -
+.\OT1/ptm/m/it/9 s
+.\OT1/ptm/m/it/9 t
+.\OT1/ptm/m/it/9 r
+.\OT1/ptm/m/it/9 u
+.\discretionary
+..\OT1/ptm/m/it/9 -
+.\OT1/ptm/m/it/9 m
+.\OT1/ptm/m/it/9 e
+.\OT1/ptm/m/it/9 n
+.\OT1/ptm/m/it/9 t
+.\OT1/ptm/m/it/9 s
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/it/9 a
+.\OT1/ptm/m/it/9 n
+.\OT1/ptm/m/it/9 d
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/it/9 M
+.\OT1/ptm/m/it/9 e
+.\OT1/ptm/m/it/9 t
+.\OT1/ptm/m/it/9 h
+.\discretionary
+..\OT1/ptm/m/it/9 -
+.\OT1/ptm/m/it/9 o
+.\OT1/ptm/m/it/9 d
+.\OT1/ptm/m/it/9 s
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/it/9 i
+.\OT1/ptm/m/it/9 n
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/it/9 P
+.\OT1/ptm/m/it/9 h
+.\OT1/ptm/m/it/9 y
+.\OT1/ptm/m/it/9 s
+.\OT1/ptm/m/it/9 i
+.\OT1/ptm/m/it/9 c
+.\OT1/ptm/m/it/9 s
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+ \OT1/ptm/m/it/9 Re-search \OT1/ptm/b/n/9 A 391 \OT1/ptm/m/n/9 (1997), 164-171 
+[][]doi:10.1016/S0168-
+
+\hbox(6.20096+1.59741)x244.22952, glue set 4.6527
+.\glue(\leftskip) 18.99393
+.\OT1/ptm/m/it/9 R
+.\OT1/ptm/m/it/9 e
+.\discretionary
+..\OT1/ptm/m/it/9 -
+.\OT1/ptm/m/it/9 s
+.\OT1/ptm/m/it/9 e
+.\OT1/ptm/m/it/9 a
+.\OT1/ptm/m/it/9 r
+.\kern-0.33301
+.\OT1/ptm/m/it/9 c
+.\kern-0.13492
+.\OT1/ptm/m/it/9 h
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/b/n/9 A
+.\glue 2.25 plus 1.34863 minus 0.54051
+.\OT1/ptm/b/n/9 3
+.\OT1/ptm/b/n/9 9
+.\OT1/ptm/b/n/9 1
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 (
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 9
+.\OT1/ptm/m/n/9 9
+.\OT1/ptm/m/n/9 7
+.\OT1/ptm/m/n/9 )
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 6
+.\OT1/ptm/m/n/9 4
+.\OT1/ptm/m/n/9 -
+.\discretionary
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 7
+.\OT1/ptm/m/n/9 1
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/I/C[0 1 1]} action user{/Subtype/Li
+nk/A<</Type/Action/S/URI/URI(https://doi.org/10.1016/S0168\ETC.}
+.\pdfcolorstack 0 push {0 0 1 rg 0 0 1 RG}
+.\OT1/ptm/m/n/9 d
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 :
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 0
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 0
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 6
+.\OT1/ptm/m/n/9 /
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 0
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 6
+.\OT1/ptm/m/n/9 8
+.\OT1/ptm/m/n/9 -
+.\discretionary
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 245--246
+ []\OT1/ptm/m/n/9 Yu. Senichev, The ad-vanced HESR lat-tice for im-proved
+
+\hbox(6.1379+1.94843)x244.22952, glue set 2.58829
+.\glue(\leftskip) 18.99393
+.\hbox(6.1379+1.40395)x0.0
+..\glue 0.0
+..\glue -14.99393
+..\glue -4.0
+..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
+...\pdfcolorstack 0 push {0 g 0 G}
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\penalty 10000
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted -10.5
+.....\pdfdest name{cite.b9} xyz
+.....\penalty 10000
+...\OT1/ptm/m/n/9 [
+...\OT1/ptm/m/n/9 9
+...\OT1/ptm/m/n/9 ]
+...\pdfcolorstack 0 pop
+..\glue 4.0
+.\penalty 0
+.\OT1/ptm/m/n/9 Y
+.\kern-0.999
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 e
+.\kern-0.225
+.\OT1/ptm/m/n/9 v
+.\kern-0.58492
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 T
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 e
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 d
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 v
+.\kern-0.225
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 d
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 H
+.\OT1/ptm/m/n/9 E
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 R
+.\glue 2.25 plus 1.34863 minus 0.54051
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 t
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 e
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 f
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 r
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 m
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 p
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 o
+.\kern-0.13492
+.\OT1/ptm/m/n/9 v
+.\kern-0.13492
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 d
+.\glue(\rightskip) 0.0
+
+No file Dual.bbl.
+[5] (./Dual.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+Package rerunfilecheck Info: File `Dual.out' has not changed.
+(rerunfilecheck)             Checksum: 42F931B077B65C2C4C39683F0FDD006F;1701.
+ ) 
+Here is how much of TeX's memory you used:
+ 21170 strings out of 474116
+ 380029 string characters out of 5743682
+ 1976187 words of memory out of 5000000
+ 43208 multiletter control sequences out of 15000+600000
+ 582824 words of font info for 89 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 88i,18n,94p,950b,995s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
+ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
+2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
+24/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024
+/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on Dual.pdf (5 pages, 851894 bytes).
+PDF statistics:
+ 268 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+

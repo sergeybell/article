@@ -1,0 +1,182 @@
+\documentclass[a4paper]{jpconf}
+\usepackage[cp1252]{inputenc}
+\usepackage{iopams}
+\usepackage{makecell}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\lapki}[1]{``#1''}%%%{\textquotedblleft#1\textquotedblright}
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+  
+\begin{document}
+\title{Spin coherence and betatron chromaticity of deuteron beam in NICA storage ring}
+
+\author{S~Kolokolchikov$^3$, A Aksentyev$^1$, A Melnikov$^{1,2}$, Y Senichev$^1$}
+
+\address{$^1$Institute for Nuclear Research of the Russian Academy of Sciences, Moscow, Russia,\\
+	$^2$Landau Institute of Theoretical Physics, Chernogolovka, Russia,\\
+	$^3$International Union of Pure and Applied Physics, Switzerland}
+
+\ead{sergey.bell13@gmail.com}
+
+\begin{abstract}
+A distinctive feature of the "Quasi-Frozen Spin" mode in the synchrotron is the installation of special elements with both electrical and magnetic fields on straight sections that compensate spin rotation from MDM on arcs. Moreover, due to the presence of the longitudinal emittance and the momentum spread inside the beam, spin rotation may occur incoherently. In order to suppress this effect, sextupoles are installed, which also affect the suppression of chromaticity.
+\end{abstract}
+
+\section{Introduction}
+
+The possibility of spin control for Electric Dipole Moment (EDM) experiment can be done by setting Wien Filters in straight ByPass sections, which ensure that the particles spin retains mean direction in accordance with "Quasi-Frozen Spin" mode.
+However, the spin of different particles, due to their different motion in 3D space, in any case rotates with
+slightly different frequencies around the invariant axis and violates spin coherence. To ensure spin
+coherence, nonlinear elements, sextupoles, with a special placement on arcs must be used. Since sextupoles
+simultaneously affect the betatron chromaticity, we consider this complicated case.
+
+\section{Quasi-Frozen Spin}
+
+\par T-BMT equations describe the evolution of $\vec{S}$ -- spin-vector over time in particle rest frame in $\vec{E}, \vec{B}$ fields in laboratory frame\cite{FS}:
+
+\begin{align} \label{eq:T-BMT}
+\frac{{d \vec{S}}}{d t} &=\vec{S} \times\left(\vec{\Omega}_{MDM}+\vec{\Omega}_{EDM}\right), \nonumber\\
+\vec{\Omega}_{MDM}&=\frac{q}{m \gamma}\left\{(\gamma G+1)\vec{B}_{\perp}+(G+1)\vec{B}_{\parallel}-\left(\gamma G+\frac{\gamma}{\gamma+1}\right) \frac{\vec{\beta} \times \vec{E}}{c}\right\}, \\
+\vec{\Omega}_{EDM}&=\frac{q \eta}{2 m}\left(\vec{\beta} \times \vec{B}+\frac{\vec{E}}{c}\right), \quad G=\frac{g-2}{2},\nonumber
+\end{align}
+
+\par where $\vec{\Omega}_{MDM}, \vec{\Omega}_{EDM}$ -- angular frequencies caused by MDM (magnetic dipole moment) \& EDM (electric dipole moment); $q, m, G$ -- charge, mass and magnetic anomaly; $\beta$ -- normalised velocity; $\gamma$ -- Lorentz-factor; $d =~\eta \frac{q}{2mc}s$, $d$ -- EDM factor, $s$ -- spin.
+
+\par As it can be seen from Eq.~\ref{eq:T-BMT} for EDM search it is necessary to lower the impaction from MDM. But NICA has purely magnetic arcs. Thus, it can not be used "Frozen Spin" Method \cite{FS}. Wien Filters implemented in the straight section compensate rotation via MDM in arc and realise a "Quasi-Frozen Spin" condition for deutrons \cite{QFS}. For this purpose, NICA needs a modernisation to operate as a storage ring with alternative straight sections by using ByPass channels \cite{ByPass}.
+
+\section{SPIN TUNE DECOHERENCE EFFECTS}
+
+\par If we follow T-BMT Eq.~(\ref{eq:T-BMT}) spin-tunes in $E, B$ fields are given by the expressions:
+
+\begin{align}\label{eq:spintune}
+v_s^B  &= \gamma G, \\
+v_s^E  &= \frac{G+1}{\gamma}-G \gamma \nonumber.
+\end{align}
+
+\subsection{An Equilibrium Level Energy Shift}
+
+\par But different particles have different momentum, and there is a need to use effective energy:
+
+\begin{align}\label{eq:gamma_eff}
+\gamma_{eff} = \gamma_{s}+\beta_{s}^2 \gamma_{s} \Delta \delta_{e q}
+\end{align}
+
+\par The equilibrium momentum spread due to the betatron motion and non-zero second order momentum compaction factor based on synchronous principle \cite{Decoherence} and define by:
+
+\begin{align}
+\label{eq:delta_eq}
+\Delta \delta_{e q}=\frac{\gamma_s^2}{\gamma_s^2 \alpha_0-1} \left[\frac{\delta_0^2}{2}\left(\alpha_1+\frac{3}{2} \frac{\beta_s^2}{\gamma_s^2}-\frac{\alpha_0}{\gamma_s^2}+\frac{1}{\gamma_s^4}\right)+\left(\frac{\Delta L}{L}\right)_\beta\right],
+\end{align}
+for betatron orbit lengthening term:
+
+\begin{align}\label{eq:delta_L/L_beta}
+\left(\frac{\Delta L}{L}\right)_\beta=-\frac{\pi}{L_0}\left[\varepsilon_x \nu_x+\varepsilon_y \nu_y\right]
+\end{align}
+
+\par where index $s$ means synchronous particle, $\varepsilon_x, \varepsilon_y$ -- emittances, $\nu_x, \nu_y$ -- tunes, $\delta_0$ -- relative momentum deviation, $\alpha_0, \alpha_1$ -- two first orders of momentum compaction factor.
+
+\par Equation \ref{eq:spintune} together with Eqs. (\ref{eq:gamma_eff}-\ref{eq:delta_L/L_beta}) show that spin-tune spread depends on the equilibrium energy level of the particle.
+
+\subsection {Orbit Lengthening and Betatron Chromaticity}
+
+\par More formal theory implies the interaction of external (sextupole) field. Taking into account the expression for total orbit lengthening from \cite{Lengthening}:
+
+\begin{align}\label{eq:delta_C}
+\Delta C_{\Sigma}=- \pi\left(\varepsilon_x \xi_x+ \varepsilon_y \xi_y\right)+\delta_0\left(\alpha_0+\alpha_1 \delta_0+\ldots\right),
+\end{align}
+
+\par where $\xi_x, \xi_y$ - chromaticities. If we compare Eq.~\ref{eq:delta_C} with Eqs.~\ref{eq:delta_eq}, \ref{eq:delta_L/L_beta}, it can be noticed that orbit length is closely connected with equilibrium energy level.
+
+\section{SEXTUPOLE CORRECTION}
+
+\par As a result Eqs.~\ref{eq:delta_eq}, \ref{eq:delta_C} show that using sextupoles can influence $\Delta\nu_{s}$ and allow to get spin coherence. Such experiments were made at COSY to get SCT at the level of 1000~s. \cite{COSY}
+
+\par Sextupoles located in non-zero dispersion regions. Usually, in minimum/maximum of dispersion $D_{x, y}$ and  beta $\beta_{x, y}$ functions for the most impact. Twiss-functions of NICA arc are regular and can be seen at Fig.~\ref{fig:ARC} \cite{OptiM}. Dispersion is suppressed with missing magnets at the edges.
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=0.951\columnwidth]{fig1}
+   \caption{Twiss-functions in OptiM of ByPass NICA arc for deuteron mode. Also shown sextupole families arrangement.}
+   \label{fig:ARC}
+\end{figure}
+
+\subsection{Betatron Chromaticity}
+
+\par For betatron chromaticity correction used only 2 families of sextupoles:
+one near focusing, other - defocusing quadrupoles. 
+
+Natural chromaticity of ByPass NICA Storage Ring is $\nu_{x,y} = -17/-17$. After optimization, can monitor spin-tune at Fig.~\ref{fig:spintunes}: red line shows natural chromaticity, blue one - corrected. For this case also made spin tracking during $3\times10^{6}$ turns for particles with different initial deviation in $x,y,d$ -- coordinates and initial spin orientation $\vec{S}_{0}$ at an angle of 45 degrees in $y$-$z$ plane Fig.~\ref{fig:STincoherence} \cite{COSYINF}.
+
+\begin{figure*}[!h]
+   \centering
+   \includegraphics*[width=0.314\textwidth]{fig2}
+   \includegraphics*[width=0.310\textwidth]{fig3}
+   \includegraphics*[width=0.314\textwidth]{fig4}
+   \caption{Spin-tune dependance from x, y, d -- coordinates for various optimization cases. NC -- natural chromaticity (red line); BC -- zero (betatron) chromaticity (blue dotted line); SC -- spin coherence (green line); BC$\underline {\hspace{0.2cm}}$$\alpha$ --  zero chromaticity and zero $\alpha_{1}$ (violet line); BC$\underline {\hspace{0.2cm}}$$\eta$ -- zero chromaticity and zero $\eta_{1}$ (light blue line).}
+   \label{fig:spintunes}
+\end{figure*}
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=0.87\columnwidth]{fig5}
+   \caption{Spin Tracking for particles with various initial deviation in $x, y, d$ -- coordinates using 2 sextupole families to get zero betatron chromaticity.}
+   \label{fig:STincoherence}
+\end{figure}
+
+\subsection{Spin Coherence}
+
+\par To get spin coherence, considered pure spin-tune. COSY Infinity can not operate near zero-value of spin-tune.
+It can cause an error due to resonant denominators, thus let the spin precess with $\nu_{s}\sim10^{-4}$, but require to do it synchronously -- coherent.
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=0.87\columnwidth]{fig6}
+   \caption{Spin Tracking for particles with various initial deviation in $x, y, d$ -- coordinates using 3 sextupole families to get spin coherence.}
+   \label{fig:STcoherence}
+\end{figure}
+
+Main parameter is the spin-tune which depend on coordinates and energy. It can be seen that the dominant component is quadratic term in the expansion of the spin-tune in Fig.~\ref{fig:spintunes} for non-corrected cases, both: natural and correct chromaticity. For this reason sextupoles can be selected in other way, just to get spin coherence.
+
+\par As we can see, from Eqs.~\ref{eq:delta_eq}, \ref{eq:delta_C}, it is not enough to use 2 families, thus 3d family used to influence energy coordinate. But, in regular $\beta, D$-functions don't allow to use 3 linear independent famalies. Figure~\ref{fig:ARC} shows sextupole arrangement of families: SF1, SF2, SD. In this method we don't influence on $\beta$-chromaticity, just monitor the main value $\nu_{x,y} = -13/-18$. It is not enough for stable orbital motion. For this case, it can be seen that spin coherence achieved - there is no dependance of coordinates/energy (Fig.~\ref{fig:spintunes}: green line). Tracking results confirm this Fig.~\ref{fig:STcoherence}, the spin-tune switched up to the $\nu_{s} \sim 10^{-7}$ and considered $3\times10^{6}$ turns or $\sim3$ seconds. Particles with different initial deviation precess with the same spin-tune. But in this case maximum of sextupole coefficient is huge and can cause non-linear effects (Table.~\ref{Params}).
+
+\subsection{$\alpha_{1}/\eta_{1}$ Correction}
+
+\par As we can see, pure betatron chromaticity correction did not allow us to get zero spin-tune spread. Simultaneously, getting spin coherence by suppressing quadratic term of spin-tune expansion did not suppress chromaticity.
+\par This bring us back at Eq.~\ref{eq:delta_C}. Term $\delta_{0} \alpha_{0}$ can be averaged using RF for mixing $\langle\delta_{0}\rangle \alpha_{0} \approx 0$. Thus, to make a zero orbit lengthening, chromaticities must be correct $\xi_x, \xi_{y}$ together with $\alpha_{1}$ to zero value. It is also possible using 3 sextupole families. But still did not allow to get spin coherence. Fig.~\ref{fig:spintunes} (violet line) shows the non-zero spin-tune dependance from coordinates.
+\par Same occurs if we follow Eq.~\ref{eq:delta_eq} and suppress $\eta_{1}$ together with chromaticity correction (Fig.~\ref{fig:spintunes}). Moreover maximum of sextupole filed is too strong and can not be realised (Table.~\ref{Params}).
+
+\begin{table*}[!t]
+    \setlength{\tabcolsep}{3pt}
+    \renewcommand{\arraystretch}{1.3}
+    \centering
+     \caption{Main parameters for different types of optimizations.}
+    \begin{tabular}{lccccc}
+    \hline
+        \textbf{Optimization} & \textbf{\specialcell{No\\ optimization}} & \textbf{Chromaticity} & \textbf{\specialcell{Spin\\ Coherence}} & \textbf{\specialcell{Chromaticity\\ + $\alpha_1$}} & \textbf{\specialcell{Chromaticity\\ + $\eta_{1}$}} \\ 
+        \hline
+        Tunes & $-17/-17$ & $0/0$ & $-13/-18$ & $0/0$ & $0/0$ \\ 
+        $\alpha_{1}$ & $0.2$ & $-0.4$ & $-0.37\cdot10^{-2}$ & $\sim -10^{-12}$ & $-0.85$ \\ 
+        quad$K_x$ & $-0.16\cdot10^{-1}$ & $0.55\cdot10^{-1}$ &  $0.27\cdot10^{-13}$ & $0.55\cdot10^{-1}$ & $0.56\cdot10^{-1}$ \\ 
+        quad$K_y$ & $0.51\cdot10^{-2}$ & $0.76\cdot10^{-1}$ & $-0.12\cdot10^{-12}$ & $0.78\cdot10^{-1}$ & $0.78\cdot10^{-1}$ \\ 
+        quad$K_z$ & $-0.43\cdot10^{-1}$ & $0.20\cdot10^{-1}$ & $0.13\cdot10^{-12}$ & $0.13\cdot10^{-1}$ & $1.6\cdot10^{-1}$ \\ 
+        \specialcell{Sextupole \\ families} & No sextupoles & 2 & 3 & 3 & 3 \\ 
+        \specialcell{Max. sextupole \\ coefficient, $m^{-3}$} & $-$ & $2.7$ & $19.4$ & 4.9 & 104.2 \\ \hline
+    \end{tabular}
+    \label{Params}
+\end{table*}
+
+\section{CONCLUSION}
+\par As a result, considered the phenomenon of spin decoherence simultaneously with betatron chromaticity at the ByPass NICA Storage Ring. It operates in "Quasi-Frozen Spin" Mode and can be used for dEDM experiments. 
+\par Different cases of sextupoles optimization were considered. Quadratic terms of spin-tune expansion are the most valuable and represent the dependence on coordinates. All the main parameters that were monitored are shown in Table~\ref{Params}.
+The research shows that it is not possible to use 3 sextupoles families in regular structure to achieve both betatron chromaticities and get spin coherence. Moreover, maximum value of sextupole coefficient not satisfactory and can cause non-linear instabilities.
+
+\par It is worth noted that regular dispersion function on the arc did not allow to locate 3 linear independent families, as they are placed in the same minimum/maximum of $\beta, D$ - functions.
+But it can be possible to modulate dispersion function in such way to get 3 linear independent sextupole families.
+Also one of the possible problem decisions is using cooled beam at the level of ${dp}/{p}\sim10^{-5}$. This can help to minimize $\gamma$-effective and finally get spin coherence simultaneously with corrected betatron chromaticity.
+
+\section*{References}
+\bibliographystyle{iopart-num}
+\bibliography{ChromKolokolchikov}
+
+\end{document}

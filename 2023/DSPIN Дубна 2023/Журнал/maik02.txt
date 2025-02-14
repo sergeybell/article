@@ -1,0 +1,555 @@
+
+Общие правила оформления статей в формате LaTeX 2e, представляемые в журналы,
+  издаваемые Международной академической издательской компанией
+                      "Наука/Интерпериодика"
+
+                    http://www.maik.ru/pub/tex/
+
+                     Версия 0.2 от 29.11.2001
+
+Редакции принимают к публикации статьи подготовленные в текущей
+версии LaTeX 2e; при этом в редакцию одновременно с распечаткой
+статьи на бумаге предоставляются также соответствующие файлы:
+TeX-файл(ы), rty-файл и файлы с рисунками.
+
+При подготовке статьи используется класс REVTeX 4, разработанный
+
+American Physical Society http://publish.aps.org/revtex4/,см. также
+
+ftp://ftp.chg.ru/pub/CTAN/macros/latex/contrib/supported/revtex/
+
+или
+
+ftp://ftp.radio-msu.net/pub/CTAN/tex-archive/macros/latex/contrib/supported/revtex/
+
+или на любом другом зеркале CTAN (www.ctan.org).
+
+и дополнительные пакеты:
+
+ftp://ftp.chg.ru/pub/CTAN/macros/latex/contrib/supported/natbib/
+
+ftp://ftp.chg.ru/pub/CTAN/macros/latex/contrib/supported/t2/etc/mathtext.sty;
+
+ftp://ftp.chg.ru/pub/CTAN/macros/latex/contrib/supported/moreverb/
+
+ftp://ftp.chg.ru/pub/CTAN/macros/latex/contrib/other/misc/url.sty
+
+ftp://ftp.chg.ru/pub/CTAN/macros/latex/contrib/supported/caption/caption2.sty
+
+Все указанные пакеты можно получить на нашем сайте http://www.maik.ru/pub/tex/macros/
+
+Необходимый набор файлов в архивированном виде:
+
+maik.zip --- пакет MAIK, пример и данное описание (0.8 MB);
+
+extras.zip --- дополнительные пакеты (0.1 MB);
+
+revtex4.zip --- класс REVTeX 4 (0.96 MB).
+
+revtex4.tar.gz --- класс REVTeX 4 (0.96 MB).
+
+Если к Вашей TeX-системе уже подключен класс REVTeX 4 и дополнительные пакеты,
+то достаточно скачать файл maikmin.zip (36 KB), содержащий файлы: maik02.txt, maik.rty,
+maiksamp.rty, maiksamp.tex, fig_1.eps, fig_2.eps, maikbibl.tex, maikbibl.rty, maikbibl.bib.
+
+Описание класса REVTeX 4 содержится в документах, входящих в состав
+поставки класса. Эти документы следует изучить для правильного
+оформления файла со статьей (см. pdf-файлы из revtex4.zip).
+
+Файлы PostScript и TeX-файлы с описаниями класса REVTeX 4 находятся по адресу:
+
+http://publish.aps.org/revtex4/
+
+APS Compuscript Guide for REVTeX 4
+
+REVTeX 4 Author's Guide
+
+Differences between REVTeX 4 and REVTeX 3
+
+REVTeX 4 Command and Options Summary
+
+Эти файлы доступны на нашем сайте в директории
+
+http://www.maik.ru/pub/tex/macros/aps/
+
+
+Для статей на русском языке используется стандартная русификация и LH-шрифты,
+включенные в состав пакета LaTeX 2e.
+
+КОДИРОВКА TEX-файлов CP866 (альтернативная)!
+
+Используемые в настоящее время для обработки авторских файлов
+версии компонентов LaTeX 2e соответствуют версиям файлов,
+включенным в текущий дистрибутив MikTeX:
+
+ftp://ftp.chg.ru/pub/CTAN/systems/win32/miktex/
+
+Включена русская таблица переносов в файле:
+
+\texmf\tex\generic\config\language.dat ,
+
+где присутствуют строки:
+
+russian ruenhyph.tex    % note: edit ruhyphen.tex for your encoding!
+=russian
+
+форматный файл LaTeX'2e пересобран с данной объединенной
+русско-английской таблицей переносов.
+
+Шаблон файла paper.tex со статей имеет вид:
+
+%
+% paper.tex, <имя, отчество фамилия контактного лица>, e-mail
+%
+\documentclass[
+aps,%
+12pt,%
+final,%
+notitlepage,%
+oneside,%
+onecolumn,%
+nobibnotes,%
+nofootinbib,% В текущей версии REVTeX c этой опцией
+%             не работают сноски (footnotes) в таблицах.
+superscriptaddress,%
+noshowpacs,%
+centertags]%
+{revtex4}
+\begin{document}
+\selectlanguage{russian} % Для  статьи на русском языке
+%\selectlanguage{english} % Для статьи на английском языке
+%
+\title{...}
+%
+\author{\firstmame{...} \surname{...}}
+%\email[]{Your e-mail address}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{...}
+%
+\author{\firstmame{...} \surname{...}}
+%\email[]{Your e-mail address}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\noaffiliation
+%
+\begin{abstract}
+.................
+\end{abstract}
+%
+\maketitle
+%
+\section{...}
+...........................
+\subsection{}
+...........................
+\newpage
+\begin{thebibliography}{99}
+\bibitem{1}
+\refitem{...}
+...........................
+\bibitem{2}
+\refitem{...}
+...........................
+\end{thebibliography}
+%
+\newpage
+%
+% Для статей на русском языке далее следуют
+% на английском языке название статьи, список авторов и краткая аннотация.
+%
+\selectlanguage{english}
+\begin{center}
+\large \bfseries \MakeTextUppercase{%
+English name of paper
+}
+\end{center}
+%
+\begin{center}
+\bfseries
+Authors
+%I.~I.~Ivanov, A.~E.~Petrov, L.~V.~Sidorov, A.~Smith
+}%
+\end{center}
+%
+\begin{center}
+\begin{minipage}{\textwidth - 2cm}
+\small
+Abstract in English.
+\end{minipage}
+\end{center}
+\selectlanguage{russian}
+%
+\newpage
+%
+%%++ Figure:1
+\begin{figure}
+\includegraphics{fig1.eps}
+\caption{....}
+\end{figure}
+%
+\newpage
+%
+%%++ Figure:2
+\begin{figure}
+\includegraphics{fig2.eps}
+\caption{....}
+\end{figure}
+%
+\newpage
+%
+%%++ Table:1
+\begin{table}
+\caption{....}
+\bigskip
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+...............
+\end{tabular}
+\end{table}
+%
+\newpage
+%%++ Table:2
+\begin{table}
+\caption{....}
+\bigskip
+\begin{tabular}{|c|c|c|c|c|c|c|}
+...............
+\end{tabular}
+\end{table}
+%
+......................
+%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Character code reference %%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                             %
+%     Upper case russian letters (CP866): АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ   %                                                                       %
+%     Lower case russian letters (CP866): абвгдеёжзийклмнопрстуфхцчшщъыьэюя   %
+%                     Upper case letters: ABCDEFGHIJKLMNOPQRSTUVWXYZ          %
+%                     Lower case letters: abcdefghijklmnopqrstuvwxyz          %
+%                                   Digits: 0123456789                        %
+% Square, curly, angle braces, parentheses: [] {} <> ()                       %
+%                Backslash, slash, solidus: \ / |                             %
+%       Period, interrogative, exclamation: . ? !                             %
+%                 Comma, colon, semi-colon: , : ;                             %
+%          Underscore, hyphen, equals sign: _ - =                             %
+%             Quotes (left, right, double): ` ' "                             %
+%     Commercial-at, hash, dollar, percent: @ # $ %                           %
+%  Ampersand, asterisk, plus, caret, tilde: & * +   ^                         %
+%                                                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Пожалуйста, включайте в свой файл выше приведенные строки
+% c "Character code reference", чтобы была возможность
+% проконтролировать правильность пересылки Вашего файла по e-mail .
+%
+% Конец файла paper.tex
+%
+
+Небольшой файл paper.rty должен присутствовать в той же
+директории, что и TeX-файл со статьей и так же отсылаться в
+редакцию. В этом файле происходит вызов файла maik.rty. В конце
+файла paper.rty перед командой \endinput могут быть помещены
+специфичные для данной статьи макрокоманды. Этот файл должен
+иметь то же название, что и TeX-файл со статьей, но только с
+расширением .rty, его подключение REVTeX 4 производит
+автоматичеcки в процессе компиляции.
+
+Пример файла paper.rty:
+
+%
+% paper.rty
+%
+\input maik.rty
+%\def\refitem#1{\relax}
+\endinput
+%
+% Конец файла paper.rty
+%
+
+Использование rty-файла является особенностью пакета REVTeX 4
+(см. REVTeX 4 Author's Guide, раздел "OTHER REVTeX 4 FEATURES").
+В файле maik.rty подключаются в правильном порядке необходимые
+пакеты LaTex 2e,  пeреопределяются некоторые команды REVTeX 4
+и LaTeX 2e, связанные с оформлением русского варианта статьи
+в МАИК. Не желательно использование пакетов LaTeX 2e отличных
+от включенных в maik.rty.
+
+Это пакеты:
+
+\RequirePackage{amssymb,amsmath}
+\RequirePackage{eufrak}
+\RequirePackage{mathtext}
+\RequirePackage[cp866]{inputenc}
+\RequirePackage[T2A]{fontenc}
+\RequirePackage[russian,english]{babel}
+\RequirePackage{bm}
+\RequirePackage{array}
+\RequirePackage{longtable}
+\RequirePackage{graphicx}
+\RequirePackage{calc}
+\RequirePackage{ifthen}
+\RequirePackage{caption2}
+
+Если же Вы используете дополнительные пакеты,
+то размещайте команды \usepackage в файле paper.tex
+после вызова \input maik.rty .
+
+Например:
+
+%
+% paper.rty
+%
+\input maik.rty
+%\def\refitem#1{\relax}
+\usepackage{dcolumn}
+\usepackage{hhline}
+\endinput
+%
+% Конец файла paper.rty
+%
+
+Не вносите никаких изменений в файл maik.rty.
+Файл maik.rty необходимо разместить в директории
+доступной для поиска TeX-компилятору.
+
+Нумеруемые формулы необходимо выделять в отдельную строку.
+Формулы центрируются. Нумерация только арабскими цифрами в порядке
+возрастания с единицы. Нумеровать следует только те формулы, на
+которые в тексте имеются ссылки. Запрещаются прямые ссылки по
+номеру на формулы из других работ. Запрещается использовать в
+формулах буквы русского алфавита. Если используется аппарат
+ссылок, то желательно не давать ссылкам названий, состоящих из
+слов или сокращений, понятных одному лишь автору; ссылки должны
+быть такими, чтобы при окончательной верстке статьи можно было
+легко найти формулу по ссылке и ссылку на формулу по номеру
+формулы. Например, можно присваивать уравнениям следующие метки:
+\label{eq1}, \label{eq2} и т.д.
+
+Введение авторами сокращений стандартных команд LaTeX 2e недопустимо.
+Использование русских букв в названиях команд и метках недопустимо.
+
+Для набора кавычек "лапок" используйте команды \glqq и \grqq,
+а для кавычек "елочек" --- \flqq и \frqq. Описание этих и других
+макросов зависящих от русского языка см. в [12] страницы 29-30.
+Знак номера вводится командой \No.
+
+Желательно при создании статьи использовать минимально необходимый
+набор стандартных TeX-шрифтов.
+
+Оформление рисунков и таблиц должно быть таким,
+как показано в следующих примерах
+(используется пакет caption2.sty):
+
+\begin{figure*}[t!]
+\setcaptionmargin{5mm}
+%\onelinecaptionsfalse % если подпись к рисунку многострочная
+\onelinecaptionstrue  % если подпись к рисунку однострочная
+\includegraphics{fig2.eps}
+\captionstyle{normal}
+\caption{........}
+\end{figure*}
+
+\begin{table}
+\setcaptionmargin{0mm}
+\onelinecaptionstrue
+\captionstyle{flushleft}
+\caption{Таблица умножения}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+  \hline
+    & 1 & 2 & 3 & 4 & 5 & 6\\
+  \hline
+  1 & 1 & 2 & 3 & 4 & 5 & 6\\
+  2 & 2 & 4 & 6 & 8 & 10 & 12\\
+  3 & 3 & 6 & 9 & 12 & 15 & 18\\ \hline
+\end{tabular}
+\end{table}
+
+Рисунки и таблицы помещаются в конце статьи на отдельных страницах.
+Все рисунки и таблицы должны иметь подписи.
+
+Графичесие файлы представляются в формате TIFF или Encapsulated PostScript (EPS),
+для всех видов рисунков, включая растровую графику.
+ВСЕ используемые в обозначаениях и надписях на данном рисунке PostScript
+шрифты должны быть внедрены в файл. Ширина белых полей по краям рисунка
+не более одного миллиметра. Не используйте bm2font и сложные рисунки,
+выполненные средствами LaTeX.
+
+Для вставки графических файлов используется пакет \usepackage{graphicx}.
+
+Для растровой графики являются оптимальными следующие разрешения:
+для черно-белых рисунков: 600dpi; рисунки с некоторыми цветными или
+полутоновыми линиями: 600 dpi; фотографии: 300 dpi; образы экрана с разрешением
+как есть. Указаны разрешения после масштабирования.
+
+Cписок литературы помещается на отдельной странице с соблюдением оформления
+принятого в конкретном журнале порядка цитирования.
+
+Для конктерного журнала правила оформления могут отличаться!
+
+Для облегчения разбора библиографических ссылок при создании SGML-файлов
+описаний статей в файле maik.rty введена команда \refitem{...}.
+
+\def\refitem#1{\ifthenelse{\boolean{hmode}}{\protect\linebreak}{}%
+\textbackslash refitem\{{\bfseries \itshape #1}\}%
+\ifthenelse{\boolean{hmode}}{\protect\linebreak}{}}%
+
+Команда распечатывает саму себя на отдельной строке для визуального контроля.
+
+В файле paper.rty вставлено закомментированное переопределение этой команды
+
+%\def\refitem#1{\relax}
+
+Убрав % из начала строки, вы подавите вывод команд \refitem при печати файла.
+
+\refitem{article}        --- Статья в журнале.
+\refitem{article;rusjou} --- Русская версия статьи в журнале.
+\refitem{article;prevau} --- Статья в журнале с авторами из предыдущей ссылки на статью.
+\refitem{article;ibid}   --- Статья в том же журнале и с теми же авторами, что и в предыдущей ссылке.
+\refitem{book}           --- Книга (при наличии данных об издательстве).
+\refitem{report}         --- препринты, размещенные в e-PRINT archie (LANL preprint),
+                             см. http://xxx.lanl.gov ; http://xxx.itep.ru ;
+\refitem{url}            --- ссылка на электрoный документ, расположенный в сети Internet,
+                             типа \url{http:/publish.aps.org/revtex4/augide.ps}.
+\refitem{misc}           --- Рекомендуется использовать этот тип, когда никакой другой не подходит,
+                             в том числе для статей еще не вышедших из печати.
+
+Внимание! Каждой ссылке должна предшестовать команда \refitem{...},
+даже если в данном пункте литературы только одна ссылка.
+Пункт в списке литератруры соответствует одной команде \bibitem{}.
+
+Команды \begin{thebibliography}, \refitem{}, \bibitem{}, \end{thebibliography}
+следует располагать на отдельных строках, не содержащих ничего кроме этих команд.
+
+В качестве параметра (метки) в команде \bibitem{} могут
+использоваться любые последовательности из латинских букв и цифр.
+В тексте ссылка на источник делается с помощью команды
+\cite{}. У нее есть обязательный аргумент --- метка того
+источника, на который вы хотите сослаться. Номера ссылок
+генерируются автоматически.
+
+\begin{thebibliography}
+\bibitem{1}
+\refitem{article}
+N.~Cabibbo, Phys. Rev. Lett. \textbf{10}, 531 (1963);
+\refitem{article}
+M.~Kobayashi and T.~Maskawa, Prog. Theor. Phys. \textbf{49}, 652 (1973).
+\bibitem{37:Landsberg_n}%[37]%
+S.~L.~Glashow, J.~Iliopoulos, and L.~Maiani, Phys. Rev. D \textbf{2}, 1285 (1970).
+\bibitem{38:Landsberg_n}%[38]%
+\refitem{article}
+T.~D.~Lee and C.~S.~Wu, Annu. Rev. Nucl. Part. Sci. \textbf{15}, 381 (1965);
+\refitem{article;ibid}
+\textbf{16}, 471 (1966).
+\bibitem{2}
+\refitem{report}
+A.~R.~Barker and S.~H.~Kettell, hep-ex/0009024;
+\refitem{article;prevau}
+Annu. Rev. Nucl. Part. Sci. \textbf{50}, 249 (2000).
+\bibitem{3}
+\refitem{article}
+A.~I.~Va\u{\i}nshte\u{\i}n \emph{et al.}, Pis'ma Zh. \'{E}ksp. Teor. Fiz. \textbf{22}, 123 (1975)
+\refitem{article;rusjou}
+[JETP Lett. \textbf{22}, 55 (1975)];
+\refitem{article;prevau}
+Nucl. Phys. B \textbf{120}, 316 (1977).
+\bibitem{4}
+\refitem{article}
+A.~ Vainshtein, Int. J. Mod. Phys. A \textbf{14}, 4705 (1999).
+\bibitem{5}
+\refitem{article}
+NA-31 Collab. (H. Burkhardt \emph{et al.}), Phys. Lett. B \textbf{206}, 169 (1988);
+\refitem{article}
+NA-31 Collab. (G. D. Barr \emph{et al.}), Phys. Lett. B \textbf{317}, 233 (1993).
+\bibitem{06}
+\refitem{book}
+L.~B.~Okun, \emph{Leptons and Quarks} (Nauka, Moscow, 1990; North-Holland, Amsterdam, 1984);
+\refitem{book}
+L.~B.~Okun, \emph{Particle Physics} (Nauka, Moscow, 1988; Harwood, Chur, 1985).
+\bibitem{7}
+\refitem{article}
+Yu.~R.~Rivin, Int.~J.~Geomagn. Aeron. \textbf{1} (3), (1998);
+\refitem{url}
+\url{http://www.eos.wdcb.rssi.ru/2000/gai99306/gai993096.htm.}
+\end{thebibliography}
+
+Для оформления списка литературы с помощью программы BIBTEX приведен стилевой
+файл maik.bst, полученный из файла apsrev.bst. При использовании maik.bst команды
+\refitem{} генерируются и вставляются автоматически. В качестве параметра команды
+\refitem{} подставляется указатель типа записи в библиографической базе данных
+(см. файл maikbibl.bib).
+
+Однако, BIBTEX не позволяет генерировать несколько ссылок в одном пункте
+библиографии, как принято в некоторых журналах (см., например, \bibitem{1}
+из приведенного выше списка литературы).
+
+Если Вы пользуетесь BIBTEX'ом, то обязательно вместе с файлом
+статьи paper.tex и файлом paper.rty присылайте
+файл c библиографией paper.bbl (результат работы BIBTEX'а).
+
+Название bbl-файла ДОЛЖНО совпадать с названием статьи!
+
+Вопросы, связанные с максимально допустимым объемом статьи, следует согласовывать
+с редакциями журналов.
+
+Как правило, для журнала печатаемого в одну колонку высота и ширина текстового
+поля составляют \textheight=235mm, \textwidth=165mm;
+для журнала печатаемого в две колонки: высота текстового поля \textheight=235mm,
+ширина текстового поля \textwidth=165mm, ширина промежутка между колонками текста
+\columnsep=5mm, таким образом, ширина колонки текста составляет 85mm.
+
+Формулы занимающие по ширине больше одной колонки могут быть разорваны при
+окончательной верстке статьи. Соответственно, будут промасштабированы рисунки.
+
+Убедительная просьба! Перед отсылкой электронной версии убедиться,
+что TeX-файл прошел компиляцию, TeX-файл соответствует содержанию
+бумажной версии статьи, а EPS(TIFF)-файлы отвечают бумажной
+версии рисунков. Если вы пришлете нам dvi и log файлы это может
+помочь нам воспроизвести вашу статью. При отсылке файлов по
+электронной почте (в виде присоединенного файла (файлов)),
+желательно использовать архиваторы InfoZip или gzip. Перед
+отсылкой, пожалуйста, проверьте, что zip-файлы правильно
+распаковываются.
+
+Литература:
+
+1.  REVTeX 4 Author's Guide.
+
+    http://publish.aps.org/revtex4/augide.ps
+
+    Differences between REVTeX 4 and REVTeX 3
+
+    http://publish.aps.org/revtex4/differ.ps
+
+    REVTeX 4 Command and Options Summary
+
+    http://publish.aps.org/revtex4/summary.ps
+
+
+2.  Г. Грэтцер. Первые шаги в LaTeX'е. - М.: Мир, 2000.
+
+3.  С.М. Львовский. Набор и верстка в пакете LaTeX. - М.: Космоинформ, 1995.
+
+4.  Д. Кнут. Все про TeX. - Протвино: AO RDTeX, 1993.
+
+5.  М. Спивак. Восхитительный TeX. - М.: Мир, 1993.
+
+6.  И. Котельников, П. Чеботаев. Издательская система LaTeX 2e. - Новосибирск: Сибирский хронограф, 1998.
+
+7.  М. Гуссенс, Ф. Миттельбах, А. Самарин. Путеводитель по пакету LaTeX. - М.: Мир, 1999.
+
+8.  H. Kopka and P. Daly, A Guide to LaTeX2e, (Addison-Wesley, Reading, MA, 1995).
+
+9.  M. Goossens, S. Rahtz, and F. Mittelbach, The LaTeX 2e Graphics Companion,
+    (Addison-Wesley, Reading, MA, 1997).
+
+10.  Goossens M., Rahtz S. et al., The LaTeX 2e Web Companion:Integrating TeX, HTML and XML.
+    (Addison-Wesley, Reading, MA , 1999).
+
+11. K. Reckdahl, Using Imported Graphics in LaTeX 2e, Version 2.0, 1997.
+    \texmf\doc\latex\graphics\epslatex.pdf
+
+12. J. Braams. Babel, a multilingual package for use with LATEX's
+    standard document class.
+    \texmf\doc\generic\babael\user.dvi

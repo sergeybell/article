@@ -1,0 +1,194 @@
+\documentclass[a4paper]{jpconf}
+\usepackage[cp1252]{inputenc}
+\usepackage{iopams}
+
+\newcommand{\lapki}[1]{``#1''}%%%{\textquotedblleft#1\textquotedblright}
+\begin{document}
+\title{ByPass optics design in NICA storage ring for experiment with polarized beams for EDM search}
+
+\author{S~Kolokolchikov$^4$, A Aksentyev$^1$, A Melnikov$^{1,3}$, Y Senichev$^1$, E Syresin$^2$, V Ladygin$^2$}
+
+\address{$^1$Institute for Nuclear Research of the Russian Academy of Sciences, Moscow, Russia\\
+	$^2$Joint Institute for Nuclear Research, Dubna, Russia,\\
+	$^3$Landau Institute of Theoretical Physics, Chernogolovka, Russia,\\
+	$^4$International Union of Pure and Applied Physics, Switzerland}
+
+\ead{sergey.bell13@gmail.com}
+
+\begin{abstract}
+Experiments with polarized beams for EDM search in the NICA accelerator complex implies the design of an additional ByPass channels. Such alternative channels will make possible to use NICA as a storage ring and get enough statistical data.
+\end{abstract}
+
+\section{Introduction}
+
+\par NICA (Nuclotron-based Ion Collider fAcility) is an accelerator complex, located in Dubna \cite{NICA}.
+And main ring is mainly designed for collision experiments with heavy ions at $4,5$~GeV to study properties of dense baryonic matter as well as for polarized proton beams at $13$~GeV. For these purposes, appropriate SPD and MPD detectors, as well as other
+necessary implements, are installed in the straight sections. 
+
+\par But Electric Dipole Moment (EDM) experiment supposes to use deuterons at the energy of about $240$ MeV. 
+To ensure the \lapki{Quasi-Frozen Spin} mode, E+B elements (namely, Wien Filters) are
+required as well. Such elements can be placed in straight sections to compensate the arc spin rotation. 
+
+\par For EDM measurement experiments, it is necessary to operate the NICA as a Storage Ring, and not in a collider
+mode. To do this, it is proposed to install ByPass channels. Thus, it is possible to create a completely new
+regular structure in a straight section. Creating ByPass channels will make it possible to engage NICA in various
+experiments at once.
+
+
+\section{EDM Search}
+
+\par To measure EDM, it is necessary to develop spin control methods. Spin-vector evolution is described by T-BMT equations \cite{FS}. The consequence of this equations is the \lapki{Frozen Spin} concept. The arcs magneto-optical structure implies the use of deflectors with both an electric and magnetic field. Thus, spin rotation in a magnetic field is compensated by an electric one in one element (similarly for orbital motion). Thus, the spin retains its orientation during the entire time of rotation in the ring. However, the dipoles in the NICA main ring arcs have only the magnetic field component. Implementation of the \lapki{Frozen Spin} concept is impossible in the NICA ring without appropriate modernisation and restructuring.
+
+\subsection{Quasi-Frozen Spin}
+
+\par To carry out EDM search experiment, it becomes necessary to use an alternative spin control method, the concept of \lapki{Quasi-Frozen Spin} \cite{QFS}. Unlike the \lapki{Frozen Spin} method, here the spin does not retain orientation throughout the entire period of circulation, but restores orientation on a straight section. This is possible by using elements with both electric and magnetic fields, which are called Wien Filters. The rotation of the spin in the arc by a certain angle is compensated by the corresponding rotation in the Wien Filter.  Also fields can be chosen to make zero-Lorentz force and do not disturb orbit. For this reason can be installed on straight sections. Thus, polarimeters located after Wien Filters, will detect the same orientation of the spin-vector and for them it will be "frozen".
+
+\subsection{Optics Modernization}
+
+\par There are two main reasons for magneto-optical structure modernization. Firstly, space lack for Wien Filters in already existing straight sections. Secondly, the available magneto-optics assumes NICA ring in the collider mode. But EDM search experiments involve long-term retention and preservation of polarized coherent beam at a time about $T_{SC}\sim1000$~sec.
+\par Therefore, proposed the modernization by introduction of ByPass channels to create an alternative straight section, parallel to the original one (Fig. \ref{fig:schematic}). Thus, NICA can be used as a Storage Ring. Such rings can carry out EDM search experiments with polarized deuterons at QFS regime.
+
+\subsection{Experiment Parameters}
+
+\par An important experiment parameters are particles and its energy.
+\par The largest scattering cross-section on carbon target polarimeter at $270$ MeV\cite{FS}.
+This requirement determines the experiment energy and defined by polarimetry needs.
+\par In addition, stable spin motion is required.
+At QFS method spin oscillates in the magnetic arc around the direction of the pulse within $\pi\cdot\gamma~G/2$. 
+For a deuteron magnetic moment anomaly $G_d~=~-0.1429$. Which is an order of magnitude less than for the proton $G_p~=~1.7928$.
+Thus, choosing an energy of the order of $240$ MeV ($\gamma~=~1.129$), 
+this expression for deuterons takes a value of the order $\pi\cdot\gamma~G_d/2~\sim~0.25$. 
+Which leads to a deviation of the spin-vector by a small angle.
+For protons this expression is too large $\pi\cdot\gamma~G_p/2~>1$. Spin-vector rotates around the momentum-vector and lead to the loss of spin stable motion.
+
+\par These features is decisive in the choice of particles for the experiment. In the future, all the proposed magneto-optics will be considered for deuterons at $240$ MeV energy. It is worth noting that the calculations show the main parameters for the magnetic field of the dipoles $B_{dip}~=~0.132$~T, as well as the magnetic rigidity $B\rho~=~3.252$ T$\cdot$m.
+
+\section{BYPASS OPTICS DESIGN}
+
+\par Designing ByPass NICA Storage Ring, 
+the geometry of arcs is planned to remain unchanged. 
+So that it is possible to use NICA for various experiments. 
+\par In NICA ring, arc is a place with a non-zero dispersion. At the edges, 
+both dispersion and its derivative suppressed to zero. Straight section has zero dispersion throughout. 
+The total length of original NICA $L_{acc}~=~503.04$~m. One arc is $L_{arc}~=~142.15$~m. 
+So, there is $(L_{acc}~-~2\cdot~L_{arc})/2~=~109.6$~m. available.
+Only the gradients of the magnetic field in dipoles, quadrupoles and sextupoles on arc will be changed for experiment purposes.
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=1.\columnwidth]{fig1}
+   \caption{Schematic diagram of the ByPass channels in the existing NICA complex.}
+   \label{fig:schematic}
+\end{figure}
+
+\subsection{Schematic Diagram}
+
+\par ByPass is a channel for beam deflection into alternative straight section. Dipole magnets chosen to make a deviation by angle $\alpha~=~9^\circ$. Dipole strength $B_{BP}~=~1$~T with length $L^{BP}_{dip}~=~50$~sm. Alternative straight section is at a distance of 1 meter from the native ones, so ByPass section length $L_{BP}~=~1~\text{m}/\sin{\alpha}\approx6.4~\text{m}$. Schematic diagram of ByPass channels shown on Fig.\ref{fig:schematic}
+
+\par Deflector magnets distort dispersion function. 
+Thus, needed to use at least 2 focusing quadrupoles on ByPass channel to suppress dispersion at the end. This will help to provide zero dispersion throughout the straight section.
+To ensure periodicity and symmetry of beta-functions, it can be used 1 or 3 defocusing quadrupoles at ByPass. 
+Two cases will be considered, also straight section fully identical to arcs without magnet.
+This is done for simplicity and ideal regular modelling.
+Lastly, we consider real case of magneto-optics with fully regular FODO straight section .
+
+\subsection{3 quadrupoles}
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=1.\columnwidth]{fig2}
+   \caption{Schematic diagram for ByPass with 3 quadrupoles.}
+   \label{fig:3quad}
+\end{figure}
+
+\par In this case, ByPass consist of minimal possible 3 quadrupoles (Fig.~\ref{fig:3quad}). The matching of the arc with the ByPass is provided by three quadrupoles (M1 section). And the matching of the ByPass with a straight section (M2), which is identical by virtue of symmetry, and consist of 3 quadrupoles to ensure beta-function periodicity (Fig.\ref{fig:3quadTwiss}). Total length of the whole accelerator is then $L^{acc}_{3quad} = 503.46$~m.
+
+\par As it can be seen, maximum of $\beta_y$ at the ByPass centre.
+For this reason can be considered case with 5 quadrupoles.
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=1.\columnwidth]{fig3}
+   \caption{Twiss-functions for ByPass with 3 quadrupoles. Black lines shows the ByPass deflectors location.}
+   \label{fig:3quadTwiss}
+\end{figure}
+
+\subsection{5 quadrupoles}
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=1.\columnwidth]{fig4}
+   \caption{Schematic diagram for ByPass with 5 quadrupoles.}
+   \label{fig:5quad}
+\end{figure}
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=1.\columnwidth]{fig5}
+   \caption{Twiss-functions for ByPass with 5 quadrupoles.}
+   \label{fig:5quadTwiss}
+\end{figure}
+
+\par Compare to the previous case, ByPass channel consist out of 5 quadrupoles. It becomes longer up to $L^{BP}_{5quad}~=~9.35$~m and make a deflection for $1.46$~m (Fig.~\ref{fig:5quad}). Now matching section M1 and M2 is still identical, but represent by 2 quadrupoles. But the whole accelerator length become longer than NICA allow $L^{acc}_{5quad}~=~510.02$~m Fig.~\ref{fig:5quadTwiss} shows that maximum of $\beta_{y}$ become lower at the center. Thus, this case must be adopted to the real one.
+
+\subsection{Real}
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=1.\columnwidth]{fig6}
+   \caption{Schematic diagram for Real ByPass.}
+   \label{fig:real}
+\end{figure}
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=1.\columnwidth]{fig7}
+   \caption{Twiss-functions for half of ByPass NICA ring. Wien Filters located at the straight section.}
+   \label{fig:realTwiss}
+\end{figure}
+
+ \par Based on the considered cases, we can finally get structure closely adopted to reality. Now, straight section is fully regular and shorter $L^{BP}_{SS}~=80.71$ m (Fig.~\ref{fig:real}). ByPass consist from 5 quadrupoles and deflect beam by $1.46$~m. But for matching used different sections M1 and M2 to compensate non-symmetry between arc and straight section. Finally, Twiss-function of half of ByPass NICA represented on Fig.~\ref{fig:realTwiss}. At the centre of straight section located Wien Filers.
+ \par All calculations of Twiss-functions made with OptiM \cite{OptiM}.
+
+\section{SPIN TRACKING}
+
+\par Spin-tracking is shown on Fig.\ref{fig:spin} in one half of new~ByPass~NICA ring, and consist from: arc, ByPass channel, straight section and 2 matching sections (M1 and M2). Considered vertically polarized particle with small initial deviation. As it can be seen, Wien Filters on straight section compensate spin rotation in the arc and restore it up to the initial value.
+\par All calculations and optimization of electric and magnetic fields in Wien Filters were made to get, first, zero Lorentz factor and, second, minimal spin-tune over the ring, using COSY INFINITY \cite{COSY}.
+
+\begin{figure}[!h]
+   \centering
+   \includegraphics*[width=0.74\columnwidth]{fig8}
+   \caption{Twiss-functions for half of ByPass NICA ring. Wien Filters located at the straight section.}
+   \label{fig:spin}
+\end{figure}
+
+\begin{table}[!h]
+    \centering
+    \caption{Main parameters for various considered schemes of modernization structures.}
+    \begin{tabular}{|c||c|c|c|c|}
+    \hline
+        \textbf{Structure} & \textbf{Length, m} & \textbf{Tunes} & \textbf{SS Length, m} \\ \hline
+        \textbf{Ion NICA} & 503.04 & 9.44/9.44 & 109.6  \\ 
+        \textbf{3 quad} & 503.46 & 13.8/11.8 & 83.97  \\ 
+        \textbf{5 quad} & 510.0 & 13.44/11.44 & 83.97  \\ 
+        \textbf{Real} & 503.5 & 12.8/11.8 & 80.7 \\ \hline
+    \end{tabular}
+    \label{lengths}
+\end{table}
+
+\section{CONCLUSION}
+
+\par For EDM experiments it is necessary to use NICA as a Storage Ring. 
+For this reason modernization was considered by creation of an alternative straight sections parallel to the native ones by using ByPass channels.
+Also straight sections have the ability to place special elements - Wien Filters to compensate spin rotation in the arcs.
+As arcs remain unchanged, this allows to use NICA in various experiments.
+\par Considered 2 principals schemes of ByPass channel.
+And finally got the most realistic case, where straight section is fully regular. 
+Table~\ref{lengths} represent all main parameters.
+Final structure satisfies all necessary magneto-optics requirements. Spin-tracking with optimized Wien-filters made and simulations shows that ByPass NICA restore spin orientation.
+
+\section*{References}
+\bibliographystyle{iopart-num}
+\bibliography{example}
+
+\end{document}
