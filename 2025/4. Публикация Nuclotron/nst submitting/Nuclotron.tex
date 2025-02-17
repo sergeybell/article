@@ -34,23 +34,23 @@
 The different charge-to-mass ratio is essential in magneto-optics design. To achieve high luminosity sufficient beam lifetime must be guaranteed. Transition energy crossing must also be solved. The NICA collider will be used for both collider experiments with heavy ions and light polarized nuclei.
 \end{abstract}
 
-\keywords{Transition energy, Intrabeam scattering, Stochastic cooling, Resonant structure, Dual-purpose structure}
+\keywords{Transition energy, Intra-beam scattering, Stochastic cooling, Resonant lattice, Dual-purpose structure}
 
 \maketitle
 
 \section{Introduction}\label{sec.I}
-\par Regardless of the purpose of the synchrotron, always in the case of two modes, when multiply charged heavy particles and one or two charged light particles are accelerated, the problem arises of what the magneto-optical structure should look like to satisfy all the conditions of stable motion for both types of particles. Obviously, compared to light particles, multiply charged particles have a prevailing heating effect due to intra-beam scattering, and light particles have a greater chance of crossing through transition energy. All these effects are of great importance for colliders, where luminosity plays a decisive role. When developing a structure that meets all the requirements for differently charged particles, it is fundamentally important to have a retunable structure without introducing design differences. We called such a structure -- dual-purpose or simple, dual.
-\par In NICA complex the dual magneto-optical structure opens up the prospect of accelerating both heavy ions, such as gold, and light particles like protons and deuterons. The design of this structure requires a different approach due to the varying charge-to-mass ratios involved.
+\par Regardless of the purpose of the synchrotron, always in the case of two modes, when multiply charged heavy particles and one or two charged light particles are accelerated, the problem arises of what the magneto-optical structure should look like to satisfy all the conditions of stable motion for both types of particles. Obviously, multiply charged particles have a prevailing heating effect due to intra-beam scattering, and light particles have a greater chance of crossing through transition energy. All these effects are of great importance for colliders, where luminosity plays a decisive role. When developing a lattice that meets all the requirements for differently charged particles, it is fundamentally important to have a retunable structure without introducing design differences. We called such a structure -- dual-purpose or simple, dual.
+\par In the NICA collider the dual magneto-optical lattice opens up the prospect of accelerating both heavy ions, such as gold, and light particles like protons and deuterons. The design of this lattice requires a different approach due to the varying charge-to-mass ratios involved.
 \section{Light particles}\label{sec.II}
-In a classical regular structure, the transition energy is approximately equal to the betatron tune $\gamma_{\text{tr}}\simeq\nu_{\text{s}}$ \cite{b1}. For the same magnetic rigidity $B\rho$, the maximum energy for light particles is greater than for heavy ions due to their charge-to-mass ratio. This means that a heavy-ion structure optimized for operating up to a certain transition energy would require overcoming that energy in order to operate with light particles. For this reason, a structure with varying transition energy can be considered.
+In a classical regular lattice, the transition energy is approximately equal to the betatron tune $\gamma_{\text{tr}}\simeq\nu_{\text{s}}$ \cite{b1}. For the same magnetic rigidity $B\rho$, the maximum energy for light particles is greater than for heavy ions due to their charge-to-mass ratio. This means that lattice structure for heavy ions optimized for operating up to a certain transition energy would require overcoming that energy in order to operate with light particles. For this reason, a lattice with varying transition energy can be considered.
 \subsection{Transition energy}
 \par In general, the transition energy is determined by the momentum compaction factor
 \begin{equation}
 \alpha=\frac{1}{{\gamma_{\text{tr}}}^2}=\frac{1}{C}\int_{0}^{C}{\frac{D\left(s\right)}{\rho\left(s\right)}ds}
 \end{equation}
-\noindent where $C$ -- orbit length, $D(s)$ -- dispersion function, $\rho(s)$ -- radius of orbit curvature. It is a characteristic of the structure and remains constant regardless of the particle type. In the first order the slip-factor $\eta=\eta_0=1/\gamma_{\text{tr}}^2-1/\gamma^2$, and thus the frequency of synchrotron oscillations $\omega_{\text{s}}\ \sim \eta$ tends to zero when the beam energy approaches the transition value. In this case, the adiabaticity of the longitudinal phase motion is violated, which leads to instabilities, as well as the influence of nonlinear effect higher orders of momentum spread $\delta$. The introduction of modulation into the $D\left(s\right)$ or $\rho\left(s\right)$, function leads to variations in the momentum compaction factor and, consequently, the transition energy.
+\noindent where $C$ -- orbit length, $D(s)$ -- dispersion function, $\rho(s)$ -- radius of orbit curvature. It is a characteristic of the lattice and remains constant regardless of the particle type. In the first order the slip-factor $\eta=\eta_0=1/\gamma_{\text{tr}}^2-1/\gamma^2$, and thus the frequency of synchrotron oscillations $\omega_{\text{s}}\ \sim \eta$ tends to zero when the beam energy approaches the transition value. In this case, the adiabaticity of the longitudinal phase motion is violated, which leads to instabilities, as well as the influence of nonlinear effect higher orders of momentum spread $\delta$. The introduction of modulation into the $D\left(s\right)$ or $\rho\left(s\right)$, function leads to variations in the momentum compaction factor and, consequently, the transition energy.
 \subsection{Superperiodic modulation}
-The equation for the dispersion function with biperiodic variable focusing \cite{b2}	
+The equation for the dispersion function with biperiodic variable focusing \cite{b2}	   
 \begin{equation}
 \dv[2]{D}{s}+\left[K(s)+\varepsilon k(s)\right]D=\frac{1}{\rho(s)},
 \label{eq:disp_eq}
@@ -62,20 +62,21 @@ The equation for the dispersion function with biperiodic variable focusing \cite
 \end{aligned}
 \label{eq:alpha_gradient}
 \end{equation}
-\noindent where ${\overline{R}}_{\text{arc}}$ -- the average value of the curvature, $\nu_x$ -- betatron tune in horizontal plane on arc, $S$ -- number of superperiods per arc length. Eq. (\ref{eq:alpha_gradient}) considered without introducing curvature modulation due to the possibility of introducing a variation of transition energy into a stationary lattice. To raise the transition energy, it is necessary to reduce $\alpha_{\text{s}}=1/\gamma_{\text{tr}}^{\text{arc}}$, this means that the expression under the sum sign must be negative, this is realizable under the condition $kS/\nu_{x, \text{arc}}>1$.
-\par First harmonic $k=1$ has a dominant influence the condition is implemented for $S=4, \nu_{x, \text{arc}}=3$. Fig. \ref{fig:pure_resonant} shows 12 FODO cells per arc, 3 FODO cells are combined into one superperiod \cite{b3}. Thus, due to the tune of betatron tune a multiple of $2\pi$, the arc has the properties of a first-order achromat. For structure with the missing magnet technique introduced for one reason or another it can be also implemented (Fig. \ref{fig:resonant}), but need to suppress dispersion at the edge of arc \cite{b4}.
+\noindent where ${\overline{R}}_{\text{arc}}$ -- the average value of the curvature, $\nu_x$ -- betatron tune in horizontal plane on arc, $S$ -- number of superperiods per arc length. Eq. (\ref{eq:alpha_gradient}) considered without introducing curvature modulation due to the possibility of introducing a variation of transition energy into a stationary lattice. To raise the transition energy, it is necessary to reduce $\alpha_{\text{s}}=1/\gamma_{\text{tr, arc}}^{2}$, this means that the expression under the sum sign must be negative, this is realizable under the condition $kS/\nu_{x, \text{arc}}>1$.
+\par First harmonic $k=1$ has a dominant influence the condition is implemented for $S=4, \nu_{x, \text{arc}}=3$. Fig. \ref{fig:pure_resonant} shows 12 FODO cells per arc, 3 FODO cells are combined into one superperiod \cite{b3}. Thus, an integer number of betatron oscillations on arc forms tune that is a multiple of $2\pi$, so the arc has property of a first-order achromat. Straight sections can correct tune for a whole ring to avoid any betatron resonances. Moreover, by according choosing the ratio of superperiod and tune for arc, it is possible to achieve second-order achromat property. Such structure have been implemented first at KAON factory \cite{kaon}, later at J-PARK \cite{jpark}, neutrino factory \cite{neutrino}.
+\par For structure where the missing magnet technique is used, for one reason or another it can be also implemented (Fig. \ref{fig:resonant}), but the dispersion at the edge of the arc must be suppressed \cite{b4}.
 \begin{figure}[!htb]
 \includegraphics[width=\hsize]{fig1_pure_resonant}
-\caption{(Color online) "Resonant" magneto-optic structure with dispersion modulation and increased transition energy.}
+\caption{(Color online) "Resonant" magneto-optic lattice with dispersion modulation and increased transition energy.}
 \label{fig:pure_resonant}
 \end{figure}
 \begin{figure}[!htb]
 \includegraphics[width=\hsize]{fig2_resonant.png}
-\caption{(Color online) "Resonant" NICA magneto-optic adapted structure with increased transition energy and missing magnet.}
+\caption{(Color online) "Resonant" NICA magneto-optic adapted lattice with increased transition energy and missing magnet.}
 \label{fig:resonant}
 \end{figure}
 \section{Heavy ion mode}\label{sec.III}
-The lifetime of the beam luminosity in a collider experiment is achieved through the reduction of intra-beam scattering effects, coupled with the application of stochastic and electron beam cooling techniques. This approach assumes particular significance when dealing with high-intensity ion beams. The temporal evolution of emittance and momentum spread in the presence of cooling processes is governed by a set of equations
+The lifetime of the beam luminosity in a collider experiment is achieved through the reduction of intra-beam scattering effects, coupled with the application of stochastic and electron beam cooling techniques. This approach is of particular importance when dealing with high-intensity ion beams. The temporal evolution of emittance and momentum spread in the presence of cooling processes is governed by a set of equations
 \begin{equation}
 \begin{aligned}
 & \dv{\varepsilon}{t} =\underbrace{-\frac{1}{\tau_{\text{tr}}} \cdot \varepsilon}_{\text {cooling}}+\underbrace{\left(\dv{\varepsilon}{t}\right)_{\text{IBS}}}_{\text {heating}} \\
@@ -91,7 +92,7 @@ The lifetime of the beam luminosity in a collider experiment is achieved through
 & \delta_{\text{st}}^2=\left.\tau_{\text{long}} \cdot\left(\dv{\delta^2}{t}\right)_{\text{IBS}}\right|_{\delta^2=\delta_{\textrm{st}}^2}
 \end{aligned}
 \end{equation}
-The benchmark for evaluating the effectiveness of a cooling technique can be determined by comparing the timescales of stochastic or electron cooling processes to the beam lifetime due to IBS over the entire energy spectrum.
+The benchmark for evaluating the effectiveness of a cooling technique can be determined by comparing the timescales of stochastic or electron cooling processes with the beam lifetime due to IBS over the entire energy spectrum.
 \subsection{Stochastic cooling}
 \par Let's consider stochastic cooling using the approximate theory developed by D.Mohl \cite{b5, b6}. Based on his main findings, the cooling rate can be determined using the following expression
 \begin{equation}
@@ -128,7 +129,7 @@ M_{\textrm{kp}} & =\frac{1}{2\left(f_{\max }-f_{\min }\right) \eta_{\textrm{kp}}
 f_{\textrm{max}}<\frac{1}{\eta_{\textrm{pk}}T_{\textrm{pk}}\frac{\Delta p}{p}}
 \end{equation}
 
-\noindent thus, a mixing factor $M_{\text{pk}}>1$. Otherwise, the cooling efficiency becomes zero. Thus, for a given number of particles, it is desirable to achieve the highest possible frequency band. From an electron perspective, modern technologies allow for the implementation of a $10$ GHz frequency band \cite{b7}, however, its use is not always feasible due to the large magnitude of the slip-factor $\eta_{\text{pk}}$ and momentum spread $\delta$.
+\noindent thus, a mixing factor $M_{\text{pk}}>1$. Otherwise, the cooling efficiency becomes zero. Thus, for a given number of particles, it is desirable to achieve the highest possible frequency band. From an electronics point of view, modern technologies allow for the implementation of a $10$ GHz frequency band \cite{b7}, however, its use is not always feasible due to the large magnitude of the slip-factor $\eta_{\text{pk}}$ and momentum spread $\delta$.
 
 \par Eq. (\ref{eq:stochastic_rate}) has been derived for coasting beam. Particle density for a single harmonic RF resonator is described by a Gaussian distribution
 
@@ -142,9 +143,9 @@ f_{\textrm{max}}<\frac{1}{\eta_{\textrm{pk}}T_{\textrm{pk}}\frac{\Delta p}{p}}
 N=\frac{N_{\textrm{bunch}}}{{4\sigma}_{\textrm{bunch}}}\cdot C_{\textrm{orb}}
 \end{equation}
 
-\noindent For a beam generated by a multiharmonic barrier-type RF system, so-called "Barrier Bucket", the particles distribution in the beam can be considered approximately uniform along its entire length. The effective particles number is determined by a simple ratio of the beam length to the total orbit length:
+\noindent For a beam generated by a multi-harmonic barrier-type RF system, so-called "Barrier Bucket", the particles distribution in the beam can be considered approximately uniform along its entire length. The effective particles number is determined by a simple ratio of the beam length to the total orbit length:
 
-\noindent To summarize, the effective value of particles depends on their distribution and is determined by their form-factor $F_{\text{bunch}}=\sqrt{2\pi}\divisionsymbol4$
+\noindent To summarize, the effective number of particles depends on their distribution and is determined by their form-factor $F_{\text{bunch}}=\sqrt{2\pi}\divisionsymbol4$
 
 \begin{equation}
 N=N_{\textrm{bunch}}\cdot\frac{C_{\textrm{orb}}}{F_{\textrm{bunch}}\cdot\sigma_{\textrm{bunch}}}
@@ -158,7 +159,7 @@ As example let us consider the case of NICA with maximal form-factor $F_{\text{b
 \item slip-factor approaches the value $\eta\rightarrow\frac{1}{2\left(f_{\text{max}}+f_{\text{min}}\right)T_{\text{pk}}\delta}$, the beam Schottky spectrum becomes continuous and $M_{\text{pk}}\rightarrow1$;
 \item slip-factor approaches zero, mixing between the kicker to the pickup does not occur and $M_{\text{kp}}\rightarrow\infty$.
 \end{enumerate}
-\noindent The efficiency of stochastic cooling depends on the properties of magneto-optical structure. In classical “regular” structures, transition energy is acquired through the horizontal frequency $\gamma_{\text{tr}}\approx\nu_x$ and slip-factor $\eta=1/\gamma_{\text{tr}}^2-1/\gamma^2$ can achieve zero. To avoid asymptotic growth, it is necessary to vary the slip-factor which means $\gamma_{\text{tr}}$. This is possible in “resonant” structure, where transition energy can be increased or even reach complex value. In more exotic case, can be used “combined” structure then $\eta_{\text{pk}}$ (pickup-kicker) with real transition energy at one arc
+\noindent The efficiency of stochastic cooling depends on the properties of the magneto-optical structure. In classical “regular” lattices, transition energy is acquired through the horizontal frequency $\gamma_{\text{tr}}\approx\nu_x$ and slip-factor $\eta=1/\gamma_{\text{tr}}^2-1/\gamma^2$ can achieve zero. To avoid asymptotic growth, it is necessary to vary the slip-factor which means $\gamma_{\text{tr}}$. This is possible in “resonant” lattice, where transition energy can be increased or even reach complex value. In more exotic case, can be used “combined” lattice then $\eta_{\text{pk}}$ (pickup-kicker) with real transition energy at one arc
 \begin{equation}
 \eta_{\textrm{pk}}=1/\gamma_{\textrm{tr}}^2-1/\gamma^2
 \label{eq:eta_pk}
@@ -169,27 +170,27 @@ As example let us consider the case of NICA with maximal form-factor $F_{\text{b
 \eta_{\textrm{kp}}=-1/\gamma_{\textrm{tr}}^2-1/\gamma^2
 \label{eq:eta_kp}
 \end{equation}
-\noindent for the whole ring. Such structure achieves the required ratio of mixing factors for a maximum cooling rate close to ideal \cite{b9}. Let us delve deeper declared structures in more detail.
-\par The behaviour of the $\beta$-functions and $D$ the dispersion across the entire “regular” ring illustrates at Fig. \ref{fig:regular}. The straight sections, which remain constant in all structures, are essential for analyzing of the resonant characteristics of the entire structure. Their arrangement does not affect the intra-beam scattering and transition energy. To suppress dispersion in the “regular” structure, ‘missing magnets’ technic implemented on both sides of the arc.
-\noindent The “resonant” structure is based on the principle of resonant modulation of the dispersion function and can be obtained from a "regular" one by introducing additional family of focusing quadrupoles. To suppress dispersion can be used either two edge focusing quadrupoles on both sides of the arc or only two families of focusing quadrupoles on the arc, when an integer number of betatron oscillations is reached.
+\noindent for the whole ring. Such structure achieves the required ratio of mixing factors for a maximum cooling rate close to ideal \cite{b9}. Let us delve deeper declared lattice in more detail.
+\par The behaviour of the $\beta$-functions and $D$ the dispersion across the entire “regular” ring illustrates at Fig. \ref{fig:regular}. The straight sections, which remain constant in all lattices, are essential for analyzing of the resonant characteristics of the entire structure. Their arrangement does not affect the intra-beam scattering and transition energy. To suppress dispersion in the “regular” lattice, ‘missing magnets’ technic implemented on both sides of the arc.
+\noindent The “resonant” lattice is based on the principle of resonant modulation of the dispersion function and can be obtained from a "regular" one by introducing additional family of focusing quadrupoles. To suppress dispersion can be used either two edge focusing quadrupoles on both sides of the arc or only two families of focusing quadrupoles on the arc, when an integer number of betatron oscillations is reached.
 \begin{figure}[!htb]
 \includegraphics[width=\hsize]{fig3_regular.png}
-\caption{(Color online) “Regular” FODO NICA magneto-optic structure with missing magnets.}
+\caption{(Color online) “Regular” FODO NICA magneto-optic lattice with missing magnets.}
 \label{fig:regular}
 \end{figure}
 
-\noindent The case of a “combined” structure, one arc operates in a regular mode, while the other employs resonant modulation (Fig. \ref{fig:combined}). Such choice is based on the principle of compensation, as described by Eqs. \ref{eq:eta_pk}, \ref{eq:eta_kp}, which requires a greater modulation depth of the quadrupoles than in purely "resonant" structure with increased transition energy.
+\noindent The case of a “combined” lattice, one arc operates in a regular mode, while the other employs resonant modulation (Fig. \ref{fig:combined}). Such choice is based on the principle of compensation, as described by Eqs. \ref{eq:eta_pk}, \ref{eq:eta_kp}, which requires a greater modulation depth of the quadrupoles than in purely "resonant" lattice with increased transition energy.
 \begin{figure}[!htb]
 \includegraphics[width=\hsize]{fig4_combined.png}
-\caption{(Color online) "Combined" NICA magneto-optic structure with real and complex transition energies in arcs.}
+\caption{(Color online) "Combined" NICA magneto-optic lattice with real and complex transition energies in arcs.}
 \label{fig:combined}
 \end{figure}	
-\noindent As illustrated in Fig. \ref{fig:sc}, "resonant" optics with increased transition energy, the second asymptotic is at higher energy compared to the “regular” structure. In “combined” magneto-optics, the cooling efficiency is closer to the ideal value in a large energy range from $2.5$ to $4.5$ GeV, while in “regular” optics the cooling rate is almost two times lower at the most optimal point $\sim3$ GeV. This behaviour is explained by absence of the second point of asymptotic growth.
+\noindent As illustrated in Fig. \ref{fig:sc}, "resonant" optics with increased transition energy, the second asymptotic is at higher energy compared to the “regular” lattice. In “combined” magneto-optics, the cooling efficiency is closer to the ideal value in a large energy range from $2.5$ to $4.5$ GeV/u, while in “regular” optics the cooling rate is almost two times lower at the most optimal point $\sim3$ GeV/u. This behavior is explained by absence of the second point of asymptotic growth.
 \begin{figure}[!htb]
 \centering
 \subfigure[] {\includegraphics[width=0.235\textwidth]{fig5.1_SC.png}}
 \subfigure[] {\includegraphics[width=0.235\textwidth]{fig5.2_SC_wide.png}}
-\caption{(Color online) The dependence of stochastic cooling time on the energy for various structures. Energy range (a) $1-7$, (b) 0-30 GeV per nuclon.}
+\caption{(Color online) The dependence of stochastic cooling time on the energy for various lattices. Energy range (a) $1-7$, (b) 0-30 GeV per nuclon.}
 \label{fig:sc}
 \end{figure}	
 \subsection{Intrabeam Scattering}
@@ -204,39 +205,45 @@ As example let us consider the case of NICA with maximal form-factor $F_{\text{b
 
 \begin{figure}[!htb]
 \includegraphics[width=\hsize]{fig6_IBS}
-\caption{(Color online) The dependence of the beam lifetime due to intra-beam scattering in “regular”, "resonant" and “combined” structures on the beam energy for heavy ion beam.}
+\caption{(Color online) The dependence of the beam lifetime due to intra-beam scattering in “regular”, "resonant" and “combined” lattices on the beam energy for heavy ion beam.}
 \label{fig:ibs}
 \end{figure}
 
-\noindent Unlike stochastic cooling, the IBS rate increases as decreasing energy $1/\gamma^3$. In addition, the expression in parentheses is proportional to the slip-factor $\eta$. Therefore, it should be expected that in optics with a value $\eta$ close to zero, the heating rate should decrease. Fig. \ref{fig:ibs} shows the dependences of the heating time constant in the three above-mentioned structures calculated using MADX programs \cite{b10} for the parameters of the heavy ion beam ${_{79}^{197}}\text{Au}$ of the NICA collider with maximum luminosity ${10}^{27}\ {\text{sm}}^{-2}\text{s}^{-1}$. In the context of light nuclei, such as protons and deuterons, the IBS time experiences a significant increase as the charge decreases. Consequently, the issue of intra-beam scattering becomes critical for heavy-ion beam.
-From the comparison of the IBS lifetime with the cooling time it can be concluded that in a regular structure, stochastic cooling is able to balance intra-beam scattering in the energy range $W\geq4.5\ \text{GeV}$. In order to apply stochastic cooling over the entire energy range, it is obvious that we must sacrifice the luminosity of the beam at low energies by increasing the emittance. In resonant structures, the IBS time is notably reduced. This is explained by the fact that the structure has a greater ratio $\left\langle\frac{D_x^2+{\dot{D}}_x^2}{\beta_x^2}\right\rangle$ between the dispersion and the beam $\beta$-function than in the case of a regular. Thus, for the case of heavy ions, the configuration should be regular and minimally modulated. Electron cooling is used in the regular structure to cool the beam lower $4.5$ GeV \cite{b11, b12}.
+\noindent Unlike stochastic cooling, the IBS rate increases as decreasing energy $1/\gamma^3$. In addition, the expression in parentheses is proportional to the slip-factor $\eta$. Therefore, it should be expected that in optics with a value $\eta$ close to zero, the heating rate should decrease. Fig. \ref{fig:ibs} shows the dependences of the heating time constant in the three above-mentioned lattices calculated using MADX programs \cite{b10} for the parameters of the heavy ion beam ${_{79}^{197}}\text{Au}$ of the NICA collider with maximum luminosity ${10}^{27}\ {\text{cm}}^{-2}\text{s}^{-1}$. In the context of light nuclei, such as protons and deuterons, the IBS time experiences a significant increase as the charge decreases. Consequently, the issue of intra-beam scattering becomes critical for heavy-ion beam.
+From the comparison of the IBS lifetime with the cooling time it can be concluded that in a regular lattice, stochastic cooling is able to balance intra-beam scattering in the energy range $W\geq4.5\ \text{GeV/u}$. In order to apply stochastic cooling over the entire energy range, it is obvious that we must sacrifice the luminosity of the beam at low energies by increasing the emittance. In resonant lattices, the IBS time is notably reduced. This is explained by the fact that the structure has a greater ratio $\left\langle\frac{D_x^2+{\dot{D}}_x^2}{\beta_x^2}\right\rangle$ between the dispersion and the beam $\beta$-function than in the case of a regular. Thus, for the case of heavy ions, the configuration should be regular and minimally modulated. Electron cooling is used in the regular lattice to cool the beam lower $4.5$ GeV/u \cite{b11, b12}.
 
 \begin{table}[!htb]
-\caption{Main parameters of structures.}
+\caption{Main parameters of lattices.}
 \label{tab:dual}
 \begin{tabular*}{8cm} {@{\extracolsep{\fill} } lccc}
 \toprule
-Structure & Regular & Resonant & Combined \\
+Lattice & Regular & Resonant & Combined \\
 \midrule
 Energy, GeV per nuclon & 4.5 & 12.6 & 12.6 \\
 Transition energy $\gamma_{\text{tr}}$  & 7 & 15 & $i50$ \\
 Modulation depth & -- & 25\% & 45\% \\
-Stochastic cooling at $4.5$ GeV, s & 2500 & 1500 & 800 \\
-IBS time at $4.5$ GeV, s & 2500 & 400 & 250 \\
+Stochastic time at $4.5$ GeV/u, s & 2500 & 1500 & 800 \\
+IBS time at $4.5$ GeV/u, s & 2500 & 400 & 250 \\
+Tunes & & & \\
 \bottomrule
 \end{tabular*}
 \end{table}
 
 \section{Summary} \label{sec.IV}
 
-\par The dual magneto-optical structure is proposed for accelerating both heavy ion and light particle beams, exemplified by the NICA facility. For light particles, due to charge-to-mass ratio, experiment energy can rise more than transition energy of the lattice, which is optimal for heavy ions. Using dispersion modulation, transition energy increases or even reaches a complex value in a “resonant” magneto-optic structure. However, due to modulation of $\beta$-function and $D$ dispersion, the time of intra-beam scattering decreases, which is crucial for multiply charged heavy particles. For this reason, a “regular” magneto-optic structure with minimally modulated dispersion and $\beta$-function is optimal in the heavy-ion mode. Despite the fact that stochastic cooling in “regular” structures is significantly weaker than in “resonant” and “combined’ ones, it can compensate IBS effect.
-\par No special changes are required to convert the “regular” structure into a “resonant” one. It is enough only to introduce a separate family of quadrupoles
+\par The dual magneto-optical structure is proposed for accelerating both heavy ion and light particle beams, exemplified by the NICA facility. For light particles, due to the charge-to-mass ratio, the experimental energy can rise above the lattice transition energy, which is optimal for heavy ions. Using dispersion modulation, transition energy increases or even reaches a complex value in a “resonant” lattice. However, due to modulation of $\beta$-function and $D$ dispersion, the time of intra-beam scattering decreases, which is crucial for multiply charged heavy particles. For this reason, a “regular” lattice with minimally modulated dispersion and $\beta$-function is optimal in the heavy-ion mode. Despite the fact that stochastic cooling in “regular” lattices is significantly weaker than in “resonant” and “combined’ ones, it can compensate IBS effect.
+\par No special changes are required to convert the “regular” lattice into a “resonant” one. It is enough only to introduce a separate family of quadrupoles.
 
 \begin{thebibliography} {99}
 
 \bibitem{b1}	Lee, S.-Y., Accelerator Physics (Fourth Edition), {\it World Scientific Publishing Company}, 2018 \href{https://doi.org/10.1142/11111}{doi:10.1142/11111}
 \bibitem{b2}	Senichev, Y.V., Chechenin, A.N. Theory of “Resonant” lattices for synchrotrons with negative momentum compaction factor. {\it J. Exp. Theor. Phys.} {\bf 105}, 988–997 (2007). \href{https://doi.org/10.1134/S1063776107110118}{doi:10.1134/S1063776107110118}
 \bibitem{b3}	Senichev, Y.V., Chechenin, A.N. Construction of “resonant” magneto-optical lattices with controlled momentum compaction factor. {\it J. Exp. Theor. Phys.} {\bf 105}, 1141–1156 (2007). \href{https://doi.org/10.1134/S1063776107120060}{doi:10.1134/S1063776107120060}
+
+\bibitem{kaon} Golubeva, N. I. and Iliev, A. I. and Senichev, Yu. V., Nonlinear dynamics in the booster of the Moscow Kaon factory, {\it Conf. Proc. C}, PAC-1991-1899, Vol. 910506, P. 1899--1901, 1991.
+\bibitem{jpark}	Y. Mori, [at al.] Synchrotron design issues of the Japanese hadron project, {\it Conf. Proc. C}, INS-1147, Vol. 960610, P. 569--571, 1996.
+\bibitem{neutrino} Autin, B, [at al.], A slow-cycling proton driver for a neutrino factory, 7th European Particle Accelerator Conference (EPAC 2000), CERN-PS-2000-015-AE, 2000.
+
 \bibitem{b4}	Kolokolchikov, S.D., Senichev, Y.V. Magneto-Optical Structure of the NICA Collider with High Transition Energy, {\it Phys. Atom. Nuclei} {\bf 84}, 1734–1742 (2021). \href{https://doi.org/10.1134/S1063778821100185}{doi:10.1134/S1063778821100185}
 \bibitem{b5}	D. Möhl, G. Petrucci, L. Thorndahl and S. van der Meer, {\it Phys. Rep.} {\bf 58} (1980) 75 \href{https://doi.org/10.1016/0370-1573(80)90140-4}{doi:10.1016/0370-1573(80)90140-4}
 \bibitem{b6}	D. Möhl, {\it Nuclear Instruments and Methods in Physics Research} {\bf A 391} (1997), 164-171 \href{https://doi.org/10.1016/S0168-9002(97)00360-4}{doi:10.1016/S0168-9002(97)00360-4}
@@ -246,7 +253,6 @@ IBS time at $4.5$ GeV, s & 2500 & 400 & 250 \\
 \bibitem{b10}	Antoniou, F., Zimmermann, F., Revision of Intrabeam Scattering with Non-Ultrarelativistic Corrections and Vertical Dispersion for MAD-X, \href{https://inspirehep.net/literature/708833}{Report number: CERN-ATS-2012-066}
 \bibitem{b11}	Kostromin, S.A., Meshkov, I.N., Sidorin, A.O. et al. Beam-cooling methods in the NICA project. {\it Phys. Part. Nuclei Lett.} {\bf 9}, 322–336 (2012). \href{https://doi.org/10.1134/S1547477112040206}{doi:10.1134/S1547477112040206}
 \bibitem{b12}	Grigory Trubnikov, Anatoly Sidorin, Nikolay Shurkhno, NICA cooling program, {\it Cybern.Phys.}, Vol. {\bf 3}, No. 3. 2014, 137-146
-
 
 %\bibitem{b1}	M. Huang, Z. Chen, S. Kowalski et al., Isobaric yield ratios and the symmetry energy in heavy-ion reactions near the Fermi energy. Phys. Rev. C {\bf 81}, 044620 (2010).   \href{http://dx.doi.org/10.1103/PhysRevC.81.044620}{doi: 10.1103/PhysRevC.81.044620}
 %\bibitem{b2}	M. Huang, A. Bonasera, Z. Chen et al., Isospin dependence of the nuclear equation of state near the critical point. Phys. Rev. C {\bf 81}, 044618 (2010).   \href{http://dx.doi.org/10.1103/PhysRevC.81.044618}{doi: 10.1103/PhysRevC.81.044618}
