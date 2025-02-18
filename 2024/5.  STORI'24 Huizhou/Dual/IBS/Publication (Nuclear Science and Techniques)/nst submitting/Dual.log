@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  17 FEB 2025 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  18 FEB 2025 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1178,29 +1178,29 @@ Package pdftex.def Info: fig5.2_SC_wide.png  used on input line 192.
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 196.
 
-<fig6_IBS.png, id=142, 323.7696pt x 201.3924pt>
+<fig6_IBS.png, id=143, 323.7696pt x 201.3924pt>
 File: fig6_IBS.png Graphic file (type png)
 <use fig6_IBS.png>
 Package pdftex.def Info: fig6_IBS.png  used on input line 207.
 (pdftex.def)             Requested size: 244.22952pt x 151.91664pt.
 [4 <./fig3_regular.png> <./fig4_combined.png> <./fig5.1_SC.png> <./fig5.2_SC_wi
 de.png> <./fig6_IBS.png>]
-Overfull \hbox (10.44266pt too wide) in alignment at lines 218--229
+Overfull \hbox (3.53381pt too wide) in alignment at lines 218--230
 [] [] [] []
 
 \hbox(0.0+0.0)x227.62204
 .\glue(\tabskip) 0.0
-.\unsetbox(0.0+0.0)x116.56197
+.\unsetbox(0.0+0.0)x108.57033
 .\glue(\tabskip) 0.0 plus 1.0fill
-.\unsetbox(0.0+0.0)x40.00002
+.\unsetbox(0.0+0.0)x40.54141
 .\glue(\tabskip) 0.0 plus 1.0fill
-.\unsetbox(0.0+0.0)x40.00002
+.\unsetbox(0.0+0.0)x40.54141
 .\glue(\tabskip) 0.0 plus 1.0fill
 .\unsetbox(0.0+0.0)x41.5027
 .\glue(\tabskip) 0.0
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 240--241
+Underfull \hbox (badness 2495) in paragraph at lines 241--242
  []\OT1/ptm/m/n/9 Senichev, Y.V., Chechenin, A.N. The-ory of \Res-o-nant"
 
 \hbox(6.1379+1.94843)x244.22952, glue set 2.92577
@@ -1289,7 +1289,7 @@ Underfull \hbox (badness 2495) in paragraph at lines 240--241
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 240--241
+Underfull \hbox (badness 2529) in paragraph at lines 241--242
  \OT1/ptm/m/n/9 lat-tices for syn-chrotrons with neg-a-tive mo-men-tum com-
 
 \hbox(6.1379+1.94843)x244.22952, glue set 2.93826
@@ -1368,7 +1368,7 @@ Underfull \hbox (badness 2529) in paragraph at lines 240--241
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 241--242
+Underfull \hbox (badness 1895) in paragraph at lines 242--243
  \OT1/ptm/m/n/9 magneto-optical lat-tices with con-trolled mo-men-tum com-
 
 \hbox(6.1379+1.94843)x244.22952, glue set 2.66731
@@ -1440,7 +1440,7 @@ Underfull \hbox (badness 1895) in paragraph at lines 241--242
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
  []\OT1/ptm/m/n/9 Kolokolchikov, S.D., Senichev, Y.V. Magneto-Optical
 
 \hbox(6.1379+1.94843)x244.22952, glue set 4.9675
@@ -1528,7 +1528,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--248
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 247--248
+Underfull \hbox (badness 5431) in paragraph at lines 248--249
  \OT1/ptm/m/n/9 Struc-ture of the NICA Col-lider with High Tran-si-tion
 
 \hbox(6.1379+1.94843)x244.22952, glue set 3.79048
@@ -1596,7 +1596,7 @@ Underfull \hbox (badness 5431) in paragraph at lines 247--248
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
  \OT1/ptm/m/n/9 En-ergy, \OT1/ptm/m/it/9 Phys. Atom. Nu-clei \OT1/ptm/b/n/9 84\
 OT1/ptm/m/n/9 , 1734{1742 (2021).
 
@@ -1659,7 +1659,7 @@ OT1/ptm/m/n/9 , 1734{1742 (2021).
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 249--250
+Underfull \hbox (badness 2460) in paragraph at lines 250--251
  []\OT1/ptm/m/n/9 D. M[]ohl, \OT1/ptm/m/it/9 Nu-clear In-stru-ments and Meth-od
 s in Physics
 
@@ -1750,7 +1750,7 @@ s in Physics
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
  \OT1/ptm/m/it/9 Re-search \OT1/ptm/b/n/9 A 391 \OT1/ptm/m/n/9 (1997), 164-171 
 [][]doi:10.1016/S0168-
 
@@ -1817,7 +1817,7 @@ nk/A<</Type/Action/S/URI/URI(https://doi.org/10.1016/S0168\ETC.}
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 252--253
+Underfull \hbox (badness 1728) in paragraph at lines 253--254
  []\OT1/ptm/m/n/9 Yu. Senichev, The ad-vanced HESR lat-tice for im-proved
 
 \hbox(6.1379+1.94843)x244.22952, glue set 2.58829
@@ -1919,31 +1919,32 @@ Package rerunfilecheck Info: File `Dual.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  21513 strings out of 473200
- 386960 string characters out of 5720278
+ 386959 string characters out of 5720278
  829108 words of memory out of 5000000
  44441 multiletter control sequences out of 15000+600000
  583592 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,18n,94p,920b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,18n,94p,1166b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texliv
-e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helve
-tic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:
-/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texm
-f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Dual.pdf (5 pages, 853139 bytes).
+cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texliv
+e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
+pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/20
+24/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on Dual.pdf (5 pages, 863659 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
+ 280 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
  58 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
