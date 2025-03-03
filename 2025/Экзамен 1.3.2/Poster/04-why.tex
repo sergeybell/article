@@ -1,0 +1,96 @@
+%------------------------------------------------
+\section{Квантовые эффекты}
+
+\begin{frame}
+	\frametitle{Квантовые эффекты в физических измерениях. Условия, когда классический подход становится неприменим}
+	
+	При измерении квантовой величины происходит возмущение другой наблюдаемой. В отличии от классического случая в квантовом случае прибор всегда влияет на измеряемую систему.
+	\begin{equation}
+	\Delta p \Delta x \sim \frac{h}{2 \pi}; \Delta E \Delta t \sim \frac{h}{2 \pi}
+	\end{equation} 
+	При повторных измерениях есть ошибка, связанная не только с соотношением неопределённостей, но и с обратным влиянием прибора в ходе первого измерения. Это приводит к возникновению стандартного квантового предела.
+	
+	Для релятивистских систем величина силы Штерна–Герлаха очень быстро уменьшается с увеличением фактора Лоренца γ, и сила Лоренца полностью доминирует над ней для всех практических целей в современных ускорителях.
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Теорема Эренфеста}
+	 \par Теорема Эренфеста (1927) – фундаментальная теорема квантовой механики. В квантовой механике средние значения координат и импульсов частицы, а также силы, действующей на неё, связаны между собой уравнениями, аналогичными соответствующим уравнениям классической механики, то есть при движении частицы средние значения этих величин в квантовой механике изменяются так, как изменяются значения этих величин в классической механике.
+	 
+	 \begin{equation}
+	 	\dv{\langle\hat{A}\rangle}{t}=\left\langle\frac{\partial \hat{A}}{\partial t}\right\rangle+\frac{1}{\mathrm{i} \hbar}\langle[\hat{A}, \hat{H}]\rangle,
+	 	\label{eq:erenfest}
+	 \end{equation} 
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{}
+	\par Применим теорему Эренфеста для спинового оператора $\hat{A} = \hat{s}$. Тогда нет члена с частной производной $\partial\hat{A} / \partial t$. Для гамильтониана, описывающего магнитное поля диполя:
+	
+	\begin{equation}
+		\hat{H} = - \hat{\vectorbold{\mu}} \cdot \hat{\vectorbold{B}} = \hat{\boldsymbol{\Omega}} \cdot \hat{\vectorbold{s}}.
+		\label{eq:mag_Ham}
+	\end{equation}
+	
+	\noindent Здесь $\hat{B}$ – оператор магнитного поля и $\hat{\Omega}$ – оператор прецессии спина. Важно отметить, что оператор $\hat{\vectorbold{s}}$ не предполагается равным $\frac{1}{2}$. Для коммутатора:
+	
+	\begin{equation}
+		\left[\hat{\vectorbold{s}}, \hat{H}\right] = \left[\hat{\vectorbold{s}}, \hat{\boldsymbol{\Omega}} \cdot \hat{\vectorbold{s}}\right] = i \hbar\, \hat{\boldsymbol{\Omega}} \times \hat{\vectorbold{s}}.
+		\label{eq:commutator_s_H}
+	\end{equation}
+	\noindent Используя теорему Эренфеста (\ref{eq:erenfest}), получаем
+	
+	\begin{equation}
+		\dv{}{t} \left\langle\hat{\vectorbold{s}}\right\rangle = \left\langle\hat{\boldsymbol{\Omega}} \times \hat{\vectorbold{s}}\right\rangle
+		\label{eq:dsdt}
+	\end{equation}
+
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{}
+	\par В общем случае, $\hat{\boldsymbol{\Omega}}$ зависит от динамики орбитального движения, тогда 
+	
+	\begin{equation}
+		\dv{}{t} \left\langle\hat{\vectorbold{s}}\right\rangle = \left\langle\hat{\boldsymbol{\Omega}}\left(\hat{\vectorbold{x}}, \hat{\vectorbold{p}}\right) \times \hat{\vectorbold{s}}\right\rangle
+		\label{eq:dsdt_orbital}
+	\end{equation}
+	\noindent Поскольку $\hat{\boldsymbol{\Omega}}$ является квантовым оператором, для того, чтобы вынести его из под знака усреднения, необходимо уточнить, что он не зависит от $\hat{\vectorbold{s}}$
+	
+	\begin{equation}
+		\dv{}{t} \left\langle\hat{\vectorbold{s}}\right\rangle = \left\langle\hat{\boldsymbol{\Omega}}\left(\hat{\vectorbold{x}}, \hat{\vectorbold{p}}\right)\right\rangle \times \left\langle\hat{\vectorbold{s}}\right\rangle
+		\label{eq:dsdt_avg_sep}
+	\end{equation}
+	
+	\noindent Уравнение ($\ref{eq:dsdt_avg_sep}$) описывает вращение классического вектора спина под действием вектора прецессии вращения $\hat{\boldsymbol{\Omega}}$ $c$–переменных, который является математическим ожиданием для орбитального квантового состояния системы.
+	 
+\end{frame}
+
+
+\begin{frame}
+		\noindent Вспомогательное важное условие, \textit{полуклассическое приближение}:
+	
+	\begin{equation}
+		\left\langle\hat{\boldsymbol{\Omega}}\left(\hat{\vectorbold{x}}, \hat{\vectorbold{p}}\right)\right\rangle \simeq \boldsymbol{\Omega}\left(\left\langle\hat{\vectorbold{x}}\right\rangle, \left\langle\hat{\vectorbold{p}}\right\rangle\right) 
+		\label{eq:semi_class}
+	\end{equation}
+	
+	\noindent $\hat{\vectorbold{x}}$ и $\hat{\vectorbold{p}}$ являются математическими ожиданиями $с$ операторов координат и импульсов и могут быть представлены как классическая траекторию орбитального движения
+	
+	\begin{equation}
+		\vectorbold{x}\equiv\hat{\vectorbold{x}}, \, \vectorbold{p}\equiv\hat{\vectorbold{p}}, \, \vectorbold{s}\equiv\hat{\vectorbold{s}}.
+		\label{eq:classical}
+	\end{equation}
+	
+	\noindent В полуклассическом приближении, $\symbolbold{\Omega_{SC}}\equiv\symbolbold{\Omega}(\vectorbold{x}, \vectorbold{p})$
+	
+	\begin{equation}
+		\dv{\vectorbold{s}}{t} \simeq \symbolbold{\Omega_{SC}} \times \vectorbold{s}
+		\label{eq:classical_spin}
+	\end{equation}
+	
+	\par Эволюция спинового движения квантовой системы может быть описана прецессией классических спиновых векторов под действием полуклассического вектора спиновой прецессии $\symbolbold{\Omega_{SC}}$. Что справедливо в полуклассическом приближении, даже если вектор прецессии вращения зависит от орбитального движения.
+\end{frame}

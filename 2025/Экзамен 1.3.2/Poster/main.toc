@@ -1,0 +1,5 @@
+\babel@toc {russian}{}\relax 
+\beamer@sectionintoc {2}{Принципы построения приборов}{3}{0}{1}
+\beamer@sectionintoc {3}{Квантовые эффекты}{8}{0}{2}
+\beamer@sectionintoc {4}{Модели физических процессов}{13}{0}{3}
+\beamer@sectionintoc {5}{Заключение}{18}{0}{4}

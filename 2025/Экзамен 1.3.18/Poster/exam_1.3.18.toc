@@ -1,0 +1,5 @@
+\babel@toc {russian}{}\relax 
+\beamer@sectionintoc {2}{Электронное охлаждение}{3}{0}{1}
+\beamer@sectionintoc {3}{Фазовые колебания}{7}{0}{2}
+\beamer@sectionintoc {4}{Нагрузка током}{10}{0}{3}
+\beamer@sectionintoc {5}{Магнетрон}{11}{0}{4}

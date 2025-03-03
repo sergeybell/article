@@ -1,0 +1,83 @@
+%---------------------------------------------------------
+%	PRESENTATION BODY SLIDES
+%---------------------------------------------------------
+\section{Принципы построения приборов} % Note all sections and subsections are automatically placed in your table of contents
+
+\begin{frame}
+ \frametitle{Основные принципы построения приборов для измерений физических величин в заданной области физики}
+
+\begin{enumerate}
+\item Принцип воспроизводимости – при многократных измерениях прибор должен давать стабильные результаты
+\item Принцип точности – максимально возможная точность с учётом систематических и случайных погрешностей
+\item Принцип повторяемости – при повторных измерениях одним и тем же методом, но в разных условиях (другая лаборатория)
+\item Принцип динамического диапазона – прибор должен работать в широком диапазоне значений
+\item Принцип обратного влияния – прибор не должен значительно изменять исследуемую систему
+
+\end{enumerate}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	
+	\par В случае измерения ЭДМ заряженных частиц необходимо использование ускорителя заряженных частиц
+	\
+	\par Т-БМТ уравнение описывает эволюцию поведения спина во внешних полях
+	
+		\begin{align} \label{eq:T-BMT}
+			\frac{{d \vec{S}}}{d t} &=\vec{S} \times\left(\vec{\Omega}_{\textrm{MDM}}+\vec{\Omega}_{\textrm{EDM}}\right), \nonumber\\
+			\vec{\Omega}_{\textrm{MDM}}&=\frac{q}{m \gamma}\left\{(\gamma G+1)\vec{B}_{\perp}+(G+1)\vec{B}_{\parallel}-\left(\gamma G+\frac{\gamma}{\gamma+1}\right) \frac{\vec{\beta} \times \vec{E}}{c}\right\}, \\
+			\vec{\Omega}_{\textrm{EDM}}&=\frac{q \eta}{2 m}\left(\vec{\beta} \times \vec{B}+\frac{\vec{E}}{c}\right), \quad G=\frac{g-2}{2},\nonumber
+		\end{align}
+	
+\end{frame}
+
+\begin{frame}
+	\par Решение уравнения Т-БМТ
+\begin{equation}
+	\begin{array}{r}
+		S_x=\frac{\Omega_x \Omega_z}{\Omega^2}(1-\cos \Omega t)-\frac{\Omega_y}{\Omega} \sin \Omega t, \\
+		S_y=\frac{\Omega_y \Omega_z}{\Omega^2}(1-\cos \Omega t)+\frac{\Omega_x}{\Omega} \sin \Omega t, \\
+		\quad S_z=\frac{\Omega_z^2}{\Omega^2}(1-\cos \Omega t)+\cos \Omega t,
+	\end{array}
+\end{equation}
+
+$\Omega_x=\Omega_{B_r}+\Omega_{e d m}$ и $\Omega_z=\Omega_{B_z}$ от МДМ вращения в неидеальном кольце и ЭДМ. $\Omega_y=\Omega_{B_v, E_r}$ МДМ вращение от ведущего поля. Усредненное значение для вертикальной компоненты
+
+\begin{equation}
+	\begin{array}{r}
+		\widetilde{S_y}=\sqrt{\left(\frac{\Omega_y \Omega_z}{\Omega^2}\right)^2+\left(\frac{\Omega_x}{\Omega}\right)^2} \sin (\Omega t+\phi), \\
+		\phi=\arctan \left(\frac{\Omega_y \Omega_z}{\Omega_x \Omega}\right),
+	\end{array}
+\end{equation}
+
+\end{frame}
+
+\begin{frame}
+	
+	Полная частота
+	
+	\begin{equation}
+	\Omega=\sqrt{\left(\Omega_{e d m}+\Omega_{B_r}\right)^2+\Omega_{B_v, E_r}^2+\Omega_{B_z}^2}
+	\end{equation}
+	
+	
+	замороженный и квази-замороженный спин $\Omega_{B_v, E_r} \ll \Omega_{B_r}$ и $\Omega_{B_z} \ll \Omega_{B_r}$,последнее реализуется установкой продольного соленоида $\approx 10^{-6}$ T 1 м длиной:
+	
+	\begin{equation}
+	\Omega=\left(\Omega_{e d m}+\Omega_{B_r}\right) \cdot\left[1+\frac{\Omega_{B_v, E_r}^2+\Omega_{B_z}^2}{2\left(\Omega_{e d m}+\Omega_{B_r}\right)^2}\right]
+	\end{equation}
+	
+	ограничение на значения $\Omega_{B_v, E_r}$ and $\Omega_{B_z}$
+	
+	\begin{equation}
+	\frac{\Omega_{B_v, E_r}^2+\Omega_{B_z}^2}{2 \Omega_{B_r}}<\Omega_{e d m}
+	\end{equation}
+	
+\end{frame}
+
+\begin{frame}
+	Численно $\Omega_{B_r} \approx 50 \mathrm{rad} / \mathrm{sec}$ and $\Omega_{e d m} \approx 10^{-8} \mathrm{rad} / \mathrm{sec}$, тогда $\Omega_{B_v, E_r}^2+\Omega_{B_z}^2<10^{-6}$ или $\Omega_{B_v, E_r}, \Omega_{B_z} \sim$ $10^{-3}$. Для времени когерентности $t_{S C T} \sim 1000 \mathrm{sec}$, вращение спина должно не превосходить $\Omega_{B_v, E_r} \cdot t_{S C T} \sim 1 \mathrm{rad}$ и $\Omega_{B_z} \cdot t_{S C T} \sim 1 \mathrm{rad}$, что достижимо для $\Omega_{B_v, E_r}$ благодаря калибровке энергии и для $\Omega_{B_z}$ при использовании соленоида.
+	\newline
+	\newline
+	Неидеальности кольца, которые раньше играли ограничивающую роль, теперь обеспечивают прецессию спина в вертикальной плоскости, в которой измеряется ЭДМ.
+\end{frame}
