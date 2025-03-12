@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  17 FEB 2025 19:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  13 MAR 2025 01:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -908,1031 +908,183 @@ Class revtex4-1 Info: Overriding \@LN@LLerror on input line 12.
 
 Underfull \vbox (badness 10000) detected at line 14
 
-\vbox(11.5+0.1399)x202.58052
-.\hbox(6.81989+0.1399)x202.58052, glue set 0.31165fil
-..\OT1/ptm/m/n/10 F
-..\OT1/ptm/m/n/10 E
-..\OT1/ptm/m/n/10 A
-..\kern-1.11
-..\OT1/ptm/m/n/10 T
-..\OT1/ptm/m/n/10 U
-..\OT1/ptm/m/n/10 R
-..\OT1/ptm/m/n/10 E
-..\OT1/ptm/m/n/10 S
-..\glue 2.5 plus 1.49847 minus 0.60057
-..\OT1/ptm/m/n/10 O
-..\OT1/ptm/m/n/10 F
-..\glue 2.5 plus 1.49847 minus 0.60057
-..\OT1/ptm/m/n/10 D
+\vbox(11.5+1.7749)x202.58052
+.\hbox(6.81989+1.7749)x202.58052, glue set 10.56142fil
+..\OT1/ptm/m/n/10 Q
+..\kern-0.09999
 ..\OT1/ptm/m/n/10 U
 ..\kern-0.39992
 ..\OT1/ptm/m/n/10 A
-..\OT1/ptm/m/n/10 L
+..\OT1/ptm/m/n/10 S
+..\OT1/ptm/m/n/10 I
 ..\OT1/ptm/m/n/10 -
 ..\discretionary
-..\OT1/ptm/m/n/10 P
-..\OT1/ptm/m/n/10 U
+..\OT1/ptm/m/n/10 F
 ..\OT1/ptm/m/n/10 R
-..\OT1/ptm/m/n/10 P
+..\kern-0.39992
 ..\OT1/ptm/m/n/10 O
-..\OT1/ptm/m/n/10 S
+..\OT1/ptm/m/n/10 Z
 ..\OT1/ptm/m/n/10 E
+..\OT1/ptm/m/n/10 N
 ..\glue 2.5 plus 1.49847 minus 0.60057
 ..\OT1/ptm/m/n/10 S
+..\OT1/ptm/m/n/10 P
+..\OT1/ptm/m/n/10 I
+..\OT1/ptm/m/n/10 N
+..\glue 2.5 plus 1.49847 minus 0.60057
+..\OT1/ptm/m/n/10 F
+..\OT1/ptm/m/n/10 O
+..\OT1/ptm/m/n/10 R
+..\glue 2.5 plus 1.49847 minus 0.60057
+..\OT1/ptm/m/n/10 D
+..\OT1/ptm/m/n/10 E
+..\OT1/ptm/m/n/10 U
 ..\OT1/ptm/m/n/10 T
 ..\OT1/ptm/m/n/10 R
 ..\kern-0.39992
-..\OT1/ptm/m/n/10 U
-..\OT1/ptm/m/n/10 C
-..\OT1/ptm/m/n/10 T
-..\OT1/ptm/m/n/10 U
-..\OT1/ptm/m/n/10 R
-..\OT1/ptm/m/n/10 E
+..\OT1/ptm/m/n/10 O
+..\OT1/ptm/m/n/10 N
+..\glue 2.5 plus 1.49847 minus 0.60057
+..\OT1/ptm/m/n/10 A
+..\OT1/ptm/m/n/10 N
+..\OT1/ptm/m/n/10 D
 ..\glue(\rightskip) 0.0 plus 1.0fil
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
-1.
+3.
 
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-)
-Overfull \hbox (6.51453pt too wide) detected at line 64
-[][][][][]
+) [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2
+024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 
-\hbox(17.50015+12.50014)x244.22952
-.\penalty 10000
-.\hbox(0.0+0.0)x0.0
-.\hbox(0.0+0.0)x0.0
-..\mathon
-..\hbox(0.0+0.0)x0.0, shifted -11.5
-...\pdfdest name{equation.3} xyz
-...\penalty 10000
-..\mathoff
-.\hbox(0.0+0.0)x0.0
-.\hbox(0.0+0.0)x0.0
-.\vbox(17.50015+12.50014)x250.74405
-..\hbox(17.50014+12.50015)x250.74405
-...\glue(\tabskip) 0.0
-...\hbox(17.50014+12.50015)x20.17546
-....\glue 0.0 plus 1.0fil
-....\hbox(8.04996+3.45003)x0.0
-.....\vbox(8.04996+3.45003)x0.0
-......\kern 0.0
-......\hbox(8.04996+3.45003)x0.0
-.......\rule(8.04996+3.45003)x0.0
-....\mathon
-....\hbox(4.30554+1.58043)x20.17546
-.....\OML/cmm/m/it/10 
-.....\hbox(3.18498+0.08044)x3.22293, shifted 1.49998
-......\OT1/ptm/m/n/7 s
-.....\glue(\thickmuskip) 2.77771 plus 2.77771
-.....\OT1/cmr/m/n/10 =
-....\mathoff
-...\glue(\tabskip) 0.0
-...\hbox(17.50014+12.50015)x220.56859
-....\mathon
-....\hbox(17.50014+12.50015)x220.56859
-.....\hbox(0.0+0.0)x0.0
-.....\hbox(13.20952+6.85951)x12.46251
-......\hbox(13.20952+6.85951)x12.46251
-.......\hbox(0.0+0.0)x1.2, shifted -2.5
-.......\vbox(13.20952+6.85951)x10.06252
-........\hbox(6.44444+0.0)x10.06252, glue set 2.53125fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\OT1/cmr/m/n/10 1
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\kern4.06508
-........\rule(0.39998+0.0)x*
-........\kern1.75952
-........\hbox(7.4+0.0)x10.06252
-.........\OML/cmm/m/it/10 ^^W
-.........\kern0.63657
-.........\hbox(4.51111+0.0)x4.48613, shifted -2.88889
-..........\OT1/cmr/m/n/7 2
-.......\hbox(0.0+0.0)x1.2, shifted -2.5
-.....\glue(\thinmuskip) 1.66663
-.....\hbox(17.50014+12.50015)x201.99504
-......\hbox(0.39998+29.60031)x8.05559, shifted -17.10016
-.......\OMX/cmex/m/n/10 (
-......\OT1/cmr/m/n/10 1
-......\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
-......\OT1/cmr/m/n/10 +
-......\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
-......\hbox(13.20952+9.35951)x54.64996
-.......\hbox(13.20952+9.35951)x54.64996
-........\hbox(0.0+0.0)x1.2, shifted -2.5
-........\vbox(13.20952+9.35951)x52.24997
-.........\hbox(6.44444+0.0)x52.24997, glue set 23.62498fil
-..........\glue 0.0 plus 1.0fil minus 1.0fil
-..........\OT1/cmr/m/n/10 1
-..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\kern4.06508
-.........\rule(0.39998+0.0)x*
-.........\kern1.65952
-.........\hbox(7.5+2.5)x52.24997
-..........\OT1/cmr/m/n/10 4
-..........\OT1/cmr/m/n/10 (
-..........\OT1/cmr/m/n/10 1
-..........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
-..........\OMS/cmsy/m/n/10 ^^@
-..........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
-..........\OML/cmm/m/it/10 k
-..........\kern0.3148
-..........\OML/cmm/m/it/10 S
-..........\kern0.57637
-..........\kern-0.55556
-..........\OML/cmm/m/it/10 =
-..........\OML/cmm/m/it/10 ^^W
-..........\kern0.63657
-..........\OT1/cmr/m/n/10 )
-........\hbox(0.0+0.0)x1.2, shifted -2.5
-......\glue(\thinmuskip) 1.66663
-......\hbox(14.97061+9.50012)x24.79243
-.......\hbox(0.39998+23.60025)x7.36115, shifted -14.10013
-........\OMX/cmex/m/n/10 ^^R
-.......\hbox(14.97061+6.85951)x10.07014
-........\hbox(14.97061+6.85951)x10.07014
-.........\hbox(0.0+0.0)x1.2, shifted -2.5
-.........\vbox(14.97061+6.85951)x7.67015
-..........\vbox(8.20554+0.0)x7.67015
-...........\hbox(5.67776+0.0)x0.0, shifted 2.16843
-............\OT1/cmr/m/n/10 ^^V
-...........\kern-4.30554
-...........\hbox(6.83331+0.0)x7.67015
-............\OML/cmm/m/it/10 R
-..........\kern4.06508
-..........\rule(0.39998+0.0)x*
-..........\kern4.85397
-..........\hbox(4.30554+0.0)x7.67015, glue set 1.04689fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\OML/cmm/m/it/10 ^^W
-...........\kern0.63657
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\hbox(0.0+0.0)x1.2, shifted -2.5
-.......\hbox(0.39998+23.60025)x7.36115, shifted -14.10013
-........\OMX/cmex/m/n/10 ^^S
-......\hbox(4.51111+0.0)x4.48613, shifted -12.49841
-.......\OT1/cmr/m/n/7 4
-......\glue(\thinmuskip) 1.66663
-......\hbox(14.9051+10.93884)x81.39993
-.......\hbox(14.9051+10.93884)x81.39993
-........\hbox(0.0+0.0)x1.2, shifted -2.5
-........\vbox(14.9051+10.93884)x78.99994
-.........\hbox(8.14003+2.83209)x78.99994, glue set 34.65504fil
-..........\glue 0.0 plus 1.0fil minus 1.0fil
-..........\OML/cmm/m/it/10 g
-..........\vbox(10.97212+0.0)x4.92017, shifted 2.83209
-...........\hbox(4.51111+0.0)x4.48613, shifted 0.35878
-............\OT1/cmr/m/n/7 2
-...........\kern1.59991
-...........\hbox(4.8611+0.0)x4.92017
-............\OML/cmm/m/it/7 k
-..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\kern1.23299
-.........\rule(0.39998+0.0)x*
-.........\kern1.19994
-.........\hbox(9.53891+2.5)x78.99994
-..........\hbox(7.5+2.5)x74.51381
-...........\hbox(7.5+2.5)x2.77779
-............\OT1/cmr/m/n/10 [
-...........\OT1/cmr/m/n/10 1
-...........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
-...........\OMS/cmsy/m/n/10 ^^@
-...........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
-...........\OT1/cmr/m/n/10 (
-...........\OT1/cmr/m/n/10 1
-...........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
-...........\OMS/cmsy/m/n/10 ^^@
-...........\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
-...........\OML/cmm/m/it/10 k
-...........\kern0.3148
-...........\OML/cmm/m/it/10 S
-...........\kern0.57637
-...........\kern-0.55556
-...........\OML/cmm/m/it/10 =
-...........\OML/cmm/m/it/10 ^^W
-...........\kern0.63657
-...........\OT1/cmr/m/n/10 )
-...........\hbox(4.51111+0.0)x4.48613, shifted -2.88889
-............\OT1/cmr/m/n/7 2
-...........\hbox(7.5+2.5)x2.77779
-............\OT1/cmr/m/n/10 ]
-..........\hbox(4.51111+0.0)x4.48613, shifted -5.0278
-...........\OT1/cmr/m/n/7 2
-........\hbox(0.0+0.0)x1.2, shifted -2.5
-......\hbox(0.39998+29.60031)x8.05559, shifted -17.10016
-.......\OMX/cmex/m/n/10 )
-.....\glue(\thinmuskip) 1.66663
-.....\OML/cmm/m/it/10 :
-....\mathoff
-....\glue 0.0 plus 1.0fil
-...\glue(\tabskip) 10.0
-
-[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
-4/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-<fig1_pure_resonant.png, id=83, 469.2732pt x 239.4546pt>
-File: fig1_pure_resonant.png Graphic file (type png)
-<use fig1_pure_resonant.png>
-Package pdftex.def Info: fig1_pure_resonant.png  used on input line 69.
-(pdftex.def)             Requested size: 244.22952pt x 124.62306pt.
-<fig2_resonant.png, id=85, 469.2732pt x 237.5274pt>
-File: fig2_resonant.png Graphic file (type png)
-<use fig2_resonant.png>
-Package pdftex.def Info: fig2_resonant.png  used on input line 74.
-(pdftex.def)             Requested size: 244.22952pt x 123.62006pt.
- [2 <./fig1_pure_resonant.png> <./fig2_resonant.png>]
-<fig3_regular.png, id=116, 469.2732pt x 237.5274pt>
-File: fig3_regular.png Graphic file (type png)
-<use fig3_regular.png>
-Package pdftex.def Info: fig3_regular.png  used on input line 177.
-(pdftex.def)             Requested size: 244.22952pt x 123.62006pt.
-<fig4_combined.png, id=120, 469.2732pt x 237.5274pt>
-File: fig4_combined.png Graphic file (type png)
-<use fig4_combined.png>
-Package pdftex.def Info: fig4_combined.png  used on input line 184.
-(pdftex.def)             Requested size: 244.22952pt x 123.62006pt.
-<fig5.1_SC.png, id=122, 236.5638pt x 199.4652pt>
-File: fig5.1_SC.png Graphic file (type png)
-<use fig5.1_SC.png>
-Package pdftex.def Info: fig5.1_SC.png  used on input line 191.
-(pdftex.def)             Requested size: 119.01817pt x 100.35324pt.
-<fig5.2_SC_wide.png, id=123, 236.5638pt x 200.4288pt>
-File: fig5.2_SC_wide.png Graphic file (type png)
-<use fig5.2_SC_wide.png>
-Package pdftex.def Info: fig5.2_SC_wide.png  used on input line 192.
-(pdftex.def)             Requested size: 119.01817pt x 100.83803pt.
- [3]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 196.
-
-<fig6_IBS.png, id=143, 323.7696pt x 201.3924pt>
-File: fig6_IBS.png Graphic file (type png)
-<use fig6_IBS.png>
-Package pdftex.def Info: fig6_IBS.png  used on input line 207.
-(pdftex.def)             Requested size: 244.22952pt x 151.91664pt.
-[4 <./fig3_regular.png> <./fig4_combined.png> <./fig5.1_SC.png> <./fig5.2_SC_wi
-de.png> <./fig6_IBS.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 235.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 134.
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 240--241
- []\OT1/ptm/m/n/9 Senichev, Y.V., Chechenin, A.N. The-ory of \Res-o-nant"
-
-\hbox(6.1379+1.94843)x244.22952, glue set 2.92577
-.\glue(\leftskip) 18.99393
-.\hbox(6.1379+1.40395)x0.0
-..\glue 0.0
-..\glue -14.99393
-..\glue -4.0
-..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
-...\pdfcolorstack 0 push {0 g 0 G}
-...\glue 0.0 plus 1.0fil
-...\glue 0.0 plus 1.0fil
-...\penalty 10000
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted -10.5
-.....\pdfdest name{cite.b2} xyz
-.....\penalty 10000
-...\OT1/ptm/m/n/9 [
-...\OT1/ptm/m/n/9 2
-...\OT1/ptm/m/n/9 ]
-...\pdfcolorstack 0 pop
-..\glue 4.0
-.\penalty 0
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 e
-.\kern-0.225
-.\OT1/ptm/m/n/9 v
-.\kern-0.58492
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 Y
-.\kern-1.16093
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 V
-.\kern-1.16093
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 C
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 A
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 N
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 T
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 e
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 y
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 f
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 \
-.\OT1/ptm/m/n/9 R
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 s
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 o
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 "
-.\glue(\rightskip) 0.0
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 134.
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 240--241
- \OT1/ptm/m/n/9 lat-tices for syn-chrotrons with neg-a-tive mo-men-tum com-
-
-\hbox(6.1379+1.94843)x244.22952, glue set 2.93826
-.\glue(\leftskip) 18.99393
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 t
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 s
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 f
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 r
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 y
-.\OT1/ptm/m/n/9 n
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 s
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 w
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 h
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 e
-.\kern-0.13492
-.\discretionary replacing 2
-..\OT1/ptm/m/n/9 g
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 g
-.\kern-0.04495
-.\OT1/ptm/m/n/9 a
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\kern-0.225
-.\OT1/ptm/m/n/9 v
-.\kern-0.13492
-.\OT1/ptm/m/n/9 e
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 o
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 n
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 m
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 m
-.\discretionary
-.\OT1/ptm/m/n/9 -
-.\glue(\rightskip) 0.0
+Underfull \hbox (badness 1584) in paragraph at lines 150--151
+[]\OT1/ptm/m/n/10 Using the elec-tro-static de-flec-tor nec-es-sary to ac-cuare
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 241--242
- \OT1/ptm/m/n/9 magneto-optical lat-tices with con-trolled mo-men-tum com-
-
-\hbox(6.1379+1.94843)x244.22952, glue set 2.66731
-.\glue(\leftskip) 18.99393
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 g
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 -
+\hbox(6.81989+2.16492)x244.22952, glue set 2.51472
+.\hbox(0.0+0.0)x10.0
+.\OT1/ptm/m/n/10 U
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 g
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 e
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 c
 .\discretionary
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 p
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 l
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 t
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 o
 .\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 s
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 w
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 h
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 n
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 e
 .\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 d
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 o
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 ^^M (ligature fl)
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 c
 .\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 n
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 r
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 c
 .\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 m
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 m
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 s
 .\discretionary
-.\OT1/ptm/m/n/9 -
-.\glue(\rightskip) 0.0
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
- []\OT1/ptm/m/n/9 Kolokolchikov, S.D., Senichev, Y.V. Magneto-Optical
-
-\hbox(6.1379+1.94843)x244.22952, glue set 4.9675
-.\glue(\leftskip) 18.99393
-.\hbox(6.012+1.40395)x0.0
-..\glue 0.0
-..\glue -14.99393
-..\glue -4.0
-..\hbox(6.012+1.40395)x14.99393, glue set 2.25fil
-...\pdfcolorstack 0 push {0 g 0 G}
-...\glue 0.0 plus 1.0fil
-...\glue 0.0 plus 1.0fil
-...\penalty 10000
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted -10.5
-.....\pdfdest name{cite.b4} xyz
-.....\penalty 10000
-...\OT1/ptm/m/n/9 [
-...\OT1/ptm/m/n/9 7
-...\OT1/ptm/m/n/9 ]
-...\pdfcolorstack 0 pop
-..\glue 4.0
-.\penalty 0
-.\OT1/ptm/m/n/9 K
-.\kern-0.31499
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 k
-.\kern-0.09
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 k
-.\kern-0.09
-.\OT1/ptm/m/n/9 o
-.\kern-0.13492
-.\OT1/ptm/m/n/9 v
-.\kern-0.58492
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 D
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 e
-.\kern-0.225
-.\OT1/ptm/m/n/9 v
-.\kern-0.58492
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 Y
-.\kern-1.16093
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 V
-.\kern-1.16093
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 M
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 g
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 -
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 y
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 o
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
 .\discretionary
-.\OT1/ptm/m/n/9 O
-.\OT1/ptm/m/n/9 p
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 l
-.\glue(\rightskip) 0.0
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 247--248
- \OT1/ptm/m/n/9 Struc-ture of the NICA Col-lider with High Tran-si-tion
-
-\hbox(6.1379+1.94843)x244.22952, glue set 3.79048
-.\glue(\leftskip) 18.99393
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 c
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 e
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 f
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 e
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 N
-.\OT1/ptm/m/n/9 I
-.\OT1/ptm/m/n/9 C
-.\OT1/ptm/m/n/9 A
-.\glue 2.25 plus 1.34863 minus 0.54051
-.\OT1/ptm/m/n/9 C
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 l
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 d
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 r
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 w
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 h
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 H
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 g
-.\OT1/ptm/m/n/9 h
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 T
-.\kern-0.31499
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 n
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 i
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 n
-.\glue(\rightskip) 0.0
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
- \OT1/ptm/m/n/9 En-ergy, \OT1/ptm/m/it/9 Phys. Atom. Nu-clei \OT1/ptm/b/n/9 84\
-OT1/ptm/m/n/9 , 1734{1742 (2021).
-
-\hbox(6.20096+1.94843)x244.22952, glue set 4.75826
-.\glue(\leftskip) 18.99393
-.\OT1/ptm/m/n/9 E
-.\OT1/ptm/m/n/9 n
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 r
-.\kern-0.16194
-.\OT1/ptm/m/n/9 g
-.\OT1/ptm/m/n/9 y
-.\kern-0.58492
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/it/9 P
-.\OT1/ptm/m/it/9 h
-.\OT1/ptm/m/it/9 y
-.\OT1/ptm/m/it/9 s
-.\OT1/ptm/m/it/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/it/9 A
-.\OT1/ptm/m/it/9 t
-.\OT1/ptm/m/it/9 o
-.\OT1/ptm/m/it/9 m
-.\OT1/ptm/m/it/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/it/9 N
-.\OT1/ptm/m/it/9 u
-.\discretionary
-..\OT1/ptm/m/it/9 -
-.\OT1/ptm/m/it/9 c
-.\OT1/ptm/m/it/9 l
-.\OT1/ptm/m/it/9 e
-.\OT1/ptm/m/it/9 i
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/b/n/9 8
-.\OT1/ptm/b/n/9 4
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 7
-.\OT1/ptm/m/n/9 3
-.\OT1/ptm/m/n/9 4
-.\OT1/ptm/m/n/9 {
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 7
-.\OT1/ptm/m/n/9 4
-.\OT1/ptm/m/n/9 2
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 (
-.\OT1/ptm/m/n/9 2
-.\OT1/ptm/m/n/9 0
-.\OT1/ptm/m/n/9 2
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 )
-.\OT1/ptm/m/n/9 .
-.\glue(\rightskip) 0.0
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 249--250
- []\OT1/ptm/m/n/9 D. M[]ohl, \OT1/ptm/m/it/9 Nu-clear In-stru-ments and Meth-od
-s in Physics
-
-\hbox(6.1604+1.85844)x244.22952, glue set 2.91165
-.\glue(\leftskip) 18.99393
-.\hbox(6.1379+1.40395)x0.0
-..\glue 0.0
-..\glue -14.99393
-..\glue -4.0
-..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
-...\pdfcolorstack 0 push {0 g 0 G}
-...\glue 0.0 plus 1.0fil
-...\glue 0.0 plus 1.0fil
-...\penalty 10000
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted -10.5
-.....\pdfdest name{cite.b6} xyz
-.....\penalty 10000
-...\OT1/ptm/m/n/9 [
-...\OT1/ptm/m/n/9 9
-...\OT1/ptm/m/n/9 ]
-...\pdfcolorstack 0 pop
-..\glue 4.0
-.\penalty 0
-.\OT1/ptm/m/n/9 D
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 M
-.\kern 0.75153 (for accent)
-.\hbox(5.60698+0.0)x2.99696, shifted -0.045
-..\OT1/ptm/m/n/9 ^^?
-.\kern -3.74849 (for accent)
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/it/9 N
-.\OT1/ptm/m/it/9 u
-.\discretionary
-..\OT1/ptm/m/it/9 -
-.\OT1/ptm/m/it/9 c
-.\OT1/ptm/m/it/9 l
-.\OT1/ptm/m/it/9 e
-.\OT1/ptm/m/it/9 a
-.\OT1/ptm/m/it/9 r
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/it/9 I
-.\OT1/ptm/m/it/9 n
-.\discretionary
-..\OT1/ptm/m/it/9 -
-.\OT1/ptm/m/it/9 s
-.\OT1/ptm/m/it/9 t
-.\OT1/ptm/m/it/9 r
-.\OT1/ptm/m/it/9 u
-.\discretionary
-..\OT1/ptm/m/it/9 -
-.\OT1/ptm/m/it/9 m
-.\OT1/ptm/m/it/9 e
-.\OT1/ptm/m/it/9 n
-.\OT1/ptm/m/it/9 t
-.\OT1/ptm/m/it/9 s
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/it/9 a
-.\OT1/ptm/m/it/9 n
-.\OT1/ptm/m/it/9 d
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/it/9 M
-.\OT1/ptm/m/it/9 e
-.\OT1/ptm/m/it/9 t
-.\OT1/ptm/m/it/9 h
-.\discretionary
-..\OT1/ptm/m/it/9 -
-.\OT1/ptm/m/it/9 o
-.\OT1/ptm/m/it/9 d
-.\OT1/ptm/m/it/9 s
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/it/9 i
-.\OT1/ptm/m/it/9 n
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/it/9 P
-.\OT1/ptm/m/it/9 h
-.\OT1/ptm/m/it/9 y
-.\OT1/ptm/m/it/9 s
-.\OT1/ptm/m/it/9 i
-.\OT1/ptm/m/it/9 c
-.\OT1/ptm/m/it/9 s
-.\glue(\rightskip) 0.0
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
- \OT1/ptm/m/it/9 Re-search \OT1/ptm/b/n/9 A 391 \OT1/ptm/m/n/9 (1997), 164-171 
-[][]doi:10.1016/S0168-
-
-\hbox(6.20096+1.59741)x244.22952, glue set 4.6527
-.\glue(\leftskip) 18.99393
-.\OT1/ptm/m/it/9 R
-.\OT1/ptm/m/it/9 e
-.\discretionary
-..\OT1/ptm/m/it/9 -
-.\OT1/ptm/m/it/9 s
-.\OT1/ptm/m/it/9 e
-.\OT1/ptm/m/it/9 a
-.\OT1/ptm/m/it/9 r
-.\kern-0.33301
-.\OT1/ptm/m/it/9 c
-.\kern-0.13492
-.\OT1/ptm/m/it/9 h
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/b/n/9 A
-.\glue 2.25 plus 1.34863 minus 0.54051
-.\OT1/ptm/b/n/9 3
-.\OT1/ptm/b/n/9 9
-.\OT1/ptm/b/n/9 1
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 (
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 9
-.\OT1/ptm/m/n/9 9
-.\OT1/ptm/m/n/9 7
-.\OT1/ptm/m/n/9 )
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 6
-.\OT1/ptm/m/n/9 4
-.\OT1/ptm/m/n/9 -
-.\discretionary
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 7
-.\OT1/ptm/m/n/9 1
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/I/C[0 1 1]} action user{/Subtype/Li
-nk/A<</Type/Action/S/URI/URI(https://doi.org/10.1016/S0168\ETC.}
-.\pdfcolorstack 0 push {0 0 1 rg 0 0 1 RG}
-.\OT1/ptm/m/n/9 d
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 :
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 0
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 0
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 6
-.\OT1/ptm/m/n/9 /
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 0
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 6
-.\OT1/ptm/m/n/9 8
-.\OT1/ptm/m/n/9 -
-.\discretionary
-.\glue(\rightskip) 0.0
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 252--253
- []\OT1/ptm/m/n/9 Yu. Senichev, The ad-vanced HESR lat-tice for im-proved
-
-\hbox(6.1379+1.94843)x244.22952, glue set 2.58829
-.\glue(\leftskip) 18.99393
-.\hbox(6.1379+1.40395)x0.0
-..\glue 0.0
-..\glue -14.99393
-..\glue -4.0
-..\hbox(6.1379+1.40395)x14.99393
-...\pdfcolorstack 0 push {0 g 0 G}
-...\glue 0.0 plus 1.0fil
-...\glue 0.0 plus 1.0fil
-...\penalty 10000
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted -10.5
-.....\pdfdest name{cite.b9} xyz
-.....\penalty 10000
-...\OT1/ptm/m/n/9 [
-...\OT1/ptm/m/n/9 1
-...\OT1/ptm/m/n/9 2
-...\OT1/ptm/m/n/9 ]
-...\pdfcolorstack 0 pop
-..\glue 4.0
-.\penalty 0
-.\OT1/ptm/m/n/9 Y
-.\kern-0.999
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 e
-.\kern-0.225
-.\OT1/ptm/m/n/9 v
-.\kern-0.58492
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 T
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 e
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 d
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 v
-.\kern-0.225
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 d
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 H
-.\OT1/ptm/m/n/9 E
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 R
-.\glue 2.25 plus 1.34863 minus 0.54051
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 t
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 e
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 f
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 r
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 m
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 p
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 o
-.\kern-0.13492
-.\OT1/ptm/m/n/9 v
-.\kern-0.13492
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 d
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 e
 .\glue(\rightskip) 0.0
 
 No file Nuclotron.bbl.
-[5] (./Nuclotron.aux)
+[2] (./Nuclotron.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Nuclotron.out' has not changed.
-(rerunfilecheck)             Checksum: 42F931B077B65C2C4C39683F0FDD006F;1701.
+(rerunfilecheck)             Checksum: 1FF07A1C31E026D4776D7C954DB4F2C8;2235.
  ) 
 Here is how much of TeX's memory you used:
- 21512 strings out of 473200
- 387067 string characters out of 5720278
- 829133 words of memory out of 5000000
- 44440 multiletter control sequences out of 15000+600000
- 583592 words of font info for 89 fonts, out of 8000000 for 9000
+ 21355 strings out of 473200
+ 384568 string characters out of 5720278
+ 821967 words of memory out of 5000000
+ 44318 multiletter control sequences out of 15000+600000
+ 582514 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,18n,94p,924b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,12n,94p,758b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texliv
-e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helve
-tic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:
-/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texm
-f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Nuclotron.pdf (5 pages, 852927 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/t
+exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts
+/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Nuclotron.pdf (2 pages, 157489 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

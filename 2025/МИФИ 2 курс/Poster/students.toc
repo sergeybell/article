@@ -1,0 +1,5 @@
+\babel@toc {russian}{}\relax 
+\beamer@sectionintoc {2}{ЭДМ исследования}{3}{0}{1}
+\beamer@sectionintoc {3}{Ускорительные комплексы}{7}{0}{2}
+\beamer@sectionintoc {4}{Компелекс NICA}{10}{0}{3}
+\beamer@sectionintoc {5}{Заключение}{16}{0}{4}
