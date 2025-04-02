@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  13 MAR 2025 01:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  26 MAR 2025 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,7 +735,11 @@ Class revtex4-1 Info: mcite was not loaded (OK!) on input line 12.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 12.
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 12.
- (./Nuclotron.aux)
+ (./Nuclotron.aux
+
+LaTeX Warning: Label `eq:deflection' multiply defined.
+
+)
 \openout1 = `Nuclotron.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -820,6 +824,7 @@ LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
+
 
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
@@ -906,10 +911,10 @@ Class revtex4-1 Info: Line numbering not turned on yet on input line 12.
 
 Class revtex4-1 Info: Overriding \@LN@LLerror on input line 12.
 
-Underfull \vbox (badness 10000) detected at line 14
+Underfull \vbox (badness 10000) detected at line 15
 
 \vbox(11.5+1.7749)x202.58052
-.\hbox(6.81989+1.7749)x202.58052, glue set 10.56142fil
+.\hbox(6.81989+1.7749)x202.58052, glue set 55.27126fil
 ..\OT1/ptm/m/n/10 Q
 ..\kern-0.09999
 ..\OT1/ptm/m/n/10 U
@@ -936,62 +941,38 @@ Underfull \vbox (badness 10000) detected at line 14
 ..\OT1/ptm/m/n/10 O
 ..\OT1/ptm/m/n/10 R
 ..\glue 2.5 plus 1.49847 minus 0.60057
-..\OT1/ptm/m/n/10 D
-..\OT1/ptm/m/n/10 E
-..\OT1/ptm/m/n/10 U
-..\OT1/ptm/m/n/10 T
-..\OT1/ptm/m/n/10 R
-..\kern-0.39992
+..\OT1/ptm/m/n/10 B
 ..\OT1/ptm/m/n/10 O
-..\OT1/ptm/m/n/10 N
-..\glue 2.5 plus 1.49847 minus 0.60057
-..\OT1/ptm/m/n/10 A
-..\OT1/ptm/m/n/10 N
-..\OT1/ptm/m/n/10 D
+..\kern-0.39992
+..\OT1/ptm/m/n/10 T
+..\OT1/ptm/m/n/10 H
 ..\glue(\rightskip) 0.0 plus 1.0fil
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
-3.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 5
+0.
 
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2
-024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
+Underfull \hbox (badness 3657) in paragraph at lines 200--201
+[]\OT1/ptm/m/n/10 In elec-tro-static fields, the be-hav-ior of pro-tons and
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 134.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 134.
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 150--151
-[]\OT1/ptm/m/n/10 Using the elec-tro-static de-flec-tor nec-es-sary to ac-cuare
-
-
-\hbox(6.81989+2.16492)x244.22952, glue set 2.51472
+\hbox(6.81989+2.16492)x244.22952, glue set 3.32248
 .\hbox(0.0+0.0)x10.0
-.\OT1/ptm/m/n/10 U
-.\OT1/ptm/m/n/10 s
-.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 I
 .\OT1/ptm/m/n/10 n
-.\OT1/ptm/m/n/10 g
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 t
-.\OT1/ptm/m/n/10 h
-.\OT1/ptm/m/n/10 e
 .\glue 2.5 plus 1.49998 minus 0.59998
 .\OT1/ptm/m/n/10 e
 .\OT1/ptm/m/n/10 l
@@ -1011,80 +992,147 @@ Underfull \hbox (badness 1584) in paragraph at lines 150--151
 .\OT1/ptm/m/n/10 i
 .\OT1/ptm/m/n/10 c
 .\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 ^^L (ligature fi)
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 l
 .\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 ,
+.\glue 2.5 plus 1.87497 minus 0.47998
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 e
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 b
 .\OT1/ptm/m/n/10 e
 .\discretionary
 ..\OT1/ptm/m/n/10 -
-.\OT1/ptm/m/n/10 ^^M (ligature fl)
-.\OT1/ptm/m/n/10 e
-.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 a
+.\kern-0.19995
+.\OT1/ptm/m/n/10 v
+.\discretionary
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 r
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 f
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 p
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 o
 .\discretionary
 ..\OT1/ptm/m/n/10 -
 .\OT1/ptm/m/n/10 t
 .\OT1/ptm/m/n/10 o
-.\OT1/ptm/m/n/10 r
-.\glue 2.5 plus 1.49998 minus 0.59998
 .\OT1/ptm/m/n/10 n
-.\OT1/ptm/m/n/10 e
-.\OT1/ptm/m/n/10 c
-.\discretionary
-..\OT1/ptm/m/n/10 -
-.\OT1/ptm/m/n/10 e
 .\OT1/ptm/m/n/10 s
-.\discretionary
-..\OT1/ptm/m/n/10 -
-.\OT1/ptm/m/n/10 s
-.\OT1/ptm/m/n/10 a
-.\OT1/ptm/m/n/10 r
-.\OT1/ptm/m/n/10 y
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 t
-.\OT1/ptm/m/n/10 o
 .\glue 2.5 plus 1.49998 minus 0.59998
 .\OT1/ptm/m/n/10 a
-.\OT1/ptm/m/n/10 c
-.\discretionary
-..\OT1/ptm/m/n/10 -
-.\OT1/ptm/m/n/10 c
-.\OT1/ptm/m/n/10 u
-.\OT1/ptm/m/n/10 a
-.\OT1/ptm/m/n/10 r
-.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 d
 .\glue(\rightskip) 0.0
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+
+\hbox(0.0+0.0)x244.22952
+.\glue(\rightskip) 0.0
+
+<spin-tune_ratio.png, id=115, 301.125pt x 207.77625pt>
+File: spin-tune_ratio.png Graphic file (type png)
+<use spin-tune_ratio.png>
+Package pdftex.def Info: spin-tune_ratio.png  used on input line 205.
+(pdftex.def)             Requested size: 232.01729pt x 160.09915pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<total_length.png, id=121, 307.1475pt x 198.7425pt>
+File: total_length.png Graphic file (type png)
+<use total_length.png>
+Package pdftex.def Info: total_length.png  used on input line 217.
+(pdftex.def)             Requested size: 232.01729pt x 150.13002pt.
+
+Overfull \hbox (0.71393pt too wide) in alignment at lines 225--233
+[] [] [] [] [] []
+
+\hbox(0.0+0.0)x227.62204
+.\glue(\tabskip) 0.0
+.\unsetbox(0.0+0.0)x44.48874
+.\glue(\tabskip) 0.0 plus 1.0fill
+.\unsetbox(0.0+0.0)x21.98042
+.\glue(\tabskip) 0.0 plus 1.0fill
+.\unsetbox(0.0+0.0)x27.63875
+.\glue(\tabskip) 0.0 plus 1.0fill
+.\unsetbox(0.0+0.0)x25.06932
+.\glue(\tabskip) 0.0 plus 1.0fill
+.\unsetbox(0.0+0.0)x87.36243
+.\glue(\tabskip) 0.0 plus 1.0fill
+.\unsetbox(0.0+0.0)x21.79631
+.\glue(\tabskip) 0.0
+
+[3 <./spin-tune_ratio.png> <./total_length.png>]
+<wien-filter_deuteron.png, id=139, 455.90324pt x 236.68425pt>
+File: wien-filter_deuteron.png Graphic file (type png)
+<use wien-filter_deuteron.png>
+Package pdftex.def Info: wien-filter_deuteron.png  used on input line 246.
+(pdftex.def)             Requested size: 195.38435pt x 101.43637pt.
+<wien-filter_proton.png, id=140, 461.92575pt x 235.47975pt>
+File: wien-filter_proton.png Graphic file (type png)
+<use wien-filter_proton.png>
+Package pdftex.def Info: wien-filter_proton.png  used on input line 248.
+(pdftex.def)             Requested size: 195.38435pt x 99.60147pt.
+<el-def_deuteron.png, id=142, 469.25313pt x 315.67938pt>
+File: el-def_deuteron.png Graphic file (type png)
+<use el-def_deuteron.png>
+Package pdftex.def Info: el-def_deuteron.png  used on input line 260.
+(pdftex.def)             Requested size: 195.38435pt x 131.43802pt.
+ [4 <./wien-filter_deuteron.png> <./wien-filter_proton.png> <./el-def_deuteron.
+png>]
 No file Nuclotron.bbl.
-[2] (./Nuclotron.aux)
+[5] (./Nuclotron.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Nuclotron.out' has not changed.
-(rerunfilecheck)             Checksum: 1FF07A1C31E026D4776D7C954DB4F2C8;2235.
+(rerunfilecheck)             Checksum: E05B250BB97BF74F4CA25F6294A51187;2664.
  ) 
 Here is how much of TeX's memory you used:
- 21355 strings out of 473200
- 384568 string characters out of 5720278
- 821967 words of memory out of 5000000
- 44318 multiletter control sequences out of 15000+600000
+ 21468 strings out of 473200
+ 386713 string characters out of 5720278
+ 824724 words of memory out of 5000000
+ 44411 multiletter control sequences out of 15000+600000
  582514 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,12n,94p,758b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,12n,94p,1168b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texl
-ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/t
-exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts
-/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/u
-tmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Nuclotron.pdf (2 pages, 157489 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texliv
+e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2024/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
+.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2
+024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on Nuclotron.pdf (5 pages, 354161 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
