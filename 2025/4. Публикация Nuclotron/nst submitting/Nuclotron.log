@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  26 MAR 2025 19:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  2 JUL 2025 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -966,132 +966,757 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 5
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2
 024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
-Underfull \hbox (badness 3657) in paragraph at lines 200--201
-[]\OT1/ptm/m/n/10 In elec-tro-static fields, the be-hav-ior of pro-tons and
-
-\hbox(6.81989+2.16492)x244.22952, glue set 3.32248
-.\hbox(0.0+0.0)x10.0
-.\OT1/ptm/m/n/10 I
-.\OT1/ptm/m/n/10 n
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 e
-.\OT1/ptm/m/n/10 l
-.\OT1/ptm/m/n/10 e
-.\OT1/ptm/m/n/10 c
-.\discretionary
-..\OT1/ptm/m/n/10 -
-.\OT1/ptm/m/n/10 t
-.\OT1/ptm/m/n/10 r
-.\OT1/ptm/m/n/10 o
-.\discretionary
-..\OT1/ptm/m/n/10 -
-.\OT1/ptm/m/n/10 s
-.\OT1/ptm/m/n/10 t
-.\OT1/ptm/m/n/10 a
-.\OT1/ptm/m/n/10 t
-.\OT1/ptm/m/n/10 i
-.\OT1/ptm/m/n/10 c
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 ^^L (ligature fi)
-.\OT1/ptm/m/n/10 e
-.\OT1/ptm/m/n/10 l
-.\OT1/ptm/m/n/10 d
-.\OT1/ptm/m/n/10 s
-.\OT1/ptm/m/n/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/m/n/10 t
-.\OT1/ptm/m/n/10 h
-.\OT1/ptm/m/n/10 e
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 b
-.\OT1/ptm/m/n/10 e
-.\discretionary
-..\OT1/ptm/m/n/10 -
-.\OT1/ptm/m/n/10 h
-.\OT1/ptm/m/n/10 a
-.\kern-0.19995
-.\OT1/ptm/m/n/10 v
-.\discretionary
-..\OT1/ptm/m/n/10 -
-.\OT1/ptm/m/n/10 i
-.\OT1/ptm/m/n/10 o
-.\OT1/ptm/m/n/10 r
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 o
-.\OT1/ptm/m/n/10 f
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 p
-.\OT1/ptm/m/n/10 r
-.\OT1/ptm/m/n/10 o
-.\discretionary
-..\OT1/ptm/m/n/10 -
-.\OT1/ptm/m/n/10 t
-.\OT1/ptm/m/n/10 o
-.\OT1/ptm/m/n/10 n
-.\OT1/ptm/m/n/10 s
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 a
-.\OT1/ptm/m/n/10 n
-.\OT1/ptm/m/n/10 d
-.\glue(\rightskip) 0.0
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
 
 \hbox(0.0+0.0)x244.22952
 .\glue(\rightskip) 0.0
 
-<spin-tune_ratio.png, id=115, 301.125pt x 207.77625pt>
+<spin-tune_ratio.png, id=121, 376.40625pt x 254.75175pt>
 File: spin-tune_ratio.png Graphic file (type png)
 <use spin-tune_ratio.png>
-Package pdftex.def Info: spin-tune_ratio.png  used on input line 205.
-(pdftex.def)             Requested size: 232.01729pt x 160.09915pt.
+Package pdftex.def Info: spin-tune_ratio.png  used on input line 217.
+(pdftex.def)             Requested size: 232.01729pt x 157.03484pt.
+<total_length.png, id=126, 307.1475pt x 198.7425pt>
+File: total_length.png Graphic file (type png)
+<use total_length.png>
+Package pdftex.def Info: total_length.png  used on input line 227.
+(pdftex.def)             Requested size: 232.01729pt x 150.13002pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<total_length.png, id=121, 307.1475pt x 198.7425pt>
-File: total_length.png Graphic file (type png)
-<use total_length.png>
-Package pdftex.def Info: total_length.png  used on input line 217.
-(pdftex.def)             Requested size: 232.01729pt x 150.13002pt.
+[3 <./spin-tune_ratio.png>]
 
-Overfull \hbox (0.71393pt too wide) in alignment at lines 225--233
-[] [] [] [] [] []
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 235.
 
-\hbox(0.0+0.0)x227.62204
-.\glue(\tabskip) 0.0
-.\unsetbox(0.0+0.0)x44.48874
-.\glue(\tabskip) 0.0 plus 1.0fill
-.\unsetbox(0.0+0.0)x21.98042
-.\glue(\tabskip) 0.0 plus 1.0fill
-.\unsetbox(0.0+0.0)x27.63875
-.\glue(\tabskip) 0.0 plus 1.0fill
-.\unsetbox(0.0+0.0)x25.06932
-.\glue(\tabskip) 0.0 plus 1.0fill
-.\unsetbox(0.0+0.0)x87.36243
-.\glue(\tabskip) 0.0 plus 1.0fill
-.\unsetbox(0.0+0.0)x21.79631
-.\glue(\tabskip) 0.0
-
-[3 <./spin-tune_ratio.png> <./total_length.png>]
-<wien-filter_deuteron.png, id=139, 455.90324pt x 236.68425pt>
+<wien-filter_deuteron.png, id=146, 455.90324pt x 236.68425pt>
 File: wien-filter_deuteron.png Graphic file (type png)
 <use wien-filter_deuteron.png>
-Package pdftex.def Info: wien-filter_deuteron.png  used on input line 246.
+Package pdftex.def Info: wien-filter_deuteron.png  used on input line 242.
 (pdftex.def)             Requested size: 195.38435pt x 101.43637pt.
-<wien-filter_proton.png, id=140, 461.92575pt x 235.47975pt>
+<wien-filter_proton.png, id=147, 461.92575pt x 235.47975pt>
 File: wien-filter_proton.png Graphic file (type png)
 <use wien-filter_proton.png>
-Package pdftex.def Info: wien-filter_proton.png  used on input line 248.
+Package pdftex.def Info: wien-filter_proton.png  used on input line 244.
 (pdftex.def)             Requested size: 195.38435pt x 99.60147pt.
-<el-def_deuteron.png, id=142, 469.25313pt x 315.67938pt>
+<el-def_deuteron.png, id=149, 469.25313pt x 315.67938pt>
 File: el-def_deuteron.png Graphic file (type png)
 <use el-def_deuteron.png>
-Package pdftex.def Info: el-def_deuteron.png  used on input line 260.
+Package pdftex.def Info: el-def_deuteron.png  used on input line 256.
 (pdftex.def)             Requested size: 195.38435pt x 131.43802pt.
- [4 <./wien-filter_deuteron.png> <./wien-filter_proton.png> <./el-def_deuteron.
-png>]
+[4 <./total_length.png> <./wien-filter_deuteron.png> <./wien-filter_proton.png>
+ <./el-def_deuteron.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+ []\OT1/ptm/m/n/9 T.Chupp, P.Fierlinger, M.Ramsey-Musolf, J.Singh,
+
+\hbox(6.1379+1.94843)x244.22952, glue set 8.32426
+.\glue(\leftskip) 18.99393
+.\hbox(6.1379+1.40395)x0.0
+..\glue 0.0
+..\glue -14.99393
+..\glue -4.0
+..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
+...\pdfcolorstack 0 push {0 g 0 G}
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\penalty 10000
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted -10.5
+.....\pdfdest name{cite.EDM} xyz
+.....\penalty 10000
+...\OT1/ptm/m/n/9 [
+...\OT1/ptm/m/n/9 1
+...\OT1/ptm/m/n/9 ]
+...\pdfcolorstack 0 pop
+..\glue 4.0
+.\penalty 0
+.\OT1/ptm/m/n/9 T
+.\kern-0.666
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 C
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 p
+.\OT1/ptm/m/n/9 p
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 P
+.\kern-0.999
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 F
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 g
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 r
+.\kern-0.35992
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 M
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 R
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 e
+.\kern-0.13492
+.\OT1/ptm/m/n/9 y
+.\OT1/ptm/m/n/9 -
+.\discretionary
+.\OT1/ptm/m/n/9 M
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 f
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 J
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 g
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 ,
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 277--278
+ \OT1/ptm/m/n/9 Elec-tric dipole mo-ments of atoms, molecules, nu-clei,
+
+\hbox(6.1379+1.94843)x244.22952, glue set 3.87537
+.\glue(\leftskip) 18.99393
+.\OT1/ptm/m/n/9 E
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 c
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 d
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 p
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 o
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 s
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 f
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 u
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 ,
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+ \OT1/ptm/m/n/9 and par-ti-cles. Rev. Mod. Phys. \OT1/ptm/b/n/9 91\OT1/ptm/m/n/
+9 , 015001 (2019).
+
+\hbox(6.20096+1.94843)x244.22952, glue set 4.53178
+.\glue(\leftskip) 18.99393
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 d
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 p
+.\OT1/ptm/m/n/9 a
+.\discretionary replacing 1
+..\OT1/ptm/m/n/9 r
+..\kern-0.17996
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 R
+.\OT1/ptm/m/n/9 e
+.\kern-0.225
+.\OT1/ptm/m/n/9 v
+.\kern-0.58492
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 M
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 d
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 P
+.\OT1/ptm/m/n/9 h
+.\kern-0.04495
+.\OT1/ptm/m/n/9 y
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 .
+.\kern 0.0
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/b/n/9 9
+.\OT1/ptm/b/n/9 1
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 0
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 5
+.\OT1/ptm/m/n/9 0
+.\OT1/ptm/m/n/9 0
+.\OT1/ptm/m/n/9 1
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 (
+.\OT1/ptm/m/n/9 2
+.\OT1/ptm/m/n/9 0
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 9
+.\OT1/ptm/m/n/9 )
+.\OT1/ptm/m/n/9 .
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 278--281
+ []\OT1/ptm/m/n/9 S.N.Vergeles, N.N.Nikolaev, Yu.N.Obukhov, A.Ya.Silenko,
+
+\hbox(6.1379+1.94843)x244.22952, glue set 2.26544
+.\glue(\leftskip) 18.99393
+.\hbox(6.1379+1.40395)x0.0
+..\glue 0.0
+..\glue -14.99393
+..\glue -4.0
+..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
+...\pdfcolorstack 0 push {0 g 0 G}
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\penalty 10000
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted -10.5
+.....\pdfdest name{cite.prec} xyz
+.....\penalty 10000
+...\OT1/ptm/m/n/9 [
+...\OT1/ptm/m/n/9 2
+...\OT1/ptm/m/n/9 ]
+...\pdfcolorstack 0 pop
+..\glue 4.0
+.\penalty 0
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 N
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 V
+.\kern-0.999
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 r
+.\kern-0.16194
+.\OT1/ptm/m/n/9 g
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 N
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 N
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 N
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 k
+.\kern-0.09
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 e
+.\kern-0.225
+.\OT1/ptm/m/n/9 v
+.\kern-0.58492
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 Y
+.\kern-0.999
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 N
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 O
+.\OT1/ptm/m/n/9 b
+.\kern-0.17996
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 k
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 o
+.\kern-0.13492
+.\OT1/ptm/m/n/9 v
+.\kern-0.58492
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 A
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 Y
+.\kern-0.90001
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 k
+.\kern-0.09
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 ,
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 282--283
+ []\OT1/ptm/m/n/9 V.Bargmann, L.Michel, V.L.Telegdi, Pre-ces-sion of the
+
+\hbox(6.1379+1.94843)x244.22952, glue set 3.86711
+.\glue(\leftskip) 18.99393
+.\hbox(6.1379+1.40395)x0.0
+..\glue 0.0
+..\glue -14.99393
+..\glue -4.0
+..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
+...\pdfcolorstack 0 push {0 g 0 G}
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\penalty 10000
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted -10.5
+.....\pdfdest name{cite.TBMT} xyz
+.....\penalty 10000
+...\OT1/ptm/m/n/9 [
+...\OT1/ptm/m/n/9 4
+...\OT1/ptm/m/n/9 ]
+...\pdfcolorstack 0 pop
+..\glue 4.0
+.\penalty 0
+.\OT1/ptm/m/n/9 V
+.\kern-1.16093
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 B
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 r
+.\kern-0.16194
+.\OT1/ptm/m/n/9 g
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 L
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 M
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 V
+.\kern-1.16093
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 L
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 T
+.\kern-0.62996
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\kern-0.13492
+.\OT1/ptm/m/n/9 g
+.\OT1/ptm/m/n/9 d
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 P
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 e
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 s
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 n
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 f
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 h
+.\OT1/ptm/m/n/9 e
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+ \OT1/ptm/m/n/9 Po-lar-iza-tion of Par-ti-cles Mov-ing in a Ho-mo-ge-neous
+
+\hbox(6.1379+1.94843)x244.22952, glue set 4.75601
+.\glue(\leftskip) 18.99393
+.\OT1/ptm/m/n/9 P
+.\OT1/ptm/m/n/9 o
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 a
+.\discretionary replacing 1
+..\OT1/ptm/m/n/9 r
+..\kern-0.17996
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 z
+.\OT1/ptm/m/n/9 a
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 n
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 f
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 P
+.\kern-0.13492
+.\OT1/ptm/m/n/9 a
+.\discretionary replacing 1
+..\OT1/ptm/m/n/9 r
+..\kern-0.17996
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 s
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 M
+.\OT1/ptm/m/n/9 o
+.\kern-0.13492
+.\OT1/ptm/m/n/9 v
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 g
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 n
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 a
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 H
+.\OT1/ptm/m/n/9 o
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 o
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 g
+.\OT1/ptm/m/n/9 e
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 s
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 282--283
+ \OT1/ptm/m/n/9 Elec-tro-mag-netic Field. Phys. Rev. Lett. \OT1/ptm/b/n/9 2\OT1
+/ptm/m/n/9 , 435 (1959).
+
+\hbox(6.20096+1.94843)x244.22952, glue set 3.15254
+.\glue(\leftskip) 18.99393
+.\OT1/ptm/m/n/9 E
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 c
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 o
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 g
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 F
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 d
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 P
+.\OT1/ptm/m/n/9 h
+.\kern-0.04495
+.\OT1/ptm/m/n/9 y
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 R
+.\OT1/ptm/m/n/9 e
+.\kern-0.225
+.\OT1/ptm/m/n/9 v
+.\kern-0.58492
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 L
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 .
+.\kern 0.0
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/b/n/9 2
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 4
+.\OT1/ptm/m/n/9 3
+.\OT1/ptm/m/n/9 5
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 (
+.\OT1/ptm/m/n/9 1
+.\OT1/ptm/m/n/9 9
+.\OT1/ptm/m/n/9 5
+.\OT1/ptm/m/n/9 9
+.\OT1/ptm/m/n/9 )
+.\OT1/ptm/m/n/9 .
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+ []\OT1/ptm/m/n/9 A.J.Silenko, Rel-a-tivis-tic spin dy-nam-ics con-di-tioned
+
+\hbox(6.1379+1.94843)x244.22952, glue set 6.84937
+.\glue(\leftskip) 18.99393
+.\hbox(6.1379+1.40395)x0.0
+..\glue 0.0
+..\glue -14.99393
+..\glue -4.0
+..\hbox(6.1379+1.40395)x14.99393
+...\pdfcolorstack 0 push {0 g 0 G}
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\penalty 10000
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted -10.5
+.....\pdfdest name{cite.axion} xyz
+.....\penalty 10000
+...\OT1/ptm/m/n/9 [
+...\OT1/ptm/m/n/9 1
+...\OT1/ptm/m/n/9 1
+...\OT1/ptm/m/n/9 ]
+...\pdfcolorstack 0 pop
+..\glue 4.0
+.\penalty 0
+.\OT1/ptm/m/n/9 A
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 J
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 S
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 l
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 k
+.\kern-0.09
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 ,
+.\glue 2.25 plus 1.68748 minus 0.43198
+.\OT1/ptm/m/n/9 R
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 l
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 a
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\kern-0.225
+.\OT1/ptm/m/n/9 v
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 s
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 p
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 n
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 d
+.\OT1/ptm/m/n/9 y
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 m
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 s
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 c
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 n
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 d
+.\OT1/ptm/m/n/9 i
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 d
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 290--291
+ \OT1/ptm/m/n/9 by dark mat-ter ax-ions. Eur.Phys.J.C \OT1/ptm/b/n/9 82 \OT1/pt
+m/m/n/9 856 (2022).
+
+\hbox(6.20096+1.94843)x244.22952, glue set 4.31712
+.\glue(\leftskip) 18.99393
+.\OT1/ptm/m/n/9 b
+.\OT1/ptm/m/n/9 y
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 d
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 r
+.\OT1/ptm/m/n/9 k
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 m
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 t
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 t
+.\OT1/ptm/m/n/9 e
+.\OT1/ptm/m/n/9 r
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 a
+.\OT1/ptm/m/n/9 x
+.\discretionary
+..\OT1/ptm/m/n/9 -
+.\OT1/ptm/m/n/9 i
+.\OT1/ptm/m/n/9 o
+.\OT1/ptm/m/n/9 n
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 .
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 E
+.\OT1/ptm/m/n/9 u
+.\OT1/ptm/m/n/9 r
+.\kern-0.49493
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 P
+.\OT1/ptm/m/n/9 h
+.\kern-0.04495
+.\OT1/ptm/m/n/9 y
+.\OT1/ptm/m/n/9 s
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 J
+.\OT1/ptm/m/n/9 .
+.\OT1/ptm/m/n/9 C
+.\kern 0.0
+.\glue 2.25 plus 1.34863 minus 0.54051
+.\OT1/ptm/b/n/9 8
+.\OT1/ptm/b/n/9 2
+.\kern 0.0
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 8
+.\OT1/ptm/m/n/9 5
+.\OT1/ptm/m/n/9 6
+.\glue 2.25 plus 1.34999 minus 0.53998
+.\OT1/ptm/m/n/9 (
+.\OT1/ptm/m/n/9 2
+.\OT1/ptm/m/n/9 0
+.\OT1/ptm/m/n/9 2
+.\OT1/ptm/m/n/9 2
+.\OT1/ptm/m/n/9 )
+.\OT1/ptm/m/n/9 .
+.\glue(\rightskip) 0.0
+
 No file Nuclotron.bbl.
 [5] (./Nuclotron.aux)
  ***********
@@ -1106,13 +1731,13 @@ Package rerunfilecheck Info: File `Nuclotron.out' has not changed.
 (rerunfilecheck)             Checksum: E05B250BB97BF74F4CA25F6294A51187;2664.
  ) 
 Here is how much of TeX's memory you used:
- 21468 strings out of 473200
- 386713 string characters out of 5720278
- 824724 words of memory out of 5000000
- 44411 multiletter control sequences out of 15000+600000
+ 21493 strings out of 473200
+ 387043 string characters out of 5720278
+ 824872 words of memory out of 5000000
+ 44430 multiletter control sequences out of 15000+600000
  582514 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,12n,94p,1168b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,12n,94p,1087b,1149s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dis
@@ -1129,10 +1754,10 @@ sfonts/cm/cmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
 .pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2
 024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on Nuclotron.pdf (5 pages, 354161 bytes).
+Output written on Nuclotron.pdf (5 pages, 367627 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 190 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
  138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Literature Review}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{GPT3-derived Models DALLE \& CLIP}{7}{0}{2}
+\beamer@sectionintoc {3}{Methods}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Diffusion Model}{10}{0}{3}
+\beamer@sectionintoc {4}{Results}{20}{0}{4}
+\beamer@sectionintoc {5}{References}{22}{0}{5}
