@@ -1,0 +1,82 @@
+%---------------------------------------------------------
+%	PRESENTATION BODY SLIDES
+%---------------------------------------------------------
+\section{Внутрипучковое рассеяние} % Note all sections and subsections are automatically placed in your table of contents
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Внутрипучковое рассеяние (ВПР)}
+	\begin{itemize}
+		\item Многократное кулоновское рассеяние заряженных частиц друг с другом внутри одного сгустка;
+		\item ВПР приводит к постепенному \textbf{увеличению эмиттанса пучка} и ограничению \textbf{времени жизни} пучка;
+		\item Увеличение эмиттанса пучка ограничивает светимость коллайдера.
+	\end{itemize}
+	\vspace{0.5cm} 
+	\begin{equation}
+		L=\frac{n_{\mathrm{bunch}}N_1N_2f_0}{4\pi\sqrt{\varepsilon_x\varepsilon_y}B^\ast}\Phi_{\textrm{HG}}, \
+		\Phi_{\textrm{HG}}(\alpha)=\frac{2}{\sqrt\pi}\int_{0}^{\infty}\frac{e^{-u^2}du}{1+(\alpha u)^2},\
+		\alpha=\frac{\sigma_s}{B^\ast}.
+		\label{eq:luminocity}
+	\end{equation}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Внутрипучковое рассеяние}
+	\par ВПР зависит от параметров пучка, энергии, магнитооптики.
+	$$
+	\begin{aligned}
+		\frac{1}{\tau_x} & =\frac{\pi^2 r_0^2 v_c m^3 N(\log )}{\gamma \Gamma}\left[\frac{\gamma^2 H_x}{\epsilon_x}\right] \int_0^{\infty} \frac{d \lambda \lambda^{1 / 2}\left[a_x \lambda+b_x\right]}{\left(\lambda^3+a \lambda^2+b \lambda+c\right)^{3 / 2}}, \\
+		\frac{1}{\tau_l} & =\frac{\pi^2 r_0^2 v_c m^3 N(\log )}{\gamma \Gamma}\left[\frac{\gamma^2}{\sigma_\delta^2}\right] \int_0^{\infty} \frac{d \lambda \lambda^{1 / 2}\left[a_l \lambda+b_l\right]}{\left(\lambda^3+a \lambda^2+b \lambda+c\right)^{3 / 2}}, \\
+		\frac{1}{\tau_y} & =\frac{\pi^2 r_0^2 v_c m^3 N(\log )}{\gamma \Gamma}\left[\frac{\beta_y}{\epsilon_y}\right] \int_0^{\infty} \frac{d \lambda \lambda^{1 / 2}\left[a_y \lambda+b_y\right]}{\left(\lambda^3+a \lambda^2+b \lambda+c\right)^{3 / 2}} .
+	\end{aligned}
+	$$
+	\par Для достижения максимального времени ВПР требуется создать структуру с минимальными средними значениями бета-функции, дисперсии, а также их регуляризация.
+	
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Регулярная структура}
+	\begin{columns}[t]
+		\begin{column}{0.4\textwidth}
+			\begin{itemize}
+				\item Оптимальная оптика с точки зрения ВПР;
+				\item Требуется прохождение \textbf{критической энергии} $\gamma_{\text{tr}}$;
+				\item Выше критической энергии пучок не может достичь равновесия.
+			\end{itemize}
+			$$
+			\left(\frac{1}{\gamma^2}-\frac{1}{\gamma_t^2}\right) \eta^2+\left\langle\frac{1}{\beta_x}\right\rangle \varepsilon_x+\left\langle\frac{1}{\beta_z}\right\rangle \varepsilon_z=\text {const},
+			$$
+		\end{column}
+		\begin{column}{0.6\textwidth}
+			\begin{figure}[t]
+				\centering
+				\includegraphics[width=9cm]{regular}
+				\label{fig:regular}
+			\end{figure}
+		\end{column}
+	\end{columns}	
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Резонансная структура}
+	\begin{columns}[t]
+		\begin{column}{0.4\textwidth}
+			\begin{itemize}
+				\item Критическая энергия выше энергии эксперимента;
+				\item Модуляция Твисс-параметров;
+				\item Введение дополнительного питания для отдельного семейства квадруполей;
+				\item Невозможность использования стохастического охлаждения.
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.6\textwidth}
+			\begin{figure}[t]
+				\centering
+				% Убедитесь, что файл 'resonant.png' (или .jpg, .pdf) лежит в той же папке
+				\includegraphics[width=9cm]{resonant}
+				\label{fig:resonant}
+			\end{figure}
+		\end{column}
+	\end{columns}	
+\end{frame}
+%------------------------------------------------

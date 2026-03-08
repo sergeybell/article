@@ -1,0 +1,6 @@
+\babel@toc {russian}{}\relax 
+\beamer@sectionintoc {2}{Внутрипучковое рассеяние}{3}{0}{1}
+\beamer@sectionintoc {3}{Стохастическое охлаждение}{7}{0}{2}
+\beamer@sectionintoc {4}{Динамическая апертура}{12}{0}{3}
+\beamer@sectionintoc {5}{Диаграмма частот}{13}{0}{4}
+\beamer@sectionintoc {6}{Заключение}{14}{0}{5}

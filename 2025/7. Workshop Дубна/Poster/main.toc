@@ -1,0 +1,5 @@
+\babel@toc {russian}{}\relax 
+\beamer@sectionintoc {2}{Дуальная структура}{3}{0}{1}
+\beamer@sectionintoc {3}{Кольцо в форме 8}{10}{0}{2}
+\beamer@sectionintoc {4}{Квази-замороженная опция}{15}{0}{3}
+\beamer@sectionintoc {5}{Заключение}{17}{0}{4}

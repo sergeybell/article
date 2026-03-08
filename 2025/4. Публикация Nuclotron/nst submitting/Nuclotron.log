@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  2 JUL 2025 15:18
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.12)  30 NOV 2025 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,18 +24,18 @@ LaTeX Info: Redefining \@centercr on input line 346.
 Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
 note on input line 471.
 Class revtex4-1 Info: Repairing broken LateX \@sect on input line 793.
-\intertabularlinepenalty=\count196
-\@tbpen=\count197
+\intertabularlinepenalty=\count192
+\@tbpen=\count193
 \@arstrutbox@hline=\box52
 Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1824.
 Class revtex4-1 Info: Making \typeout \long on input line 2089.
 ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
-\c@affil=\count198
-\c@collab=\count199
+\c@affil=\count194
+\c@collab=\count195
 \absbox=\box53
 ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
 web at superscript.com)]
-\c@linecount=\count266
+\c@linecount=\count196
 \output@latex=\toks17
 \box@size@1=\box54
 \box@size@2=\box55
@@ -46,22 +46,22 @@ web at superscript.com)]
 \column@recovered=\box59
 \pagesofar=\box60
 \footsofar=\box61
-\pagegrid@col=\count267
+\pagegrid@col=\count197
 Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
  \\  on input line 5655.
-\c@part=\count268
-\c@section=\count269
-\c@subsection=\count270
-\c@subsubsection=\count271
-\c@paragraph=\count272
-\c@subparagraph=\count273
+\c@part=\count198
+\c@section=\count199
+\c@subsection=\count266
+\c@subsubsection=\count267
+\c@paragraph=\count268
+\c@subparagraph=\count269
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\c@figure=\count274
+\c@figure=\count270
 \fbox@1=\box62
-\c@table=\count275
+\c@table=\count271
 \fbox@2=\box63
-\c@video=\count276
+\c@video=\count272
 \fbox@4=\box64
 \@bibdataout=\write3
 \widetext@top=\box65
@@ -118,14 +118,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count277
+\inf@bad=\count273
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count278
-\leftroot@=\count279
+\uproot@=\count274
+\leftroot@=\count275
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count280
-\DOTSCASE@=\count281
+\classnum@=\count276
+\DOTSCASE@=\count277
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -138,20 +138,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count282
+\macc@depth=\count278
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count283
+\c@MaxMatrixCols=\count279
 \dotsspace@=\muskip17
-\c@parentequation=\count284
-\dspbrk@lvl=\count285
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
 \tag@help=\toks21
-\row@=\count286
-\column@=\count287
-\maxfields@=\count288
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
 \andhelp@=\toks22
 \eqnshift@=\dimen144
 \alignsep@=\dimen145
@@ -175,7 +175,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip54
 \bibsep=\skip55
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count289
+\c@NAT@ctr=\count285
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7623.
 
@@ -191,7 +191,7 @@ Package: lineno 2025/01/29 line numbers on paragraphs v5.4
 
 (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count290
+\etb@tempcnta=\count286
 )
 (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
@@ -206,45 +206,45 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-\linenopenalty=\count291
+\linenopenalty=\count287
 \output=\toks26
-\linenoprevgraf=\count292
+\linenoprevgraf=\count288
 \linenumbersep=\dimen150
 \linenumberwidth=\dimen151
-\c@linenumber=\count293
-\c@pagewiselinenumber=\count294
-\c@LN@truepage=\count295
+\c@linenumber=\count289
+\c@pagewiselinenumber=\count290
+\c@LN@truepage=\count291
 
 
 Package lineno Warning: Option [displaymath] is obsolete.
 
-\c@internallinenumber=\count296
-\c@internallinenumbers=\count297
+\c@internallinenumber=\count292
+\c@internallinenumbers=\count293
 \quotelinenumbersep=\dimen152
 \bframerule=\dimen153
 \bframesep=\dimen154
 \bframebox=\box69
-\@LN@amsmath@ams@eqpen=\count298
+\@LN@amsmath@ams@eqpen=\count294
 LaTeX Info: Redefining \\ on input line 3187.
 ) (c:/texlive/2024/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
 (c:/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2025-01-21 v3.4.4 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count299
-\l__siunitx_number_exponent_fixed_int=\count300
-\l__siunitx_number_min_decimal_int=\count301
-\l__siunitx_number_min_integer_int=\count302
-\l__siunitx_number_round_precision_int=\count303
-\l__siunitx_number_lower_threshold_int=\count304
-\l__siunitx_number_upper_threshold_int=\count305
-\l__siunitx_number_group_first_int=\count306
-\l__siunitx_number_group_size_int=\count307
-\l__siunitx_number_group_minimum_int=\count308
+\l__siunitx_number_uncert_offset_int=\count295
+\l__siunitx_number_exponent_fixed_int=\count296
+\l__siunitx_number_min_decimal_int=\count297
+\l__siunitx_number_min_integer_int=\count298
+\l__siunitx_number_round_precision_int=\count299
+\l__siunitx_number_lower_threshold_int=\count300
+\l__siunitx_number_upper_threshold_int=\count301
+\l__siunitx_number_group_first_int=\count302
+\l__siunitx_number_group_size_int=\count303
+\l__siunitx_number_group_minimum_int=\count304
 \l__siunitx_angle_tmp_dim=\dimen155
 \l__siunitx_angle_marker_box=\box70
 \l__siunitx_angle_unit_box=\box71
-\l__siunitx_compound_count_int=\count309
+\l__siunitx_compound_count_int=\count305
 
 (c:/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
@@ -262,7 +262,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 ))
 \l__siunitx_table_tmp_box=\box72
 \l__siunitx_table_tmp_dim=\dimen156
@@ -274,9 +274,9 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_table_after_box=\box77
 \l__siunitx_table_before_dim=\dimen158
 \l__siunitx_table_carry_dim=\dimen159
-\l__siunitx_unit_tmp_int=\count310
-\l__siunitx_unit_position_int=\count311
-\l__siunitx_unit_total_int=\count312
+\l__siunitx_unit_tmp_int=\count306
+\l__siunitx_unit_position_int=\count307
+\l__siunitx_unit_total_int=\count308
 
 (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
@@ -294,10 +294,10 @@ Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
 (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 149.
+Package color Info: Driver file: xetex.def on input line 149.
 
-(c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+(c:/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 )
 (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 (c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -312,12 +312,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen169
 \cmidrulekern=\dimen170
 \defaultaddspace=\dimen171
-\@cmidla=\count313
-\@cmidlb=\count314
+\@cmidla=\count309
+\@cmidlb=\count310
 \@aboverulesep=\dimen172
 \@belowrulesep=\dimen173
-\@thisruleclass=\count315
-\@lastruleclass=\count316
+\@thisruleclass=\count311
+\@lastruleclass=\count312
 \@thisrulewidth=\dimen174
 )
 (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -332,7 +332,7 @@ Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
+Package graphics Info: Driver file: xetex.def on input line 106.
 )
 \Gin@req@height=\dimen175
 \Gin@req@width=\dimen176
@@ -341,8 +341,11 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks28
 \inpenc@posthook=\toks29
-)
-(c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
 (c:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -369,29 +372,25 @@ Package nameref Warning: The definition of \label has changed!
 (nameref)                Replacing it with the kernel definition on input line 
 149.
 
-\c@section@level=\count317
+\c@section@level=\count313
 ) (c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen177
-\Hy@linkcounter=\count318
-\Hy@pagecounter=\count319
+\Hy@linkcounter=\count314
+\Hy@pagecounter=\count315
 
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
 (c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count320
+\Hy@SavedSpaceFactor=\count316
 
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
 Package hyperref Info: Hyper figures OFF on input line 4157.
@@ -402,7 +401,7 @@ Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
 LaTeX Info: Redefining \href on input line 4674.
-\c@Hy@tempcnt=\count321
+\c@Hy@tempcnt=\count317
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen178
 
@@ -413,7 +412,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count322
+\Fld@menulength=\count318
 \Field@Width=\dimen179
 \Fld@charsize=\dimen180
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -428,26 +427,28 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count323
-\c@Item=\count324
-\c@Hfootnote=\count325
+\Hy@abspage=\count319
+\c@Item=\count320
+\c@Hfootnote=\count321
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hxetex.
 
-(c:/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
+\pdfm@box=\box80
+\c@Hy@AnnotLevel=\count322
+\HyField@AnnotCount=\count323
+\Fld@listcount=\count324
+\c@bookmark@seq@number=\count325
+
+(c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
 (c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count326
-\c@bookmark@seq@number=\count327
-
-(c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-
 (c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -470,90 +471,28 @@ Package: MULEenc 2021/10/16 4.8.5
 )
 (c:/texlive/2024/texmf-dist/tex/latex/cjk/texinput/CJK.enc
 File: CJK.enc 2021/10/16 4.8.5
-Now handling font encoding C00 ...
-... no UTF-8 mapping file for font encoding C00
-Now handling font encoding C05 ...
-... no UTF-8 mapping file for font encoding C05
-Now handling font encoding C09 ...
-... no UTF-8 mapping file for font encoding C09
-Now handling font encoding C10 ...
-... no UTF-8 mapping file for font encoding C10
-Now handling font encoding C20 ...
-... no UTF-8 mapping file for font encoding C20
-Now handling font encoding C19 ...
-... no UTF-8 mapping file for font encoding C19
-Now handling font encoding C40 ...
-... no UTF-8 mapping file for font encoding C40
-Now handling font encoding C42 ...
-... no UTF-8 mapping file for font encoding C42
-Now handling font encoding C43 ...
-... no UTF-8 mapping file for font encoding C43
-Now handling font encoding C50 ...
-... no UTF-8 mapping file for font encoding C50
-Now handling font encoding C52 ...
-... no UTF-8 mapping file for font encoding C52
-Now handling font encoding C49 ...
-... no UTF-8 mapping file for font encoding C49
-Now handling font encoding C60 ...
-... no UTF-8 mapping file for font encoding C60
-Now handling font encoding C61 ...
-... no UTF-8 mapping file for font encoding C61
-Now handling font encoding C63 ...
-... no UTF-8 mapping file for font encoding C63
-Now handling font encoding C64 ...
-... no UTF-8 mapping file for font encoding C64
-Now handling font encoding C65 ...
-... no UTF-8 mapping file for font encoding C65
-Now handling font encoding C70 ...
-... no UTF-8 mapping file for font encoding C70
-Now handling font encoding C31 ...
-... no UTF-8 mapping file for font encoding C31
-Now handling font encoding C32 ...
-... no UTF-8 mapping file for font encoding C32
-Now handling font encoding C33 ...
-... no UTF-8 mapping file for font encoding C33
-Now handling font encoding C34 ...
-... no UTF-8 mapping file for font encoding C34
-Now handling font encoding C35 ...
-... no UTF-8 mapping file for font encoding C35
-Now handling font encoding C36 ...
-... no UTF-8 mapping file for font encoding C36
-Now handling font encoding C37 ...
-... no UTF-8 mapping file for font encoding C37
-Now handling font encoding C80 ...
-... no UTF-8 mapping file for font encoding C80
-Now handling font encoding C81 ...
-... no UTF-8 mapping file for font encoding C81
-Now handling font encoding C01 ...
-... no UTF-8 mapping file for font encoding C01
-Now handling font encoding C11 ...
-... no UTF-8 mapping file for font encoding C11
-Now handling font encoding C21 ...
-... no UTF-8 mapping file for font encoding C21
-Now handling font encoding C41 ...
-... no UTF-8 mapping file for font encoding C41
-Now handling font encoding C62 ...
-... no UTF-8 mapping file for font encoding C62
 )
-\CJK@indent=\box80
+\CJK@indent=\box81
 )
 (c:/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-16.
+LaTeX Font Info:    Trying to load font information for TU+ptm on input line 11
+6.
+LaTeX Font Info:    No file TUptm.fd. on input line 116.
 
-(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)))
-(c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+
+LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 116.
+
+)) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count328
-\Gm@cntv=\count329
-\c@Gm@tempcnt=\count330
+\Gm@cnth=\count326
+\Gm@cntv=\count327
+\c@Gm@tempcnt=\count328
 \Gm@bindingoffset=\dimen181
 \Gm@wd@mp=\dimen182
 \Gm@odd@mp=\dimen183
@@ -564,11 +503,11 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen188
 \Gm@dimlist=\toks30
 )
-\authors@nums=\count331
-\title@box=\box81
-\title@line=\box82
-\linebox=\box83
-\snapbox=\box84
+\authors@nums=\count329
+\title@box=\box82
+\title@line=\box83
+\linebox=\box84
+\snapbox=\box85
 
 (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
@@ -597,10 +536,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip75
 \subfigcapmargin=\dimen190
 \subfiglabelskip=\skip76
-\c@subfigure=\count332
-\c@lofdepth=\count333
-\c@subtable=\count334
-\c@lotdepth=\count335
+\c@subfigure=\count330
+\c@lofdepth=\count331
+\c@subtable=\count332
+\c@lotdepth=\count333
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -620,27 +559,23 @@ Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
 (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
-(c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-)))
-(c:/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
+
+Package epstopdf Warning: Drivers other than `pdftex' and `luatex' are not supp
+orted.
+
+)) (c:/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
 
 (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
 
-(c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count336
-\l__pdf_internal_box=\box85
+(c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count334
+\l__pdf_internal_box=\box86
+\g__pdf_backend_annotation_int=\count335
+\g__pdf_backend_link_int=\count336
 ))
 (c:/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
@@ -703,7 +638,7 @@ Package: physics
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count344
-\lst@gtempboxa=\box86
+\lst@gtempboxa=\box87
 \lst@token=\toks32
 \lst@length=\count345
 \lst@currlwidth=\dimen197
@@ -722,7 +657,7 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 \c@lstnumber=\count350
 \lst@skipnumbers=\count351
-\lst@framebox=\box87
+\lst@framebox=\box88
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
@@ -751,6 +686,8 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -844,30 +781,19 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 12.
- (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count352
-\scratchdimen=\dimen257
-\scratchbox=\box88
-\nofMPsegments=\count353
-\nofMParguments=\count354
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count355
-\MPscratchDim=\dimen258
-\MPnumerator=\count356
-\makeMPintoPDFobject=\count357
-\everyMPtoPDFconversion=\toks34
-)
 Package hyperref Info: Link coloring ON on input line 12.
  (./Nuclotron.out) (./Nuclotron.out)
 \@outlinefile=\write4
 \openout4 = `Nuclotron.out'.
 
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -903,7 +829,7 @@ Package hyperref Info: Link coloring ON on input line 12.
 
 Package chemgreek Info: Activating mapping `upgreek' on line 12.
 
-\c@lstlisting=\count358
+\c@lstlisting=\count352
 Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input 
 line 12.
 Class revtex4-1 Info: Line numbering not turned on yet on input line 12.
@@ -913,40 +839,20 @@ Class revtex4-1 Info: Overriding \@LN@LLerror on input line 12.
 
 Underfull \vbox (badness 10000) detected at line 15
 
-\vbox(11.5+1.7749)x202.58052
-.\hbox(6.81989+1.7749)x202.58052, glue set 55.27126fil
-..\OT1/ptm/m/n/10 Q
-..\kern-0.09999
-..\OT1/ptm/m/n/10 U
-..\kern-0.39992
-..\OT1/ptm/m/n/10 A
-..\OT1/ptm/m/n/10 S
-..\OT1/ptm/m/n/10 I
-..\OT1/ptm/m/n/10 -
-..\discretionary
-..\OT1/ptm/m/n/10 F
-..\OT1/ptm/m/n/10 R
-..\kern-0.39992
-..\OT1/ptm/m/n/10 O
-..\OT1/ptm/m/n/10 Z
-..\OT1/ptm/m/n/10 E
-..\OT1/ptm/m/n/10 N
-..\glue 2.5 plus 1.49847 minus 0.60057
-..\OT1/ptm/m/n/10 S
-..\OT1/ptm/m/n/10 P
-..\OT1/ptm/m/n/10 I
-..\OT1/ptm/m/n/10 N
-..\glue 2.5 plus 1.49847 minus 0.60057
-..\OT1/ptm/m/n/10 F
-..\OT1/ptm/m/n/10 O
-..\OT1/ptm/m/n/10 R
-..\glue 2.5 plus 1.49847 minus 0.60057
-..\OT1/ptm/m/n/10 B
-..\OT1/ptm/m/n/10 O
-..\kern-0.39992
-..\OT1/ptm/m/n/10 T
-..\OT1/ptm/m/n/10 H
+\vbox(11.5+1.93999)x202.58052
+.\hbox(7.16+1.93999)x202.58052, glue set 41.05052fil
+..\TU/ptm/m/n/10 QUASI-FROZEN
+..\glue 3.33 plus 1.66331 minus 1.1111
+..\TU/ptm/m/n/10 SPIN
+..\glue 3.33 plus 1.66331 minus 1.1111
+..\TU/ptm/m/n/10 FOR
+..\glue 3.33 plus 1.66331 minus 1.1111
+..\TU/ptm/m/n/10 BOTH
 ..\glue(\rightskip) 0.0 plus 1.0fil
+
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/m/n' instead on input line 48.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
 
@@ -959,762 +865,421 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 5
-0.
 
-(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-) [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2
-024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
+LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
+(Font)              using `TU/ptm/m/n' instead on input line 48.
+
+LaTeX Font Info:    Trying to load font information for TU+phv on input line 50
+.
+LaTeX Font Info:    No file TUphv.fd. on input line 50.
+
+LaTeX Font Warning: Font shape `TU/phv/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 50.
+
+[1] [2]
+Underfull \hbox (badness 1675) in paragraph at lines 212--213
+\TU/ptm/m/n/10 direction of spin rotation can depend on the en-
+
+\hbox(7.05+1.93999)x244.22952, glue set 2.56003
+.\TU/ptm/m/n/10 direction
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/ptm/m/n/10 of
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/ptm/m/n/10 spin
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/ptm/m/n/10 rotation
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/ptm/m/n/10 can
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/ptm/m/n/10 depend
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/ptm/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/ptm/m/n/10 the
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/ptm/m/n/10 en-
+.\glue(\rightskip) 0.0
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
 
 \hbox(0.0+0.0)x244.22952
 .\glue(\rightskip) 0.0
 
-<spin-tune_ratio.png, id=121, 376.40625pt x 254.75175pt>
-File: spin-tune_ratio.png Graphic file (type png)
-<use spin-tune_ratio.png>
-Package pdftex.def Info: spin-tune_ratio.png  used on input line 217.
-(pdftex.def)             Requested size: 232.01729pt x 157.03484pt.
-<total_length.png, id=126, 307.1475pt x 198.7425pt>
-File: total_length.png Graphic file (type png)
-<use total_length.png>
-Package pdftex.def Info: total_length.png  used on input line 227.
-(pdftex.def)             Requested size: 232.01729pt x 150.13002pt.
+File: spin-tune_ratio.png Graphic file (type bmp)
+<spin-tune_ratio.png>
+File: total_length.png Graphic file (type bmp)
+<total_length.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./spin-tune_ratio.png>]
+[3]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 235.
 
-<wien-filter_deuteron.png, id=146, 455.90324pt x 236.68425pt>
-File: wien-filter_deuteron.png Graphic file (type png)
-<use wien-filter_deuteron.png>
-Package pdftex.def Info: wien-filter_deuteron.png  used on input line 242.
-(pdftex.def)             Requested size: 195.38435pt x 101.43637pt.
-<wien-filter_proton.png, id=147, 461.92575pt x 235.47975pt>
-File: wien-filter_proton.png Graphic file (type png)
-<use wien-filter_proton.png>
-Package pdftex.def Info: wien-filter_proton.png  used on input line 244.
-(pdftex.def)             Requested size: 195.38435pt x 99.60147pt.
-<el-def_deuteron.png, id=149, 469.25313pt x 315.67938pt>
-File: el-def_deuteron.png Graphic file (type png)
-<use el-def_deuteron.png>
-Package pdftex.def Info: el-def_deuteron.png  used on input line 256.
-(pdftex.def)             Requested size: 195.38435pt x 131.43802pt.
-[4 <./total_length.png> <./wien-filter_deuteron.png> <./wien-filter_proton.png>
- <./el-def_deuteron.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
- []\OT1/ptm/m/n/9 T.Chupp, P.Fierlinger, M.Ramsey-Musolf, J.Singh,
+File: wien-filter_deuteron.png Graphic file (type bmp)
+<wien-filter_deuteron.png>
+File: wien-filter_proton.png Graphic file (type bmp)
+<wien-filter_proton.png>
 
-\hbox(6.1379+1.94843)x244.22952, glue set 8.32426
-.\glue(\leftskip) 18.99393
-.\hbox(6.1379+1.40395)x0.0
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: el-def_deuteron.png Graphic file (type bmp)
+<el-def_deuteron.png>
+[4]
+Underfull \hbox (badness 4013) in paragraph at lines 277--278
+ []\TU/ptm/b/n/9 T.Chupp, P.Fierlinger, M.Ramsey-Musolf, J.Singh,
+
+\hbox(6.75+2.24998)x244.22952, glue set 3.42574
+.\glue(\leftskip) 18.40001
+.\hbox(6.75+2.24998)x0.0
 ..\glue 0.0
-..\glue -14.99393
+..\glue -14.40001
 ..\glue -4.0
-..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
-...\pdfcolorstack 0 push {0 g 0 G}
+..\hbox(6.75+2.24998)x14.40001, glue set 2.313fil
+...\special{color push  Black}
 ...\glue 0.0 plus 1.0fil
 ...\glue 0.0 plus 1.0fil
 ...\penalty 10000
 ...\hbox(0.0+0.0)x0.0
 ....\hbox(0.0+0.0)x0.0, shifted -10.5
-.....\pdfdest name{cite.EDM} xyz
+.....\special{pdf:dest (cite.EDM) [@thispage /XYZ @xpos @ypos null]}
 .....\penalty 10000
-...\OT1/ptm/m/n/9 [
-...\OT1/ptm/m/n/9 1
-...\OT1/ptm/m/n/9 ]
-...\pdfcolorstack 0 pop
+...\TU/ptm/b/n/9 [1]
+...\special{color pop}
 ..\glue 4.0
 .\penalty 0
-.\OT1/ptm/m/n/9 T
-.\kern-0.666
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 C
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 p
-.\OT1/ptm/m/n/9 p
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 P
-.\kern-0.999
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 F
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 g
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 r
-.\kern-0.35992
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 M
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 R
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 e
-.\kern-0.13492
-.\OT1/ptm/m/n/9 y
-.\OT1/ptm/m/n/9 -
-.\discretionary
-.\OT1/ptm/m/n/9 M
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 f
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 J
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 g
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 ,
+.\TU/ptm/b/n/9 T.Chupp,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 P.Fierlinger,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 M.Ramsey-Musolf,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 J.Singh,
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 277--278
- \OT1/ptm/m/n/9 Elec-tric dipole mo-ments of atoms, molecules, nu-clei,
+Underfull \hbox (badness 10000) in paragraph at lines 278--281
+ []\TU/ptm/b/n/9 S.N.Vergeles, N.N.Nikolaev, Yu.N.Obukhov,
 
-\hbox(6.1379+1.94843)x244.22952, glue set 3.87537
-.\glue(\leftskip) 18.99393
-.\OT1/ptm/m/n/9 E
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 c
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 d
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 p
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 o
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 s
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 f
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 u
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 ,
-.\glue(\rightskip) 0.0
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
- \OT1/ptm/m/n/9 and par-ti-cles. Rev. Mod. Phys. \OT1/ptm/b/n/9 91\OT1/ptm/m/n/
-9 , 015001 (2019).
-
-\hbox(6.20096+1.94843)x244.22952, glue set 4.53178
-.\glue(\leftskip) 18.99393
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 d
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 p
-.\OT1/ptm/m/n/9 a
-.\discretionary replacing 1
-..\OT1/ptm/m/n/9 r
-..\kern-0.17996
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 R
-.\OT1/ptm/m/n/9 e
-.\kern-0.225
-.\OT1/ptm/m/n/9 v
-.\kern-0.58492
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 M
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 d
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 P
-.\OT1/ptm/m/n/9 h
-.\kern-0.04495
-.\OT1/ptm/m/n/9 y
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 .
-.\kern 0.0
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/b/n/9 9
-.\OT1/ptm/b/n/9 1
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 0
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 5
-.\OT1/ptm/m/n/9 0
-.\OT1/ptm/m/n/9 0
-.\OT1/ptm/m/n/9 1
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 (
-.\OT1/ptm/m/n/9 2
-.\OT1/ptm/m/n/9 0
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 9
-.\OT1/ptm/m/n/9 )
-.\OT1/ptm/m/n/9 .
-.\glue(\rightskip) 0.0
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 278--281
- []\OT1/ptm/m/n/9 S.N.Vergeles, N.N.Nikolaev, Yu.N.Obukhov, A.Ya.Silenko,
-
-\hbox(6.1379+1.94843)x244.22952, glue set 2.26544
-.\glue(\leftskip) 18.99393
-.\hbox(6.1379+1.40395)x0.0
+\hbox(6.75+2.24998)x244.22952, glue set 12.34796
+.\glue(\leftskip) 18.40001
+.\hbox(6.75+2.24998)x0.0
 ..\glue 0.0
-..\glue -14.99393
+..\glue -14.40001
 ..\glue -4.0
-..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
-...\pdfcolorstack 0 push {0 g 0 G}
+..\hbox(6.75+2.24998)x14.40001, glue set 2.313fil
+...\special{color push  Black}
 ...\glue 0.0 plus 1.0fil
 ...\glue 0.0 plus 1.0fil
 ...\penalty 10000
 ...\hbox(0.0+0.0)x0.0
 ....\hbox(0.0+0.0)x0.0, shifted -10.5
-.....\pdfdest name{cite.prec} xyz
+.....\special{pdf:dest (cite.prec) [@thispage /XYZ @xpos @ypos null]}
 .....\penalty 10000
-...\OT1/ptm/m/n/9 [
-...\OT1/ptm/m/n/9 2
-...\OT1/ptm/m/n/9 ]
-...\pdfcolorstack 0 pop
+...\TU/ptm/b/n/9 [2]
+...\special{color pop}
 ..\glue 4.0
 .\penalty 0
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 N
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 V
-.\kern-0.999
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 r
-.\kern-0.16194
-.\OT1/ptm/m/n/9 g
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 N
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 N
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 N
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 k
-.\kern-0.09
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 e
-.\kern-0.225
-.\OT1/ptm/m/n/9 v
-.\kern-0.58492
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 Y
-.\kern-0.999
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 N
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 O
-.\OT1/ptm/m/n/9 b
-.\kern-0.17996
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 k
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 o
-.\kern-0.13492
-.\OT1/ptm/m/n/9 v
-.\kern-0.58492
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 A
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 Y
-.\kern-0.90001
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 k
-.\kern-0.09
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 ,
+.\TU/ptm/b/n/9 S.N.Vergeles,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 N.N.Nikolaev,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 Yu.N.Obukhov,
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 282--283
- []\OT1/ptm/m/n/9 V.Bargmann, L.Michel, V.L.Telegdi, Pre-ces-sion of the
+Underfull \hbox (badness 2310) in paragraph at lines 278--281
+ \TU/ptm/b/n/9 in precision spin experimental tests of fundamen-
 
-\hbox(6.1379+1.94843)x244.22952, glue set 3.86711
-.\glue(\leftskip) 18.99393
-.\hbox(6.1379+1.40395)x0.0
+\hbox(6.345+1.74599)x244.22952, glue set 2.8505
+.\glue(\leftskip) 18.40001
+.\TU/ptm/b/n/9 in
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 precision
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 spin
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 experimental
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 tests
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 of
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 fundamen-
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 7415) in paragraph at lines 283--285
+ []\TU/ptm/b/n/9 V.Anastassopoulos et al., A Storage Ring Ex-
+
+\hbox(6.75+2.24998)x244.22952, glue set 4.20374
+.\glue(\leftskip) 18.40001
+.\hbox(6.75+2.24998)x0.0
 ..\glue 0.0
-..\glue -14.99393
+..\glue -14.40001
 ..\glue -4.0
-..\hbox(6.1379+1.40395)x14.99393, glue set 2.25fil
-...\pdfcolorstack 0 push {0 g 0 G}
+..\hbox(6.75+2.24998)x14.40001, glue set 2.313fil
+...\special{color push  Black}
 ...\glue 0.0 plus 1.0fil
 ...\glue 0.0 plus 1.0fil
 ...\penalty 10000
 ...\hbox(0.0+0.0)x0.0
 ....\hbox(0.0+0.0)x0.0, shifted -10.5
-.....\pdfdest name{cite.TBMT} xyz
+.....\special{pdf:dest (cite.BNL) [@thispage /XYZ @xpos @ypos null]}
 .....\penalty 10000
-...\OT1/ptm/m/n/9 [
-...\OT1/ptm/m/n/9 4
-...\OT1/ptm/m/n/9 ]
-...\pdfcolorstack 0 pop
+...\TU/ptm/b/n/9 [5]
+...\special{color pop}
 ..\glue 4.0
 .\penalty 0
-.\OT1/ptm/m/n/9 V
-.\kern-1.16093
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 B
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 r
-.\kern-0.16194
-.\OT1/ptm/m/n/9 g
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 L
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 M
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 V
-.\kern-1.16093
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 L
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 T
-.\kern-0.62996
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\kern-0.13492
-.\OT1/ptm/m/n/9 g
-.\OT1/ptm/m/n/9 d
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 P
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 e
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 s
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 n
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 f
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 h
-.\OT1/ptm/m/n/9 e
+.\TU/ptm/b/n/9 V.Anastassopoulos
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 et
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 al.,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 A
+.\glue 3.087 plus 1.54195 minus 1.03001
+.\TU/ptm/b/n/9 Storage
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Ring
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Ex-
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
- \OT1/ptm/m/n/9 Po-lar-iza-tion of Par-ti-cles Mov-ing in a Ho-mo-ge-neous
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+ \TU/ptm/b/n/9 periment to Detect a Proton Electric Dipole
 
-\hbox(6.1379+1.94843)x244.22952, glue set 4.75601
-.\glue(\leftskip) 18.99393
-.\OT1/ptm/m/n/9 P
-.\OT1/ptm/m/n/9 o
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 a
-.\discretionary replacing 1
-..\OT1/ptm/m/n/9 r
-..\kern-0.17996
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 z
-.\OT1/ptm/m/n/9 a
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 n
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 f
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 P
-.\kern-0.13492
-.\OT1/ptm/m/n/9 a
-.\discretionary replacing 1
-..\OT1/ptm/m/n/9 r
-..\kern-0.17996
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 s
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 M
-.\OT1/ptm/m/n/9 o
-.\kern-0.13492
-.\OT1/ptm/m/n/9 v
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 g
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 n
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 a
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 H
-.\OT1/ptm/m/n/9 o
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 o
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 g
-.\OT1/ptm/m/n/9 e
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 s
+\hbox(6.246+1.74599)x244.22952, glue set 5.03223
+.\glue(\leftskip) 18.40001
+.\TU/ptm/b/n/9 periment
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 to
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Detect
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 a
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Proton
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Electric
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Dipole
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 282--283
- \OT1/ptm/m/n/9 Elec-tro-mag-netic Field. Phys. Rev. Lett. \OT1/ptm/b/n/9 2\OT1
-/ptm/m/n/9 , 435 (1959).
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+ \TU/ptm/b/n/9 Moment. Rev.Sci.Instrum. 87, 115116 (2016).
 
-\hbox(6.20096+1.94843)x244.22952, glue set 3.15254
-.\glue(\leftskip) 18.99393
-.\OT1/ptm/m/n/9 E
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 c
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 o
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 g
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 F
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 d
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 P
-.\OT1/ptm/m/n/9 h
-.\kern-0.04495
-.\OT1/ptm/m/n/9 y
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 R
-.\OT1/ptm/m/n/9 e
-.\kern-0.225
-.\OT1/ptm/m/n/9 v
-.\kern-0.58492
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 L
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 .
+\hbox(6.75+2.24098)x244.22952, glue set 6.42108
+.\glue(\leftskip) 18.40001
+.\TU/ptm/b/n/9 Moment.
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Rev.Sci.Instrum.
 .\kern 0.0
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/b/n/9 2
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 4
-.\OT1/ptm/m/n/9 3
-.\OT1/ptm/m/n/9 5
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 (
-.\OT1/ptm/m/n/9 1
-.\OT1/ptm/m/n/9 9
-.\OT1/ptm/m/n/9 5
-.\OT1/ptm/m/n/9 9
-.\OT1/ptm/m/n/9 )
-.\OT1/ptm/m/n/9 .
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 87,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 115116
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 (2016).
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
- []\OT1/ptm/m/n/9 A.J.Silenko, Rel-a-tivis-tic spin dy-nam-ics con-di-tioned
+Underfull \hbox (badness 3977) in paragraph at lines 286--287
+ \TU/ptm/b/n/9 certainties in Search for an EDM in the Stor-
 
-\hbox(6.1379+1.94843)x244.22952, glue set 6.84937
-.\glue(\leftskip) 18.99393
-.\hbox(6.1379+1.40395)x0.0
+\hbox(6.345+0.19798)x244.22952, glue set 3.416
+.\glue(\leftskip) 18.40001
+.\TU/ptm/b/n/9 certainties
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 in
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Search
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 for
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 an
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 EDM
+.\glue 3.087 plus 1.54195 minus 1.03001
+.\TU/ptm/b/n/9 in
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 the
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Stor-
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 286--287
+ \TU/ptm/b/n/9 age Ring. Acta Phys. Pol. B 51, 373 (2020)
+
+\hbox(6.75+2.24098)x244.22952, glue set 4.0059
+.\glue(\leftskip) 18.40001
+.\TU/ptm/b/n/9 age
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Ring.
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Acta
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Phys.
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Pol.
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 B
+.\kern 0.0
+.\glue 3.087 plus 1.54195 minus 1.03001
+.\TU/ptm/b/n/9 51,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 373
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 (2020)
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 287--288
+ []\TU/ptm/b/n/9 M.W.Mcnaughton el al., THE P C ANALYZING
+
+\hbox(6.75+2.24998)x244.22952, glue set 2.69113
+.\glue(\leftskip) 18.40001
+.\hbox(6.75+2.24998)x0.0
 ..\glue 0.0
-..\glue -14.99393
+..\glue -14.40001
 ..\glue -4.0
-..\hbox(6.1379+1.40395)x14.99393
-...\pdfcolorstack 0 push {0 g 0 G}
+..\hbox(6.75+2.24998)x14.40001, glue set 2.313fil
+...\special{color push  Black}
 ...\glue 0.0 plus 1.0fil
 ...\glue 0.0 plus 1.0fil
 ...\penalty 10000
 ...\hbox(0.0+0.0)x0.0
 ....\hbox(0.0+0.0)x0.0, shifted -10.5
-.....\pdfdest name{cite.axion} xyz
+.....\special{pdf:dest (cite.Pol) [@thispage /XYZ @xpos @ypos null]}
 .....\penalty 10000
-...\OT1/ptm/m/n/9 [
-...\OT1/ptm/m/n/9 1
-...\OT1/ptm/m/n/9 1
-...\OT1/ptm/m/n/9 ]
-...\pdfcolorstack 0 pop
+...\TU/ptm/b/n/9 [8]
+...\special{color pop}
 ..\glue 4.0
 .\penalty 0
-.\OT1/ptm/m/n/9 A
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 J
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 S
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 l
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 k
-.\kern-0.09
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 ,
-.\glue 2.25 plus 1.68748 minus 0.43198
-.\OT1/ptm/m/n/9 R
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 l
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 a
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\kern-0.225
-.\OT1/ptm/m/n/9 v
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 s
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 p
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 n
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 d
-.\OT1/ptm/m/n/9 y
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 m
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 s
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 c
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 n
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 d
-.\OT1/ptm/m/n/9 i
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 d
+.\TU/ptm/b/n/9 M.W.Mcnaughton
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 el
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 al.,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 THE
+.\glue 3.087 plus 1.54195 minus 1.03001
+.\TU/ptm/b/n/9 P
+.\glue 3.087 plus 1.54195 minus 1.03001
+.\TU/ptm/b/n/9 C
+.\glue 3.087 plus 1.54195 minus 1.03001
+.\TU/ptm/b/n/9 ANALYZING
 .\glue(\rightskip) 0.0
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 290--291
- \OT1/ptm/m/n/9 by dark mat-ter ax-ions. Eur.Phys.J.C \OT1/ptm/b/n/9 82 \OT1/pt
-m/m/n/9 856 (2022).
+Underfull \hbox (badness 2213) in paragraph at lines 288--289
+ \TU/ptm/b/n/9 tor analyzing powers in the kinetic energy range
 
-\hbox(6.20096+1.94843)x244.22952, glue set 4.31712
-.\glue(\leftskip) 18.99393
-.\OT1/ptm/m/n/9 b
-.\OT1/ptm/m/n/9 y
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 d
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 r
-.\OT1/ptm/m/n/9 k
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 m
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 t
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 t
-.\OT1/ptm/m/n/9 e
-.\OT1/ptm/m/n/9 r
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 a
-.\OT1/ptm/m/n/9 x
-.\discretionary
-..\OT1/ptm/m/n/9 -
-.\OT1/ptm/m/n/9 i
-.\OT1/ptm/m/n/9 o
-.\OT1/ptm/m/n/9 n
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 .
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 E
-.\OT1/ptm/m/n/9 u
-.\OT1/ptm/m/n/9 r
-.\kern-0.49493
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 P
-.\OT1/ptm/m/n/9 h
-.\kern-0.04495
-.\OT1/ptm/m/n/9 y
-.\OT1/ptm/m/n/9 s
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 J
-.\OT1/ptm/m/n/9 .
-.\OT1/ptm/m/n/9 C
+\hbox(6.246+1.85399)x244.22952, glue set 2.8098
+.\glue(\leftskip) 18.40001
+.\TU/ptm/b/n/9 tor
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 analyzing
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 powers
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 in
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 the
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 kinetic
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 energy
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 range
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 288--289
+ \TU/ptm/b/n/9 170-380 MeV. Eur. Phys J. A 58, 211 (2020).
+
+\hbox(6.75+2.24098)x244.22952, glue set 3.4086
+.\glue(\leftskip) 18.40001
+.\TU/ptm/b/n/9 170-380
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 MeV.
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Eur.
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Phys
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 J.
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 A
 .\kern 0.0
-.\glue 2.25 plus 1.34863 minus 0.54051
-.\OT1/ptm/b/n/9 8
-.\OT1/ptm/b/n/9 2
+.\glue 3.087 plus 1.54195 minus 1.03001
+.\TU/ptm/b/n/9 58,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 211
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 (2020).
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 289--290
+ \TU/ptm/b/n/9 Nuclei. Phys. Atom. Nuclei 86, 2434–2438 (2023).
+
+\hbox(6.75+2.24098)x244.22952, glue set 2.55455
+.\glue(\leftskip) 18.40001
+.\TU/ptm/b/n/9 Nuclei.
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Phys.
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Atom.
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 Nuclei
 .\kern 0.0
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 8
-.\OT1/ptm/m/n/9 5
-.\OT1/ptm/m/n/9 6
-.\glue 2.25 plus 1.34999 minus 0.53998
-.\OT1/ptm/m/n/9 (
-.\OT1/ptm/m/n/9 2
-.\OT1/ptm/m/n/9 0
-.\OT1/ptm/m/n/9 2
-.\OT1/ptm/m/n/9 2
-.\OT1/ptm/m/n/9 )
-.\OT1/ptm/m/n/9 .
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 86,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 2434–2438
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 (2023).
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 290--291
+ []\TU/ptm/b/n/9 A.J.Silenko, Relativistic spin dynamics conditioned
+
+\hbox(6.75+2.24998)x244.22952, glue set 2.82239
+.\glue(\leftskip) 18.40001
+.\hbox(6.75+2.24998)x0.0
+..\glue 0.0
+..\glue -14.40001
+..\glue -4.0
+..\hbox(6.75+2.24998)x14.40001, glue set 0.00002fil
+...\special{color push  Black}
+...\glue 0.0 plus 1.0fil
+...\glue 0.0 plus 1.0fil
+...\penalty 10000
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted -10.5
+.....\special{pdf:dest (cite.axion) [@thispage /XYZ @xpos @ypos null]}
+.....\penalty 10000
+...\TU/ptm/b/n/9 [11]
+...\special{color pop}
+..\glue 4.0
+.\penalty 0
+.\TU/ptm/b/n/9 A.J.Silenko,
+.\glue 3.087 plus 1.92937 minus 0.82318
+.\TU/ptm/b/n/9 Relativistic
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 spin
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 dynamics
+.\glue 3.087 plus 1.5435 minus 1.02899
+.\TU/ptm/b/n/9 conditioned
 .\glue(\rightskip) 0.0
 
 No file Nuclotron.bbl.
@@ -1725,39 +1290,21 @@ L3 programming layer <2025-01-18>
  ***********
 
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Nuclotron.out' has not changed.
 (rerunfilecheck)             Checksum: E05B250BB97BF74F4CA25F6294A51187;2664.
  ) 
 Here is how much of TeX's memory you used:
- 21493 strings out of 473200
- 387043 string characters out of 5720278
- 824872 words of memory out of 5000000
- 44430 multiletter control sequences out of 15000+600000
- 582514 words of font info for 88 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 88i,12n,94p,1087b,1149s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
-live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texliv
-e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2024/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
-.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2
-024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fon
-ts/type1/urw/times/utmri8a.pfb>
-Output written on Nuclotron.pdf (5 pages, 367627 bytes).
-PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 20803 strings out of 473839
+ 378910 string characters out of 5733380
+ 823964 words of memory out of 5000000
+ 43619 multiletter control sequences out of 15000+600000
+ 567295 words of font info for 76 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 88i,12n,94p,1087b,1011s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on Nuclotron.pdf (5 pages).
