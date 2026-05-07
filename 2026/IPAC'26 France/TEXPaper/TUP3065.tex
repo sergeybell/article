@@ -8,22 +8,15 @@
 %       # References to the current IPAC are changed to "IPAC'19, Melbourne, Australia"
 %       # font for ‘url’ style changed to ‘newtxtt’ as it is easier to distinguish "O" and "0"
 %
-\documentclass[a4paper,
-               %boxit,        % check whether paper is inside correct margins
-               %titlepage,    % separate title page
-               %refpage       % separate references
-               %biblatex,     % biblatex is used
-               keeplastbox,   % flushend option: not to un-indent last line in References
+\documentclass[%              % paper size definition not needed as JACoW page size is set
+               %boxit,        % show page boundaries to check whether paper is inside correct margins
+               %refpage       % references placed on separate page
+               %biblatex,     % BibLaTeX is to be used
                %nospread,     % flushend option: do not fill with whitespace to balance columns
                %hyphens,      % allow \url to hyphenate at "-" (hyphens)
-               %xetex,        % use XeLaTeX to process the file
                %luatex,       % use LuaLaTeX to process the file
                ]{jacow}
 %
-% ONLY FOR \footnote in table/tabular
-%
-\usepackage{pdfpages,multirow,ragged2e} %
-\usepackage{physics}
 % Allow compilation from repo root or TEXPaper folder
 \graphicspath{{2026/IPAC'26 France/TEXPaper/}{2026/IPAC'26 France/TEXPaper/img/}{img/}}
 %
@@ -50,7 +43,7 @@
  {}                                      % input encoding is utf8 by default
  {\usepackage[utf8]{inputenc}}           % switch to utf8
 
-\usepackage[USenglish]{babel}
+\usepackage[english]{babel}
 
 %
 % if BibLaTeX is used
@@ -82,9 +75,7 @@
 
 %
 \begin{abstract}
-
-	\par A sufficiently long Spin Coherence Time (SCT) is a key requirement for precision storage-ring measurements of the charged-particle electric dipole moment (EDM). In this work, we formulate a practical SCT optimization procedure based on a Jacobian (mapping) approach. COSY-INFINITY simulations are used to build linear response models for (i) chromatic observables \((\xi_x,\xi_y,\eta_1)\) and (ii) spin-tune deviations for a set of phase-space probes. The extracted response matrices are then combined into a direct spin--chromaticity transfer operator, enabling a plane-by-plane tuning strategy that enforces cross-plane constraints. The method is applied to several magnetic and electrostatic lattice variants and is used to quantify the impact of fringe fields and non-linearities via a two-amplitude probe scheme.
-
+A sufficiently long Spin Coherence Time (SCT) is a key requirement for precision storage-ring measurements of the charged-particle electric dipole moment (EDM). In this work, we formulate a practical SCT optimization procedure based on a Jacobian (mapping) approach. COSY-INFINITY simulations are used to build linear response models for (i) chromatic observables \((\xi_x,\xi_y,\eta_1)\) and (ii) spin-tune deviations for a set of phase-space probes. The extracted response matrices are then combined into a direct spin--chromaticity transfer operator, enabling a plane-by-plane tuning strategy that enforces cross-plane constraints. The method is applied to several magnetic and electrostatic lattice variants and is used to quantify the impact of fringe fields and non-linearities via a two-amplitude probe scheme.
 \end{abstract}
 
 \section{Introduction}
@@ -135,27 +126,78 @@ The probe scheme uses two amplitude sets (``P0'' nominal and ``P1'' increased of
 \noindent In practice, this means solving Eq.~(\ref{eq:control_law}) for each scan point, with \(\vec\xi_t\) constructed according to Eq.~(\ref{eq:constraints}).
 
 \section{Key result: spin--chromaticity transfer curves}
-\par The central output of the mapping workflow is the predicted spin-tune response \(\Delta\nu_s\) versus target chromatic settings, computed from Eqs.~(\ref{eq:control_law})--(\ref{eq:transfer}). For each scan axis, we enforce the cross-plane constraints (Eq.~\ref{eq:constraints}) and compare the ``No fringe'' and ``With fringe'' field models for two probe amplitudes (P0 and P1). Representative results for a magnetic lattice (``magnetic\_2p'') are shown in Fig.~\ref{fig:dual_x}--\ref{fig:dual_z}.
-\begin{figure}[!htb]
+\par The central output of the mapping workflow is the predicted spin-tune response \(\Delta\nu_s\) versus target chromatic settings, computed from Eqs.~(\ref{eq:control_law})--(\ref{eq:transfer}). For each scan axis, we enforce the cross-plane constraints (Eq.~\ref{eq:constraints}) and compare the ``No fringe'' and ``With fringe'' field models for two probe amplitudes (P0 and P1).
+
+\par We present the results structure-by-structure to facilitate a focused discussion.
+
+\subsection{magnetic\_2p}
+\par The ``magnetic\_2p'' lattice represents a purely magnetic ring.
+\begin{figure}[!tbh]
 	\centering
-	\includegraphics[width=0.95\hsize]{img/1483_f1}
-	\caption{``magnetic\_2p'': \(\Delta\nu_s\) vs \(\xi_x\) at \(\xi_y=0,\,\eta_1=0\).}
-	\label{fig:dual_x}
+	\includegraphics[width=\columnwidth]{img/TUP3065_f7}
+	\caption{``magnetic\_2p'': Twiss functions.}
+	\label{fig:twiss_m2p}
 \end{figure}
-\begin{figure}[!htb]
+\begin{figure}[!tbh]
 	\centering
-	\includegraphics[width=0.95\hsize]{img/1483_f2}
-	\caption{``magnetic\_2p'': \(\Delta\nu_s\) vs \(\xi_y\) at \(\xi_x=0,\,\eta_1=0\).}
-	\label{fig:dual_y}
+	\begin{minipage}[t]{0.49\columnwidth}
+		\centering
+		\includegraphics[width=\linewidth]{img/TUP3065_f1}
+	\end{minipage}\hfill
+	\begin{minipage}[t]{0.49\columnwidth}
+		\centering
+		\includegraphics[width=\linewidth]{img/TUP3065_f2}
+	\end{minipage}
+	\caption{``magnetic\_2p'': \(\Delta\nu_s\) vs \(\xi_x\) (left) at \(\xi_y=0,\,\eta_1=0\) and vs \(\eta_1\) (right) at \(\xi_x=0,\,\xi_y=0\).}
+	\label{fig:m2p_xz}
 \end{figure}
-\begin{figure}[!htb]
+
+\subsection{electrostatic}
+\par The ``electrostatic'' lattice is a purely electric configuration.
+\begin{figure}[!tbh]
 	\centering
-	\includegraphics[width=0.95\hsize]{img/1483_f3}
-	\caption{``magnetic\_2p'': \(\Delta\nu_s\) vs \(\eta_1\) at \(\xi_x=0,\,\xi_y=0\).}
-	\label{fig:dual_z}
+	\includegraphics[width=\columnwidth]{img/TUP3065_f8}
+	\caption{``electrostatic'': Twiss functions.}
+	\label{fig:twiss_es}
+\end{figure}
+\begin{figure}[!tbh]
+	\centering
+	\begin{minipage}[t]{0.49\columnwidth}
+		\centering
+		\includegraphics[width=\linewidth]{img/TUP3065_f3}
+	\end{minipage}\hfill
+	\begin{minipage}[t]{0.49\columnwidth}
+		\centering
+		\includegraphics[width=\linewidth]{img/TUP3065_f4}
+	\end{minipage}
+	\caption{``electrostatic'': \(\Delta\nu_s\) vs \(\xi_x\) (left) at \(\xi_y=0,\,\eta_1=0\) and vs \(\eta_1\) (right) at \(\xi_x=0,\,\xi_y=0\).}
+	\label{fig:es_xz}
+\end{figure}
+
+\subsection{Nuclotron\_8}
+\par The ``Nuclotron\_8'' lattice represents a quasi-frozen spin configuration with combined electric and magnetic fields.
+\begin{figure}[!tbh]
+	\centering
+	\includegraphics[width=\columnwidth]{img/TUP3065_f9}
+	\caption{``Nuclotron\_8'': Twiss functions.}
+	\label{fig:twiss_n8}
+\end{figure}
+\begin{figure}[!tbh]
+	\centering
+	\begin{minipage}[t]{0.49\columnwidth}
+		\centering
+		\includegraphics[width=\linewidth]{img/TUP3065_f5}
+	\end{minipage}\hfill
+	\begin{minipage}[t]{0.49\columnwidth}
+		\centering
+		\includegraphics[width=\linewidth]{img/TUP3065_f6}
+	\end{minipage}
+	\caption{``Nuclotron\_8'': \(\Delta\nu_s\) vs \(\xi_x\) (left) at \(\xi_y=0,\,\eta_1=0\) and vs \(\eta_1\) (right) at \(\xi_x=0,\,\xi_y=0\).}
+	\label{fig:n8_xz}
 \end{figure}
 
 \section{Results and discussion}
+\par The linear model and the constrained scans are evaluated for three representative lattice variants: a purely magnetic lattice (``magnetic\_2p''), a purely electrostatic lattice (``electrostatic''), and a quasi-frozen spin lattice (``Nuclotron\_8''). The results are presented in the previous section and compared below in terms of response matrices and sensitivity trends.
 \par For each lattice, response matrices \(\mathbf{R}_{int}\) and \(\mathbf{R}_{spin}\) are built independently for two field representations (``No fringe'' and ``With fringe'') and for both probe amplitudes (P0 and P1). The comparison of resulting \(\mathbf{S}\) operators provides:
 \begin{itemize}
 	\item a quantitative measure of how realistic fringe fields distort the effective spin--chromaticity transfer;
@@ -167,9 +209,9 @@ The probe scheme uses two amplitude sets (``P0'' nominal and ``P1'' increased of
 \section{Conclusion}
 \par A Jacobian-based mapping method for SCT-oriented sextupole tuning has been formulated and applied to a set of COSY-INFINITY lattice models. The approach provides an explicit spin--chromaticity transfer operator \(\mathbf{S}\) and supports constrained scans in \(\xi_x\), \(\xi_y\), and \(\eta_1\). The framework naturally incorporates comparisons between fringe/no-fringe field models and between nominal and large-amplitude probes, enabling a structured assessment of robustness and non-linear effects in SCT optimization.
 
-\section{Acknowledgments}
+\section{Acknowledgements}
 
-\par A support of thus study by the Russian Science Foundation grant 25-72-30005 is acknowledged.
+\par Support of this study by the Russian Science Foundation grant 25-72-30005 is acknowledged.
 
 \ifboolexpr{bool{jacowbiblatex}}
 	{\printbibliography}

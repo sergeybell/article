@@ -1,0 +1,34 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+
+# latexmk, arara
+*.synctex(busy)
+*.latexmain
+
+# minted
+_minted*
+
+# temporary / backups
+*.bak
+*.tmp
+*~
